@@ -14,8 +14,8 @@ export const TMP_DIR = process.env.EXPORTWALLA_TMP ?? path.join(os.tmpdir(), "ex
 export const LOCAL_DB = process.env.EXPORTWALLA_LOCAL_DB ?? path.join(DATA_DIR, "local.db");
 
 export const BRAND = "Exportwalla";
-export const deskPhone = () => process.env.DESK_PHONE ?? "+91 00000 00000";
-export const contactEmail = () => process.env.CONTACT_EMAIL ?? "";
+export const deskPhone = () => process.env.DESK_PHONE ?? "+91 80049 20400";
+export const contactEmail = () => process.env.CONTACT_EMAIL ?? "tensorshield@gmail.com";
 /** Public origin used in canonical URLs, API links and the MCP card. Set SITE_URL in production. */
 export const siteUrl = () => (process.env.SITE_URL ?? "http://localhost:8040").replace(/\/+$/, "");
 
