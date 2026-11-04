@@ -7,13 +7,13 @@ data/*.log
 data/local.db
 data/uploads
 data/rag_eval*
-tools
+/tools
 # Migration and test material
-golden
-tests
+/golden
+/tests
 .next
 node_modules
 .env
 .env.*
 !.env.example
-samples
+/samples
