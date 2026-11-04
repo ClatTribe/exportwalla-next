@@ -1,0 +1,2890 @@
+{
+ "run_at": "2026-11-03T13:10:02+00:00",
+ "products": [
+  "Leather Chelsea boots men",
+  "Basmati rice wholly milled",
+  "Cotton T-shirts men knitted"
+ ],
+ "global_s1": {
+  "products": [
+   {
+    "product": "Leather Chelsea boots men",
+    "hs6": "640391",
+    "expected": "640391",
+    "ours_right": true,
+    "confidence": "medium",
+    "source": "rules",
+    "uk_search": "6403911100",
+    "uk_search_right": true,
+    "agrees_hs4": true
+   },
+   {
+    "product": "Basmati rice wholly milled",
+    "hs6": "100630",
+    "expected": "100630",
+    "ours_right": true,
+    "confidence": "medium",
+    "source": "tree search",
+    "uk_search": "1006209913",
+    "uk_search_right": false,
+    "agrees_hs4": true
+   },
+   {
+    "product": "Cotton T-shirts men knitted",
+    "hs6": "610910",
+    "expected": "610910",
+    "ours_right": true,
+    "confidence": "low",
+    "source": "tree search",
+    "uk_search": "6109100010",
+    "uk_search_right": true,
+    "agrees_hs4": true
+   },
+   {
+    "product": "Terry cotton bath towels",
+    "hs6": "630260",
+    "expected": "630260",
+    "ours_right": true,
+    "confidence": "low",
+    "source": "tree search",
+    "uk_search": "5802100000",
+    "uk_search_right": false,
+    "agrees_hs4": false
+   },
+   {
+    "product": "Frozen vannamei shrimp",
+    "hs6": "030617",
+    "expected": "030617",
+    "ours_right": true,
+    "confidence": "low",
+    "source": "tree search",
+    "uk_search": "0306179220",
+    "uk_search_right": true,
+    "agrees_hs4": true
+   },
+   {
+    "product": "Turmeric powder",
+    "hs6": "091030",
+    "expected": "091030",
+    "ours_right": true,
+    "confidence": "low",
+    "source": "tree search",
+    "uk_search": "7205210000",
+    "uk_search_right": false,
+    "agrees_hs4": false
+   },
+   {
+    "product": "Hex bolts of steel",
+    "hs6": "731819",
+    "expected": "731815",
+    "ours_right": false,
+    "confidence": "low",
+    "source": "tree search",
+    "uk_search": "7318153500",
+    "uk_search_right": true,
+    "agrees_hs4": true
+   },
+   {
+    "product": "Handmade woollen carpets",
+    "hs6": "570110",
+    "expected": "570110",
+    "ours_right": true,
+    "confidence": "low",
+    "source": "tree search",
+    "uk_search": "5804300000",
+    "uk_search_right": false,
+    "agrees_hs4": false
+   },
+   {
+    "product": "Stainless steel kitchen utensils",
+    "hs6": "732393",
+    "expected": "732393",
+    "ours_right": true,
+    "confidence": "low",
+    "source": "tree search",
+    "uk_search": "7222300000",
+    "uk_search_right": false,
+    "agrees_hs4": false
+   },
+   {
+    "product": "Ladies leather handbag",
+    "hs6": "420221",
+    "expected": "420221",
+    "ours_right": true,
+    "confidence": "medium",
+    "source": "rules",
+    "uk_search": "4205009000",
+    "uk_search_right": false,
+    "agrees_hs4": false
+   },
+   {
+    "product": "Cumin seeds",
+    "hs6": "090931",
+    "expected": "090931",
+    "ours_right": true,
+    "confidence": "low",
+    "source": "tree search",
+    "uk_search": "0909310000",
+    "uk_search_right": true,
+    "agrees_hs4": true
+   },
+   {
+    "product": "Solar panels",
+    "hs6": "854143",
+    "expected": "854143",
+    "ours_right": true,
+    "confidence": "low",
+    "source": "tree search",
+    "uk_search": "4418730000",
+    "uk_search_right": false,
+    "agrees_hs4": false
+   },
+   {
+    "product": "Granite slabs polished",
+    "hs6": "251612",
+    "expected": "680293",
+    "ours_right": false,
+    "confidence": "low",
+    "source": "tree search",
+    "uk_search": "2516120000",
+    "uk_search_right": false,
+    "agrees_hs4": true
+   }
+  ],
+  "agree_with_uk_search": "7/13",
+  "ours_vs_key": "11/13",
+  "uk_search_vs_key": "5/13",
+  "human_reviews": {}
+ },
+ "tally": {
+  "S1": {
+   "pass": 65,
+   "warn": 0,
+   "fail": 1
+  },
+  "S2": {
+   "pass": 62,
+   "warn": 4,
+   "fail": 0
+  },
+  "S5": {
+   "pass": 66,
+   "warn": 0,
+   "fail": 0
+  },
+  "S6": {
+   "pass": 64,
+   "warn": 2,
+   "fail": 0
+  },
+  "S8": {
+   "pass": 66,
+   "warn": 0,
+   "fail": 0
+  }
+ },
+ "countries": {
+  "USA": {
+   "live": false,
+   "agreement": "No trade agreement with India in force",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: national line (USITC HTS 6403.91.30.40 (general rate))",
+     "100630: HS6 average (WITS/TRAINS USA 2023, average of 2 national lines in HS 1006)",
+     "610910: national line (USITC HTS 6109.10.00.04 (general rate))"
+    ]
+   },
+   "S2": {
+    "status": "pass",
+    "evidence": [
+     "Stored 640391 imports 2024: US$3,417,406,659 (not re-fetched this run)"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 5 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: India 5.0% / normal 5.0% from USITC HTS 6403.91.30.40 (general rate)",
+     "100630: India 11.2% / normal 11.2% from WITS/TRAINS USA 2023, average of 2 national lines ",
+     "610910: India 16.5% / normal 16.5% from USITC HTS 6109.10.00.04 (general rate)",
+     "import No federal VAT/GST on imports (state/local sales taxes apply on later sale, not at customs): None% (https://www.cbp.gov/trade/programs-administration/determining-duty-rates)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Certificate of origin (non-preferential)",
+     "cites: United States: researched import rules > United States: import rules for Indian exporters >"
+    ]
+   }
+  },
+  "ARE": {
+   "live": true,
+   "agreement": "India-UAE Comprehensive Economic Partnership Agreement (CEPA) in force since 2022-05-01",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: HS6 average (WITS/TRAINS ARE 2023, average of 3 national lines in HS 6403)",
+     "100630: national line (WITS/TRAINS ARE 2023, average of 1 national lines in HS 1006)",
+     "610910: national line (WITS/TRAINS ARE 2023, average of 1 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "pass",
+    "evidence": [
+     "640391 2023: stored US$147,013,555, live US$147,013,555"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 5 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: normal duty 5.0% vs live WITS 5.0%",
+     "100630: normal duty 0.0% vs live WITS 0.0%",
+     "610910: normal duty 5.0% vs live WITS 5.0%",
+     "import VAT: 5% (https://tax.gov.ae/en/taxes/Vat/vat.topics/vat.rates.aspx)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Proof of origin: Certificate of Origin under India-UAE CEPA (Annex 3E format)",
+     "cites: India-UAE CEPA Annex 3E - Certificate of Origin format > ANNEX 3E",
+     "cites: India-UAE CEPA Annex 3E - Certificate of Origin format > Annex 3E-1"
+    ]
+   }
+  },
+  "NLD": {
+   "live": false,
+   "agreement": "India-EU Free Trade Agreement concluded, not yet in force; EU GSP (Standard GSP) - Regulation (EU) 978/2012 to 31 Dec 2026; Regulation (EU) 2026/1395 applies from 1 Jan 2027 preferences apply to some goods",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: HS6 average (WITS/TRAINS EUN 2023, average of 9 national lines in HS 6403)",
+     "100630: HS6 average (WITS/TRAINS EUN 2023, average of 20 national lines in HS 100)",
+     "610910: national line (WITS/TRAINS EUN 2023, average of 1 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "pass",
+    "evidence": [
+     "Stored 640391 imports 2024: US$710,067,316 (not re-fetched this run)"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 5 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: India 7.67% / normal 7.67% from WITS/TRAINS EUN 2023, average of 9 national lines ",
+     "100630: India 0.0% / normal 0.0% from WITS/TRAINS EUN 2023, average of 20 national lines",
+     "610910: India 12.0% / normal 12.0% from WITS/TRAINS EUN 2023, average of 1 national lines ",
+     "import VAT (standard rate): 21% (https://europa.eu/youreurope/business/taxation/vat/vat-rules-rates/index_en.htm)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Proof of origin: Statement on origin (REX) for EU GSP",
+     "cites: Netherlands: researched import rules > Netherlands: import rules for Indian exporters > P",
+     "cites: EU GSP rules of origin page (DG TAXUD): cumulation, REX, sta > Annex 22-07 – statement on origin for the GSP sche"
+    ]
+   }
+  },
+  "SGP": {
+   "live": true,
+   "agreement": "India-Singapore Comprehensive Economic Cooperation Agreement (CECA) in force since 2005-08-01",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: HS6 average (WITS/TRAINS SGP 2023, average of 3 national lines in HS 6403)",
+     "100630: HS6 average (WITS/TRAINS SGP 2023, average of 4 national lines in HS 1006)",
+     "610910: HS6 average (WITS/TRAINS SGP 2023, average of 2 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "pass",
+    "evidence": [
+     "640391 2024: stored US$28,533,342, live US$28,533,342"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 5 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: normal duty 0.0% vs live WITS 0.0%",
+     "100630: normal duty 0.0% vs live WITS 0.0%",
+     "610910: normal duty 0.0% vs live WITS 0.0%",
+     "import GST: 9% (https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/basics-of-gst/current-gst-rates)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Proof of origin: India-Singapore CECA Certificate of Origin, or AIFTA Form AI",
+     "cites: Agreement on Trade in Goods (ASEAN-India) with Annex 2 Rules > APPENDIX D > Article 14",
+     "cites: Singapore: researched import rules > Singapore: import rules for Indian exporters > Pro"
+    ]
+   }
+  },
+  "CHN": {
+   "live": true,
+   "agreement": "Asia-Pacific Trade Agreement (APTA) - China's accession in force since 2002-01-01",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: HS6 average (WITS/TRAINS CHN 2023, average of 8 national lines in HS 6403)",
+     "100630: HS6 average (WITS/TRAINS CHN 2023, average of 4 national lines in HS 1006)",
+     "610910: HS6 average (WITS/TRAINS CHN 2023, average of 6 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "pass",
+    "evidence": [
+     "640391 2024: stored US$354,791,441, live US$354,791,441"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 5 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: normal duty 8.0% vs live WITS 8.0%",
+     "100630: normal duty 33.0% vs live WITS 33.0%",
+     "610910: normal duty 6.0% vs live WITS 6.0%",
+     "import VAT - 13% general; 9% for specified goods incl. many agricultural products: 13% (https://taxsummaries.pwc.com/peoples-republic-of-china/corporate/other-taxes)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Proof of origin: APTA Certificate of Origin",
+     "cites: DGFT Appendix 2E - agencies authorised to issue non-preferen > APPENDIX 2E",
+     "cites: Asia-Pacific Trade Agreement text incl. Rules of Origin (com > ANNEX II > RULE 10: Special criteria percentage"
+    ]
+   }
+  },
+  "GBR": {
+   "live": true,
+   "agreement": "India-UK Comprehensive Economic and Trade Agreement (CETA) in force since 2026-07-15",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: national line (UK Trade Tariff, commodity 6403911690)",
+     "100630: HS6 average (WITS/TRAINS GBR 2023, average of 72 national lines in HS 100)",
+     "610910: HS6 average (WITS/TRAINS GBR 2023, average of 2 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "pass",
+    "evidence": [
+     "640391 2024: stored US$429,285,369, live US$429,285,369"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "S&B HERBA FOODS LIMITED: CN8 10063063 2026 found in live HMRC data",
+     "WANIS LTD: CN8 10063027 2026 found in live HMRC data",
+     "LT FOODS U.K. LIMITED: CN8 10063067 2026 found in live HMRC data"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "6403911690: stored 8.00 %/0.00 % vs live 8.00 %/0.00 %",
+     "100630: India 0.0% / normal 0.0% from WITS/TRAINS GBR 2023, average of 72 national lines",
+     "610910: India 12.0% / normal 12.0% from WITS/TRAINS GBR 2023, average of 2 national lines ",
+     "import VAT (standard rate; import VAT): 20% (https://www.gov.uk/vat-rates)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Origin declaration draft: India–UK CETA (Annex 3B template)",
+     "cites: United Kingdom: researched import rules > United Kingdom: import rules for Indian exporters ",
+     "cites: UK-India CETA Annex 3D: Framework for authentication process > ANNEX 3D"
+    ]
+   }
+  },
+  "SAU": {
+   "live": false,
+   "agreement": "No trade agreement with India in force",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: HS6 average (WITS/TRAINS SAU 2023, average of 3 national lines in HS 6403)",
+     "100630: national line (WITS/TRAINS SAU 2023, average of 1 national lines in HS 1006)",
+     "610910: HS6 average (WITS/TRAINS SAU 2023, average of 2 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "pass",
+    "evidence": [
+     "Stored 640391 imports 2024: US$15,904,825 (not re-fetched this run)"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 5 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: India 10.0% / normal 10.0% from WITS/TRAINS SAU 2023, average of 3 national lines ",
+     "100630: India 0.0% / normal 0.0% from WITS/TRAINS SAU 2023, average of 1 national lines ",
+     "610910: India 5.0% / normal 5.0% from WITS/TRAINS SAU 2023, average of 2 national lines ",
+     "import VAT: 15% (https://taxsummaries.pwc.com/saudi-arabia/corporate/other-taxes)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Certificate of origin (non-preferential)",
+     "cites: DGFT Appendix 2E - agencies authorised to issue non-preferen > APPENDIX 2E",
+     "cites: Saudi Arabia: researched import rules > Saudi Arabia: import rules for Indian exporters > "
+    ]
+   }
+  },
+  "BGD": {
+   "live": false,
+   "agreement": "Agreement on South Asian Free Trade Area (SAFTA) in force since 2006-01-01",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: national line (WITS/TRAINS BGD 2023, average of 1 national lines in HS 6403)",
+     "100630: HS6 average (WITS/TRAINS BGD 2023, average of 2 national lines in HS 1006)",
+     "610910: national line (WITS/TRAINS BGD 2023, average of 1 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "warn",
+    "evidence": [
+     "Country does not report imports to UN Comtrade for these years; left out of the ranking"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 5 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: India 25.0% / normal 25.0% from WITS/TRAINS BGD 2023, average of 1 national lines ",
+     "100630: India 25.0% / normal 25.0% from WITS/TRAINS BGD 2023, average of 2 national lines ",
+     "610910: India 25.0% / normal 25.0% from WITS/TRAINS BGD 2023, average of 1 national lines ",
+     "import VAT: 15% (https://taxsummaries.pwc.com/bangladesh/corporate/other-taxes)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Proof of origin: SAFTA Certificate of Origin (or APTA certificate for APTA concessions)",
+     "cites: SAFTA Agreement with SAFTA Rules of Origin (commerce.gov.in) > ANNEX II > ARTICLE 21",
+     "cites: Bangladesh: researched import rules > Bangladesh: import rules for Indian exporters > Pr"
+    ]
+   }
+  },
+  "DEU": {
+   "live": true,
+   "agreement": "India-EU Free Trade Agreement concluded, not yet in force; EU GSP (Standard GSP) - Regulation (EU) 978/2012 to 31 Dec 2026; Regulation (EU) 2026/1395 applies from 1 Jan 2027 preferences apply to some goods",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: HS6 average (WITS/TRAINS EUN 2023, average of 9 national lines in HS 6403)",
+     "100630: HS6 average (WITS/TRAINS EUN 2023, average of 20 national lines in HS 100)",
+     "610910: national line (WITS/TRAINS EUN 2023, average of 1 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "pass",
+    "evidence": [
+     "640391 2024: stored US$1,523,311,896, live US$1,523,311,896"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 5 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: normal duty 7.67% vs live WITS 7.66666650772095%",
+     "100630: normal duty 0.0% vs live WITS 0.0%",
+     "610910: normal duty 12.0% vs live WITS 12.0%",
+     "import VAT (standard rate): 19% (https://europa.eu/youreurope/business/taxation/vat/vat-rules-rates/index_en.htm)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Proof of origin: Statement on origin (REX) for EU GSP",
+     "cites: Germany: researched import rules > Germany: import rules for Indian exporters > Proof",
+     "cites: EU GSP rules of origin page (DG TAXUD): cumulation, REX, sta > Annex 22-07 – statement on origin for the GSP sche"
+    ]
+   }
+  },
+  "ITA": {
+   "live": false,
+   "agreement": "India-EU Free Trade Agreement concluded, not yet in force; EU GSP (Standard GSP) - Regulation (EU) 978/2012 to 31 Dec 2026; Regulation (EU) 2026/1395 applies from 1 Jan 2027 preferences apply to some goods",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: HS6 average (WITS/TRAINS EUN 2023, average of 9 national lines in HS 6403)",
+     "100630: HS6 average (WITS/TRAINS EUN 2023, average of 20 national lines in HS 100)",
+     "610910: national line (WITS/TRAINS EUN 2023, average of 1 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "pass",
+    "evidence": [
+     "Stored 640391 imports 2024: US$645,714,291 (not re-fetched this run)"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 5 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: India 7.67% / normal 7.67% from WITS/TRAINS EUN 2023, average of 9 national lines ",
+     "100630: India 0.0% / normal 0.0% from WITS/TRAINS EUN 2023, average of 20 national lines",
+     "610910: India 12.0% / normal 12.0% from WITS/TRAINS EUN 2023, average of 1 national lines ",
+     "import VAT (standard rate): 22% (https://europa.eu/youreurope/business/taxation/vat/vat-rules-rates/index_en.htm)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Proof of origin: Statement on origin (REX) for EU GSP",
+     "cites: Italy: researched import rules > Italy: import rules for Indian exporters > Proof o",
+     "cites: EU GSP rules of origin page (DG TAXUD): cumulation, REX, sta > Annex 22-07 – statement on origin for the GSP sche"
+    ]
+   }
+  },
+  "ZAF": {
+   "live": false,
+   "agreement": "No trade agreement with India in force",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: national line (WITS/TRAINS ZAF 2023, average of 1 national lines in HS 6403)",
+     "100630: national line (WITS/TRAINS ZAF 2023, average of 1 national lines in HS 1006)",
+     "610910: national line (WITS/TRAINS ZAF 2023, average of 1 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "pass",
+    "evidence": [
+     "Stored 640391 imports 2024: US$28,308,030 (not re-fetched this run)"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 5 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: India 30.0% / normal 30.0% from WITS/TRAINS ZAF 2023, average of 1 national lines ",
+     "100630: India 0.0% / normal 0.0% from WITS/TRAINS ZAF 2023, average of 1 national lines ",
+     "610910: India 45.0% / normal 45.0% from WITS/TRAINS ZAF 2023, average of 1 national lines ",
+     "import VAT: 15% (https://www.sars.gov.za/types-of-tax/value-added-tax/)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Certificate of origin (non-preferential)",
+     "cites: DGFT Appendix 2E - agencies authorised to issue non-preferen > APPENDIX 2E",
+     "cites: DGFT Appendix 2E - agencies authorised to issue non-preferen > APPENDIX 2E"
+    ]
+   }
+  },
+  "MYS": {
+   "live": false,
+   "agreement": "Malaysia-India Comprehensive Economic Cooperation Agreement (MICECA/IMCECA) in force since 2011-07-01",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: HS6 average (WITS/TRAINS MYS 2023, average of 4 national lines in HS 6403)",
+     "100630: HS6 average (WITS/TRAINS MYS 2023, average of 7 national lines in HS 1006)",
+     "610910: HS6 average (WITS/TRAINS MYS 2023, average of 2 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "pass",
+    "evidence": [
+     "Stored 640391 imports 2024: US$15,521,476 (not re-fetched this run)"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 5 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: India 0.0% / normal 0.0% from WITS/TRAINS MYS 2023, average of 4 national lines ",
+     "100630: India 40.0% / normal 40.0% from WITS/TRAINS MYS 2023, average of 7 national lines ",
+     "610910: India 0.0% / normal 0.0% from WITS/TRAINS MYS 2023, average of 2 national lines ",
+     "import Sales tax (SST) - 10% standard, 5% on specified goods; services tax separate: 10% (https://taxsummaries.pwc.com/malaysia/corporate/other-taxes)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Proof of origin: MICECA Certificate of Origin (Form MICECA), or AIFTA Form AI",
+     "cites: Agreement on Trade in Goods (ASEAN-India) with Annex 2 Rules > APPENDIX D > Article 14",
+     "cites: Malaysia: researched import rules > Malaysia: import rules for Indian exporters > Proo"
+    ]
+   }
+  },
+  "AUS": {
+   "live": false,
+   "agreement": "India-Australia Economic Cooperation and Trade Agreement (ECTA) (signed 2 Apr 2022) in force since 2022-12-29",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: national line (WITS/TRAINS AUS 2023, average of 1 national lines in HS 6403)",
+     "100630: national line (WITS/TRAINS AUS 2023, average of 1 national lines in HS 1006)",
+     "610910: national line (WITS/TRAINS AUS 2023, average of 1 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "pass",
+    "evidence": [
+     "Stored 640391 imports 2024: US$156,846,030 (not re-fetched this run)"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 5 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: India 5.0% / normal 5.0% from WITS/TRAINS AUS 2023, average of 1 national lines ",
+     "100630: India 0.0% / normal 0.0% from WITS/TRAINS AUS 2023, average of 1 national lines ",
+     "610910: India 5.0% / normal 5.0% from WITS/TRAINS AUS 2023, average of 1 national lines ",
+     "import GST: 10% (https://taxsummaries.pwc.com/australia/corporate/other-taxes)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Proof of origin: Certificate of Origin under India-Australia ECTA",
+     "cites: India-Australia ECTA Annex 4A - Minimum Information Requirem > ANNEX 4A - 2",
+     "cites: Australia: researched import rules > Australia: import rules for Indian exporters > Pro"
+    ]
+   }
+  },
+  "FRA": {
+   "live": false,
+   "agreement": "India-EU Free Trade Agreement concluded, not yet in force; EU GSP (Standard GSP) - Regulation (EU) 978/2012 to 31 Dec 2026; Regulation (EU) 2026/1395 applies from 1 Jan 2027 preferences apply to some goods",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: HS6 average (WITS/TRAINS EUN 2023, average of 9 national lines in HS 6403)",
+     "100630: HS6 average (WITS/TRAINS EUN 2023, average of 20 national lines in HS 100)",
+     "610910: national line (WITS/TRAINS EUN 2023, average of 1 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "pass",
+    "evidence": [
+     "Stored 640391 imports 2024: US$695,869,289 (not re-fetched this run)"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 5 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: India 7.67% / normal 7.67% from WITS/TRAINS EUN 2023, average of 9 national lines ",
+     "100630: India 0.0% / normal 0.0% from WITS/TRAINS EUN 2023, average of 20 national lines",
+     "610910: India 12.0% / normal 12.0% from WITS/TRAINS EUN 2023, average of 1 national lines ",
+     "import VAT (standard rate): 20% (https://europa.eu/youreurope/business/taxation/vat/vat-rules-rates/index_en.htm)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Proof of origin: Statement on origin (REX) for EU GSP",
+     "cites: France: researched import rules > France: import rules for Indian exporters > Proof ",
+     "cites: EU GSP rules of origin page (DG TAXUD): cumulation, REX, sta > Annex 22-07 – statement on origin for the GSP sche"
+    ]
+   }
+  },
+  "NPL": {
+   "live": false,
+   "agreement": "Revised India-Nepal Treaty of Trade (auto-renewed for 7 years in Oct 2016 and Nov 2023) in force since 2009-10-27",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: national line (WITS/TRAINS NPL 2023, average of 1 national lines in HS 6403)",
+     "100630: HS6 average (WITS/TRAINS NPL 2023, average of 2 national lines in HS 1006)",
+     "610910: national line (WITS/TRAINS NPL 2023, average of 1 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "warn",
+    "evidence": [
+     "Country does not report imports to UN Comtrade for these years; left out of the ranking"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 5 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: India 40.0% / normal 40.0% from WITS/TRAINS NPL 2023, average of 1 national lines ",
+     "100630: India 10.0% / normal 10.0% from WITS/TRAINS NPL 2023, average of 2 national lines ",
+     "610910: India 20.0% / normal 20.0% from WITS/TRAINS NPL 2023, average of 1 national lines ",
+     "import VAT: 13% (https://www.trade.gov/country-commercial-guides/nepal-import-tariffs)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Proof of origin: SAFTA Certificate of Origin for SAFTA concessions; the Treaty of Trade gi",
+     "cites: Nepal: researched import rules > Nepal: import rules for Indian exporters > Proof o",
+     "cites: Revised India-Nepal Treaty of Trade 2009 (commerce.gov.in) > ARTICLE XII"
+    ]
+   }
+  },
+  "BEL": {
+   "live": false,
+   "agreement": "India-EU Free Trade Agreement concluded, not yet in force; EU GSP (Standard GSP) - Regulation (EU) 978/2012 to 31 Dec 2026; Regulation (EU) 2026/1395 applies from 1 Jan 2027 preferences apply to some goods",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: HS6 average (WITS/TRAINS EUN 2023, average of 9 national lines in HS 6403)",
+     "100630: HS6 average (WITS/TRAINS EUN 2023, average of 20 national lines in HS 100)",
+     "610910: national line (WITS/TRAINS EUN 2023, average of 1 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "pass",
+    "evidence": [
+     "Stored 640391 imports 2024: US$70,552,783 (not re-fetched this run)"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 5 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: India 7.67% / normal 7.67% from WITS/TRAINS EUN 2023, average of 9 national lines ",
+     "100630: India 0.0% / normal 0.0% from WITS/TRAINS EUN 2023, average of 20 national lines",
+     "610910: India 12.0% / normal 12.0% from WITS/TRAINS EUN 2023, average of 1 national lines ",
+     "import VAT (standard rate): 21% (https://europa.eu/youreurope/business/taxation/vat/vat-rules-rates/index_en.htm)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Proof of origin: Statement on origin (REX) for EU GSP",
+     "cites: Belgium: researched import rules > Belgium: import rules for Indian exporters > Proof",
+     "cites: EU GSP rules of origin page (DG TAXUD): cumulation, REX, sta > Annex 22-07 – statement on origin for the GSP sche"
+    ]
+   }
+  },
+  "HKG": {
+   "live": false,
+   "agreement": "No trade agreement with India in force",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: national line (WITS/TRAINS HKG 2023, average of 1 national lines in HS 6403)",
+     "100630: HS6 average (WITS/TRAINS HKG 2023, average of 3 national lines in HS 1006)",
+     "610910: HS6 average (WITS/TRAINS HKG 2023, average of 3 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "pass",
+    "evidence": [
+     "Stored 640391 imports 2024: US$80,289,077 (not re-fetched this run)"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 5 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: India 0.0% / normal 0.0% from WITS/TRAINS HKG 2023, average of 1 national lines ",
+     "100630: India 0.0% / normal 0.0% from WITS/TRAINS HKG 2023, average of 3 national lines ",
+     "610910: India 0.0% / normal 0.0% from WITS/TRAINS HKG 2023, average of 3 national lines ",
+     "import No VAT/GST/sales tax: 0% (https://taxsummaries.pwc.com/hong-kong-sar/corporate/other-taxes)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Certificate of origin (non-preferential)",
+     "cites: DGFT Appendix 2E - agencies authorised to issue non-preferen > APPENDIX 2E",
+     "cites: DGFT Appendix 2E - agencies authorised to issue non-preferen > APPENDIX 2E"
+    ]
+   }
+  },
+  "BRA": {
+   "live": false,
+   "agreement": "India-MERCOSUR Preferential Trade Agreement (PTA) in force since 2009-06-01",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: HS6 average (WITS/TRAINS BRA 2023, average of 2 national lines in HS 6403)",
+     "100630: HS6 average (WITS/TRAINS BRA 2023, average of 4 national lines in HS 1006)",
+     "610910: national line (WITS/TRAINS BRA 2023, average of 1 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "pass",
+    "evidence": [
+     "Stored 640391 imports 2024: US$12,872,142 (not re-fetched this run)"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 5 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: India 35.0% / normal 35.0% from WITS/TRAINS BRA 2023, average of 2 national lines ",
+     "100630: India 11.0% / normal 11.0% from WITS/TRAINS BRA 2023, average of 4 national lines ",
+     "610910: India 35.0% / normal 35.0% from WITS/TRAINS BRA 2023, average of 1 national lines ",
+     "import No single VAT: II (import duty), IPI, PIS/COFINS-Importacao and state ICMS; 2026 CBS 0.9% + IBS 0.1% test rates under the tax reform: None% (https://www.gov.br/fazenda/pt-br/acesso-a-informacao/acoes-e-programas/reforma-tributaria)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Proof of origin: India-MERCOSUR PTA certificate of origin (Annex III Rules of Origin), onl",
+     "cites: Brazil: researched import rules > Brazil: import rules for Indian exporters > Proof ",
+     "cites: India-MERCOSUR PTA with annexes (English) [image-only PDF, n > ANNEX III RULES OF ORIGIN SECTIONI GENERAL PROVISI"
+    ]
+   }
+  },
+  "KOR": {
+   "live": false,
+   "agreement": "India-Korea Comprehensive Economic Partnership Agreement (IKCEPA) in force since 2010-01-01",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: HS6 average (WITS/TRAINS KOR 2023, average of 5 national lines in HS 6403)",
+     "100630: HS6 average (WITS/TRAINS KOR 2023, average of 2 national lines in HS 1006)",
+     "610910: HS6 average (WITS/TRAINS KOR 2023, average of 2 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "pass",
+    "evidence": [
+     "Stored 640391 imports 2024: US$135,976,343 (not re-fetched this run)"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 5 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: India 0.0% / normal 13.0% from WITS/TRAINS KOR 2023, average of 5 national lines ",
+     "100630: India 513.0% / normal 513.0% from WITS/TRAINS KOR 2023, average of 2 national lines ",
+     "610910: India 0.0% / normal 13.0% from WITS/TRAINS KOR 2023, average of 2 national lines ",
+     "import VAT: 10% (https://taxsummaries.pwc.com/republic-of-korea/corporate/other-taxes)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Proof of origin: IKCEPA Certificate of Origin (or APTA certificate)",
+     "cites: India-Korea CEPA full text (Chapter 3 Rules of Origin, Annex > Chapter 63 Other made up textile articles; sets; w",
+     "cites: India-Korea CEPA full text (Chapter 3 Rules of Origin, Annex > ANNEX 4-B CERTIFICATE OF ORIGIN INDIA- KOREA COMPR"
+    ]
+   }
+  },
+  "JPN": {
+   "live": true,
+   "agreement": "India-Japan Comprehensive Economic Partnership Agreement (IJCEPA) in force since 2011-08-01",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: HS6 average (WITS/TRAINS JPN 2023, average of 6 national lines in HS 6403)",
+     "100630: HS6 average (WITS/TRAINS JPN 2023, average of 2 national lines in HS 1006)",
+     "610910: HS6 average (WITS/TRAINS JPN 2023, average of 2 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "pass",
+    "evidence": [
+     "640391 2024: stored US$157,285,927, live US$157,285,927"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 5 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: normal duty 25.65% vs live WITS 25.6499996185303%",
+     "100630: normal duty 0.0% vs live WITS 0.0%",
+     "610910: normal duty 9.15% vs live WITS 9.14999961853027%",
+     "import Consumption tax (8% reduced rate for food excl. alcohol and dining out): 10% (https://www.nta.go.jp/english/taxes/consumption_tax/01.htm)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Proof of origin: IJCEPA Certificate of Origin",
+     "cites: Japan: researched import rules > Japan: import rules for Indian exporters > Proof o",
+     "cites: DGFT Appendix 2E - agencies authorised to issue non-preferen > APPENDIX 2E"
+    ]
+   }
+  },
+  "MEX": {
+   "live": false,
+   "agreement": "Rules not researched yet: our desk confirms",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: HS6 average (WITS/TRAINS MEX 2023, average of 4 national lines in HS 6403)",
+     "100630: HS6 average (WITS/TRAINS MEX 2023, average of 2 national lines in HS 1006)",
+     "610910: national line (WITS/TRAINS MEX 2023, average of 1 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "pass",
+    "evidence": [
+     "Stored 640391 imports 2024: US$100,396,316 (not re-fetched this run)"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 5 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: India 17.5% / normal 17.5% from WITS/TRAINS MEX 2023, average of 4 national lines ",
+     "100630: India 20.0% / normal 20.0% from WITS/TRAINS MEX 2023, average of 2 national lines ",
+     "610910: India 25.0% / normal 25.0% from WITS/TRAINS MEX 2023, average of 1 national lines ",
+     "import IVA (general rate; import IVA): 16% (http://omawww.sat.gob.mx/aduanas/importando_exportando/guia_importacion/Paginas/contribuciones_que_puedan_causarse_con_importacion.aspx)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Certificate of origin (non-preferential)",
+     "cites: Mexico: researched import rules > Mexico: import rules for Indian exporters > Import"
+    ]
+   }
+  },
+  "TUR": {
+   "live": false,
+   "agreement": "No trade agreement with India in force",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: HS6 average (WITS/TRAINS TUR 2023, average of 9 national lines in HS 6403)",
+     "100630: HS6 average (WITS/TRAINS TUR 2023, average of 20 national lines in HS 100)",
+     "610910: national line (WITS/TRAINS TUR 2023, average of 1 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "pass",
+    "evidence": [
+     "Stored 640391 imports 2024: US$76,804,843 (not re-fetched this run)"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 5 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: India 37.67% / normal 37.67% from WITS/TRAINS TUR 2023, average of 9 national lines ",
+     "100630: India 45.0% / normal 45.0% from WITS/TRAINS TUR 2023, average of 20 national lines",
+     "610910: India 42.0% / normal 42.0% from WITS/TRAINS TUR 2023, average of 1 national lines ",
+     "import KDV (VAT) general rate, since 10 Jul 2023: 20% (https://www.gib.gov.tr/)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Certificate of origin (non-preferential)",
+     "cites: Türkiye: researched import rules > Türkiye: import rules for Indian exporters > Proof"
+    ]
+   }
+  },
+  "VNM": {
+   "live": false,
+   "agreement": "ASEAN-India Trade in Goods Agreement (AITIGA / AIFTA) in force since 2010-06-01",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: HS6 average (WITS/TRAINS VNM 2023, average of 4 national lines in HS 6403)",
+     "100630: HS6 average (WITS/TRAINS VNM 2023, average of 7 national lines in HS 1006)",
+     "610910: HS6 average (WITS/TRAINS VNM 2023, average of 2 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "pass",
+    "evidence": [
+     "Stored 640391 imports 2023: US$719,586 (not re-fetched this run)"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 5 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: India 0.0% / normal 30.0% from WITS/TRAINS VNM 2023, average of 4 national lines ",
+     "100630: India 0.0% / normal 40.0% from WITS/TRAINS VNM 2023, average of 7 national lines ",
+     "610910: India 8.0% / normal 20.0% from WITS/TRAINS VNM 2023, average of 2 national lines ",
+     "import VAT - 10% standard; 8% reduced rate for specified goods until 31 Dec 2026 (Resolution 204/2025/QH15): 10% (https://taxsummaries.pwc.com/vietnam/corporate/other-taxes)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Proof of origin: AIFTA Certificate of Origin (Form AI)",
+     "cites: Vietnam: researched import rules > Vietnam: import rules for Indian exporters > Proof",
+     "cites: Agreement on Trade in Goods (ASEAN-India) with Annex 2 Rules > APPENDIX D > Article 14"
+    ]
+   }
+  },
+  "IDN": {
+   "live": false,
+   "agreement": "ASEAN-India Trade in Goods Agreement (AITIGA / AIFTA) in force since 2010-10-01",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: HS6 average (WITS/TRAINS IDN 2023, average of 4 national lines in HS 6403)",
+     "100630: HS6 average (WITS/TRAINS IDN 2023, average of 7 national lines in HS 1006)",
+     "610910: HS6 average (WITS/TRAINS IDN 2023, average of 2 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "pass",
+    "evidence": [
+     "Stored 640391 imports 2024: US$5,854,039 (not re-fetched this run)"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 5 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: India 5.0% / normal 25.0% from WITS/TRAINS IDN 2023, average of 4 national lines ",
+     "100630: India 0.0% / normal 0.0% from WITS/TRAINS IDN 2023, average of 7 national lines ",
+     "610910: India 25.0% / normal 25.0% from WITS/TRAINS IDN 2023, average of 2 national lines ",
+     "import VAT (PPN) - statutory 12%; effective 11% for non-luxury goods via 11/12 tax base: 12% (https://taxsummaries.pwc.com/indonesia/corporate/other-taxes)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Proof of origin: AIFTA Certificate of Origin (Form AI)",
+     "cites: Indonesia: researched import rules > Indonesia: import rules for Indian exporters > Pro",
+     "cites: Agreement on Trade in Goods (ASEAN-India) with Annex 2 Rules > APPENDIX D > Article 14"
+    ]
+   }
+  },
+  "TZA": {
+   "live": false,
+   "agreement": "Rules not researched yet: our desk confirms",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: national line (WITS/TRAINS TZA 2023, average of 1 national lines in HS 6403)",
+     "100630: national line (WITS/TRAINS TZA 2023, average of 1 national lines in HS 1006)",
+     "610910: national line (WITS/TRAINS TZA 2023, average of 1 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "pass",
+    "evidence": [
+     "Stored 640391 imports 2024: US$132,018 (not re-fetched this run)"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 4 official channels"
+    ]
+   },
+   "S6": {
+    "status": "warn",
+    "evidence": [
+     "640391: India 35.0% / normal 35.0% from WITS/TRAINS TZA 2023, average of 1 national lines ",
+     "100630: India 0.0% / normal 0.0% from WITS/TRAINS TZA 2023, average of 1 national lines ",
+     "610910: India 25.0% / normal 25.0% from WITS/TRAINS TZA 2023, average of 1 national lines ",
+     "import VAT: None% (no source)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Certificate of origin (non-preferential)",
+     "cites: Tanzania: researched import rules > Tanzania: import rules for Indian exporters > Proo"
+    ]
+   }
+  },
+  "RUS": {
+   "live": false,
+   "agreement": "No trade agreement with India in force",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: HS6 average (WITS/TRAINS RUS 2021, average of 9 national lines in HS 6403)",
+     "100630: HS6 average (WITS/TRAINS RUS 2021, average of 18 national lines in HS 100)",
+     "610910: national line (WITS/TRAINS RUS 2021, average of 1 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "warn",
+    "evidence": [
+     "Country does not report imports to UN Comtrade for these years; left out of the ranking"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 5 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: India 0.0% / normal 0.0% from WITS/TRAINS RUS 2021, average of 9 national lines ",
+     "100630: India 0.0% / normal 0.0% from WITS/TRAINS RUS 2021, average of 18 national lines",
+     "610910: India 0.0% / normal 0.0% from WITS/TRAINS RUS 2021, average of 1 national lines ",
+     "import NDS (VAT) standard rate from 1 Jan 2026; 10% reduced for listed goods: 22% (https://www.nalog.gov.ru/rn77/taxation/taxes/nds/)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Certificate of origin (non-preferential)",
+     "cites: Russia: researched import rules > Russia: import rules for Indian exporters > Import"
+    ]
+   }
+  },
+  "THA": {
+   "live": false,
+   "agreement": "ASEAN-India Trade in Goods Agreement (AITIGA / AIFTA) in force since 2010-01-01",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: HS6 average (WITS/TRAINS THA 2023, average of 4 national lines in HS 6403)",
+     "100630: HS6 average (WITS/TRAINS THA 2023, average of 7 national lines in HS 1006)",
+     "610910: HS6 average (WITS/TRAINS THA 2023, average of 2 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "pass",
+    "evidence": [
+     "Stored 640391 imports 2024: US$11,901,110 (not re-fetched this run)"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 5 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: India 30.0% / normal 30.0% from WITS/TRAINS THA 2023, average of 4 national lines ",
+     "100630: India 52.0% / normal 52.0% from WITS/TRAINS THA 2023, average of 7 national lines ",
+     "610910: India 30.0% / normal 30.0% from WITS/TRAINS THA 2023, average of 2 national lines ",
+     "import VAT - reduced 7% (statutory 10%) extended to 30 Sep 2027: 7% (https://taxsummaries.pwc.com/thailand/corporate/other-taxes)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Proof of origin: AIFTA Form AI (or India-Thailand EHS certificate for EHS lines)",
+     "cites: Thailand: researched import rules > Thailand: import rules for Indian exporters > Proo",
+     "cites: Agreement on Trade in Goods (ASEAN-India) with Annex 2 Rules > APPENDIX D > Article 14"
+    ]
+   }
+  },
+  "ESP": {
+   "live": false,
+   "agreement": "India-EU Free Trade Agreement concluded, not yet in force; EU GSP (Standard GSP) - Regulation (EU) 978/2012 to 31 Dec 2026; Regulation (EU) 2026/1395 applies from 1 Jan 2027 preferences apply to some goods",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: HS6 average (WITS/TRAINS EUN 2023, average of 9 national lines in HS 6403)",
+     "100630: HS6 average (WITS/TRAINS EUN 2023, average of 20 national lines in HS 100)",
+     "610910: national line (WITS/TRAINS EUN 2023, average of 1 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "pass",
+    "evidence": [
+     "Stored 640391 imports 2024: US$329,081,596 (not re-fetched this run)"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 5 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: India 7.67% / normal 7.67% from WITS/TRAINS EUN 2023, average of 9 national lines ",
+     "100630: India 0.0% / normal 0.0% from WITS/TRAINS EUN 2023, average of 20 national lines",
+     "610910: India 12.0% / normal 12.0% from WITS/TRAINS EUN 2023, average of 1 national lines ",
+     "import VAT (standard rate): 21% (https://europa.eu/youreurope/business/taxation/vat/vat-rules-rates/index_en.htm)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Proof of origin: Statement on origin (REX) for EU GSP",
+     "cites: Spain: researched import rules > Spain: import rules for Indian exporters > Proof o",
+     "cites: EU GSP rules of origin page (DG TAXUD): cumulation, REX, sta > Annex 22-07 – statement on origin for the GSP sche"
+    ]
+   }
+  },
+  "LKA": {
+   "live": false,
+   "agreement": "India-Sri Lanka Free Trade Agreement (ISFTA) (signed 28 Dec 1998) in force since 2000-03-01",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: national line (WITS/TRAINS LKA 2023, average of 1 national lines in HS 6403)",
+     "100630: HS6 average (WITS/TRAINS LKA 2023, average of 4 national lines in HS 1006)",
+     "610910: national line (WITS/TRAINS LKA 2023, average of 1 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "pass",
+    "evidence": [
+     "Stored 640391 imports 2024: US$980,453 (not re-fetched this run)"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 5 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: India 20.0% / normal 20.0% from WITS/TRAINS LKA 2023, average of 1 national lines ",
+     "100630: India 20.0% / normal 20.0% from WITS/TRAINS LKA 2023, average of 4 national lines ",
+     "610910: India 0.0% / normal 0.0% from WITS/TRAINS LKA 2023, average of 1 national lines ",
+     "import VAT: 18% (https://kpmg.com/us/en/taxnewsflash/news/2026/04/sri-lanka-importation-supply-fabric-vat-rate.html)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Proof of origin: ISFTA Certificate of Origin (alternatively SAFTA or APTA certificate)",
+     "cites: Sri Lanka: researched import rules > Sri Lanka: import rules for Indian exporters > Pro",
+     "cites: SAFTA Agreement with SAFTA Rules of Origin (commerce.gov.in) > ANNEX II > ARTICLE 21"
+    ]
+   }
+  },
+  "CAN": {
+   "live": false,
+   "agreement": "No trade agreement with India in force",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: national line (WITS/TRAINS CAN 2023, average of 1 national lines in HS 6403)",
+     "100630: national line (WITS/TRAINS CAN 2023, average of 1 national lines in HS 1006)",
+     "610910: national line (WITS/TRAINS CAN 2023, average of 1 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "pass",
+    "evidence": [
+     "Stored 640391 imports 2024: US$305,464,181 (not re-fetched this run)"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 5 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: India 18.0% / normal 18.0% from WITS/TRAINS CAN 2023, average of 1 national lines ",
+     "100630: India 0.0% / normal 0.0% from WITS/TRAINS CAN 2023, average of 1 national lines ",
+     "610910: India 18.0% / normal 18.0% from WITS/TRAINS CAN 2023, average of 1 national lines ",
+     "import GST (federal; HST/PST may apply by province): 5% (https://www.cbsa-asfc.gc.ca/import/guide-3-eng.html)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Certificate of origin (non-preferential)",
+     "cites: CBSA Memorandum D11-4-2: Proof of Origin of Imported Goods >  > Appendix A Chart 1 - Proof of Origin Requiremen",
+     "cites: CBSA Memorandum D11-4-2: Proof of Origin of Imported Goods >  > Guidelines and General Information > Proof of O"
+    ]
+   }
+  },
+  "OMN": {
+   "live": false,
+   "agreement": "India-Oman Comprehensive Economic Partnership Agreement (CEPA) (signed 18 Dec 2025) in force since 2026-06-01",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: HS6 average (WITS/TRAINS OMN 2023, average of 3 national lines in HS 6403)",
+     "100630: national line (WITS/TRAINS OMN 2023, average of 1 national lines in HS 1006)",
+     "610910: national line (WITS/TRAINS OMN 2023, average of 1 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "pass",
+    "evidence": [
+     "Stored 640391 imports 2024: US$4,769,051 (not re-fetched this run)"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 5 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: India 5.0% / normal 5.0% from WITS/TRAINS OMN 2023, average of 3 national lines ",
+     "100630: India 0.0% / normal 0.0% from WITS/TRAINS OMN 2023, average of 1 national lines ",
+     "610910: India 5.0% / normal 5.0% from WITS/TRAINS OMN 2023, average of 1 national lines ",
+     "import VAT: 5% (https://tms.taxoman.gov.om/portal/web/taxportal/vat-tax)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Proof of origin: Certificate of Origin under India-Oman CEPA (Annex 3C template)",
+     "cites: India-Oman CEPA Annex 3C - Certificate of Origin Template > ANNEX 3C",
+     "cites: India-Oman CEPA Annex 3C - Certificate of Origin Template > ANNEX 3C"
+    ]
+   }
+  },
+  "IRQ": {
+   "live": false,
+   "agreement": "Rules not researched yet: our desk confirms",
+   "S1": {
+    "status": "fail",
+    "evidence": [
+     "640391: no tariff line",
+     "100630: no tariff line",
+     "610910: no tariff line"
+    ]
+   },
+   "S2": {
+    "status": "pass",
+    "evidence": [
+     "Stored 640391 imports 2024: US$4,828,971 (not re-fetched this run)"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 4 official channels"
+    ]
+   },
+   "S6": {
+    "status": "warn",
+    "evidence": [
+     "640391: no duty data (shown as 'desk confirms')",
+     "100630: no duty data (shown as 'desk confirms')",
+     "610910: no duty data (shown as 'desk confirms')",
+     "import sales tax: None% (no source)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Certificate of origin (non-preferential)",
+     "cites: Iraq: researched import rules > Iraq: import rules for Indian exporters > Proof of"
+    ]
+   }
+  },
+  "EGY": {
+   "live": false,
+   "agreement": "Global System of Trade Preferences among Developing Countries (GSTP) in force since 1989-04-19",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: HS6 average (WITS/TRAINS EGY 2019, average of 2 national lines in HS 6403)",
+     "100630: national line (WITS/TRAINS EGY 2019, average of 1 national lines in HS 1006)",
+     "610910: national line (WITS/TRAINS EGY 2019, average of 1 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "pass",
+    "evidence": [
+     "Stored 640391 imports 2024: US$1,210,068 (not re-fetched this run)"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 5 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: India 60.0% / normal 60.0% from WITS/TRAINS EGY 2019, average of 2 national lines ",
+     "100630: India 0.0% / normal 0.0% from WITS/TRAINS EGY 2019, average of 1 national lines ",
+     "610910: India 40.0% / normal 40.0% from WITS/TRAINS EGY 2019, average of 1 national lines ",
+     "import VAT: 14% (https://taxsummaries.pwc.com/egypt/corporate/other-taxes)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Proof of origin: GSTP Certificate of Origin (only for products in Egypt's GSTP concession ",
+     "cites: Egypt: researched import rules > Egypt: import rules for Indian exporters > Proof o",
+     "cites: Global System of Trade Preferences: agreement text, Annex II > "
+    ]
+   }
+  },
+  "KEN": {
+   "live": false,
+   "agreement": "No trade agreement with India in force",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: national line (WITS/TRAINS KEN 2023, average of 1 national lines in HS 6403)",
+     "100630: national line (WITS/TRAINS KEN 2023, average of 1 national lines in HS 1006)",
+     "610910: national line (WITS/TRAINS KEN 2023, average of 1 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "pass",
+    "evidence": [
+     "Stored 640391 imports 2024: US$1,681,280 (not re-fetched this run)"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 5 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: India 35.0% / normal 35.0% from WITS/TRAINS KEN 2023, average of 1 national lines ",
+     "100630: India 0.0% / normal 0.0% from WITS/TRAINS KEN 2023, average of 1 national lines ",
+     "610910: India 35.0% / normal 35.0% from WITS/TRAINS KEN 2023, average of 1 national lines ",
+     "import VAT: 16% (https://www.kra.go.ke/individual/filing-paying/types-of-taxes/value-added-tax)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Certificate of origin (non-preferential)",
+     "cites: DGFT Appendix 2E - agencies authorised to issue non-preferen > APPENDIX 2E",
+     "cites: DGFT Appendix 2E - agencies authorised to issue non-preferen > APPENDIX 2E"
+    ]
+   }
+  },
+  "NGA": {
+   "live": true,
+   "agreement": "Global System of Trade Preferences among Developing Countries (GSTP) in force since 1989-04-19",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: HS6 average (WITS/TRAINS NGA 2023, average of 2 national lines in HS 6403)",
+     "100630: HS6 average (WITS/TRAINS NGA 2023, average of 2 national lines in HS 1006)",
+     "610910: national line (WITS/TRAINS NGA 2023, average of 1 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "pass",
+    "evidence": [
+     "640391 2024: stored US$1,077,993, live US$1,077,993"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 5 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: normal duty 15.0% vs live WITS 15.0%",
+     "100630: normal duty 10.0% vs live WITS 10.0%",
+     "610910: normal duty 20.0% vs live WITS 20.0%",
+     "import VAT: 7.5% (https://taxsummaries.pwc.com/nigeria/corporate/other-taxes)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Proof of origin: GSTP Certificate of Origin (only for products in Nigeria's GSTP concessio",
+     "cites: Nigeria: researched import rules > Nigeria: import rules for Indian exporters > Proof",
+     "cites: Global System of Trade Preferences: agreement text, Annex II > "
+    ]
+   }
+  },
+  "TGO": {
+   "live": false,
+   "agreement": "Rules not researched yet: our desk confirms",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: HS6 average (WITS/TRAINS TGO 2023, average of 2 national lines in HS 6403)",
+     "100630: HS6 average (WITS/TRAINS TGO 2023, average of 2 national lines in HS 1006)",
+     "610910: national line (WITS/TRAINS TGO 2023, average of 1 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "pass",
+    "evidence": [
+     "Stored 640391 imports 2024: US$720 (not re-fetched this run)"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 4 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: India 15.0% / normal 15.0% from WITS/TRAINS TGO 2023, average of 2 national lines ",
+     "100630: India 10.0% / normal 10.0% from WITS/TRAINS TGO 2023, average of 2 national lines ",
+     "610910: India 20.0% / normal 20.0% from WITS/TRAINS TGO 2023, average of 1 national lines ",
+     "import VAT (TVA): 18% (https://www.trade.gov/country-commercial-guides/togo-import-tariffs)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Certificate of origin (non-preferential)",
+     "cites: Togo: researched import rules > Togo: import rules for Indian exporters > Proof of",
+     "cites: DGFT Appendix 2E - agencies authorised to issue non-preferen > APPENDIX 2E"
+    ]
+   }
+  },
+  "POL": {
+   "live": false,
+   "agreement": "India-EU Free Trade Agreement concluded, not yet in force; EU GSP (Standard GSP) - Regulation (EU) 978/2012 to 31 Dec 2026; Regulation (EU) 2026/1395 applies from 1 Jan 2027 preferences apply to some goods",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: HS6 average (WITS/TRAINS EUN 2023, average of 9 national lines in HS 6403)",
+     "100630: HS6 average (WITS/TRAINS EUN 2023, average of 20 national lines in HS 100)",
+     "610910: national line (WITS/TRAINS EUN 2023, average of 1 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "pass",
+    "evidence": [
+     "Stored 640391 imports 2024: US$580,234,189 (not re-fetched this run)"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 5 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: India 7.67% / normal 7.67% from WITS/TRAINS EUN 2023, average of 9 national lines ",
+     "100630: India 0.0% / normal 0.0% from WITS/TRAINS EUN 2023, average of 20 national lines",
+     "610910: India 12.0% / normal 12.0% from WITS/TRAINS EUN 2023, average of 1 national lines ",
+     "import VAT (standard rate): 23% (https://europa.eu/youreurope/business/taxation/vat/vat-rules-rates/index_en.htm)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Proof of origin: Statement on origin (REX) for EU GSP",
+     "cites: Poland: researched import rules > Poland: import rules for Indian exporters > Proof ",
+     "cites: EU GSP rules of origin page (DG TAXUD): cumulation, REX, sta > Annex 22-07 – statement on origin for the GSP sche"
+    ]
+   }
+  },
+  "PHL": {
+   "live": false,
+   "agreement": "ASEAN-India Trade in Goods Agreement (AITIGA / AIFTA) in force since 2011-05-17",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: HS6 average (WITS/TRAINS PHL 2023, average of 4 national lines in HS 6403)",
+     "100630: HS6 average (WITS/TRAINS PHL 2023, average of 7 national lines in HS 1006)",
+     "610910: HS6 average (WITS/TRAINS PHL 2023, average of 2 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "pass",
+    "evidence": [
+     "Stored 640391 imports 2024: US$7,416,624 (not re-fetched this run)"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 5 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: India 5.0% / normal 15.0% from WITS/TRAINS PHL 2023, average of 4 national lines ",
+     "100630: India 42.5% / normal 42.5% from WITS/TRAINS PHL 2023, average of 7 national lines ",
+     "610910: India 0.0% / normal 15.0% from WITS/TRAINS PHL 2023, average of 2 national lines ",
+     "import VAT: 12% (https://taxsummaries.pwc.com/philippines/corporate/other-taxes)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Proof of origin: AIFTA Certificate of Origin (Form AI)",
+     "cites: Philippines: researched import rules > Philippines: import rules for Indian exporters > P",
+     "cites: Agreement on Trade in Goods (ASEAN-India) with Annex 2 Rules > APPENDIX D > Article 14"
+    ]
+   }
+  },
+  "ISR": {
+   "live": false,
+   "agreement": "No trade agreement with India in force",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: national line (WITS/TRAINS ISR 2022, average of 1 national lines in HS 6403)",
+     "100630: national line (WITS/TRAINS ISR 2022, average of 1 national lines in HS 1006)",
+     "610910: HS6 average (WITS/TRAINS ISR 2022, average of 2 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "pass",
+    "evidence": [
+     "Stored 640391 imports 2024: US$29,315,000 (not re-fetched this run)"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 5 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: India 0.0% / normal 0.0% from WITS/TRAINS ISR 2022, average of 1 national lines ",
+     "100630: India 0.0% / normal 0.0% from WITS/TRAINS ISR 2022, average of 1 national lines ",
+     "610910: India 0.0% / normal 0.0% from WITS/TRAINS ISR 2022, average of 2 national lines ",
+     "import VAT (Ma'am): 18% (https://taxsummaries.pwc.com/israel/corporate/other-taxes)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Certificate of origin (non-preferential)",
+     "cites: DGFT Appendix 2E - agencies authorised to issue non-preferen > APPENDIX 2E",
+     "cites: DGFT Appendix 2E - agencies authorised to issue non-preferen > APPENDIX 2E"
+    ]
+   }
+  },
+  "KWT": {
+   "live": false,
+   "agreement": "No trade agreement with India in force",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: HS6 average (WITS/TRAINS KWT 2023, average of 3 national lines in HS 6403)",
+     "100630: national line (WITS/TRAINS KWT 2023, average of 1 national lines in HS 1006)",
+     "610910: national line (WITS/TRAINS KWT 2023, average of 1 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "pass",
+    "evidence": [
+     "Stored 640391 imports 2024: US$5,813,878 (not re-fetched this run)"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 5 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: India 5.0% / normal 5.0% from WITS/TRAINS KWT 2023, average of 3 national lines ",
+     "100630: India 0.0% / normal 0.0% from WITS/TRAINS KWT 2023, average of 1 national lines ",
+     "610910: India 5.0% / normal 5.0% from WITS/TRAINS KWT 2023, average of 1 national lines ",
+     "import No VAT in force: 0% (https://taxsummaries.pwc.com/kuwait/corporate/other-taxes)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Certificate of origin (non-preferential)",
+     "cites: DGFT Appendix 2E - agencies authorised to issue non-preferen > APPENDIX 2E",
+     "cites: DGFT Appendix 2E - agencies authorised to issue non-preferen > APPENDIX 2E"
+    ]
+   }
+  },
+  "AUT": {
+   "live": false,
+   "agreement": "India-EU Free Trade Agreement concluded, not yet in force; EU GSP (Standard GSP) - Regulation (EU) 978/2012 to 31 Dec 2026; Regulation (EU) 2026/1395 applies from 1 Jan 2027 preferences apply to some goods",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: HS6 average (WITS/TRAINS EUN 2023, average of 9 national lines in HS 6403)",
+     "100630: HS6 average (WITS/TRAINS EUN 2023, average of 20 national lines in HS 100)",
+     "610910: national line (WITS/TRAINS EUN 2023, average of 1 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "pass",
+    "evidence": [
+     "Stored 640391 imports 2024: US$280,006,620 (not re-fetched this run)"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 5 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: India 7.67% / normal 7.67% from WITS/TRAINS EUN 2023, average of 9 national lines ",
+     "100630: India 0.0% / normal 0.0% from WITS/TRAINS EUN 2023, average of 20 national lines",
+     "610910: India 12.0% / normal 12.0% from WITS/TRAINS EUN 2023, average of 1 national lines ",
+     "import VAT (standard rate): 20% (https://europa.eu/youreurope/business/taxation/vat/vat-rules-rates/index_en.htm)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Proof of origin: Statement on origin (REX) for EU GSP",
+     "cites: Austria: researched import rules > Austria: import rules for Indian exporters > Proof",
+     "cites: EU GSP rules of origin page (DG TAXUD): cumulation, REX, sta > Annex 22-07 – statement on origin for the GSP sche"
+    ]
+   }
+  },
+  "BGR": {
+   "live": true,
+   "agreement": "India-EU Free Trade Agreement concluded, not yet in force; EU GSP (Standard GSP) - Regulation (EU) 978/2012 to 31 Dec 2026; Regulation (EU) 2026/1395 applies from 1 Jan 2027 preferences apply to some goods",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: HS6 average (WITS/TRAINS EUN 2023, average of 9 national lines in HS 6403)",
+     "100630: HS6 average (WITS/TRAINS EUN 2023, average of 20 national lines in HS 100)",
+     "610910: national line (WITS/TRAINS EUN 2023, average of 1 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "pass",
+    "evidence": [
+     "640391 2024: stored US$25,123,663, live US$25,123,663"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 5 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: normal duty 7.67% vs live WITS 7.66666650772095%",
+     "100630: normal duty 0.0% vs live WITS 0.0%",
+     "610910: normal duty 12.0% vs live WITS 12.0%",
+     "import VAT (standard rate): 20% (https://europa.eu/youreurope/business/taxation/vat/vat-rules-rates/index_en.htm)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Proof of origin: Statement on origin (REX) for EU GSP",
+     "cites: Bulgaria: researched import rules > Bulgaria: import rules for Indian exporters > Proo",
+     "cites: EU GSP rules of origin page (DG TAXUD): cumulation, REX, sta > Annex 22-07 – statement on origin for the GSP sche"
+    ]
+   }
+  },
+  "HRV": {
+   "live": false,
+   "agreement": "India-EU Free Trade Agreement concluded, not yet in force; EU GSP (Standard GSP) - Regulation (EU) 978/2012 to 31 Dec 2026; Regulation (EU) 2026/1395 applies from 1 Jan 2027 preferences apply to some goods",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: HS6 average (WITS/TRAINS EUN 2023, average of 9 national lines in HS 6403)",
+     "100630: HS6 average (WITS/TRAINS EUN 2023, average of 20 national lines in HS 100)",
+     "610910: national line (WITS/TRAINS EUN 2023, average of 1 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "pass",
+    "evidence": [
+     "Stored 640391 imports 2024: US$39,427,318 (not re-fetched this run)"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 5 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: India 7.67% / normal 7.67% from WITS/TRAINS EUN 2023, average of 9 national lines ",
+     "100630: India 0.0% / normal 0.0% from WITS/TRAINS EUN 2023, average of 20 national lines",
+     "610910: India 12.0% / normal 12.0% from WITS/TRAINS EUN 2023, average of 1 national lines ",
+     "import VAT (standard rate): 25% (https://europa.eu/youreurope/business/taxation/vat/vat-rules-rates/index_en.htm)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Proof of origin: Statement on origin (REX) for EU GSP",
+     "cites: Croatia: researched import rules > Croatia: import rules for Indian exporters > Proof",
+     "cites: EU GSP rules of origin page (DG TAXUD): cumulation, REX, sta > Annex 22-07 – statement on origin for the GSP sche"
+    ]
+   }
+  },
+  "CYP": {
+   "live": false,
+   "agreement": "India-EU Free Trade Agreement concluded, not yet in force; EU GSP (Standard GSP) - Regulation (EU) 978/2012 to 31 Dec 2026; Regulation (EU) 2026/1395 applies from 1 Jan 2027 preferences apply to some goods",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: HS6 average (WITS/TRAINS EUN 2023, average of 9 national lines in HS 6403)",
+     "100630: HS6 average (WITS/TRAINS EUN 2023, average of 20 national lines in HS 100)",
+     "610910: national line (WITS/TRAINS EUN 2023, average of 1 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "pass",
+    "evidence": [
+     "Stored 640391 imports 2024: US$5,249,250 (not re-fetched this run)"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 5 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: India 7.67% / normal 7.67% from WITS/TRAINS EUN 2023, average of 9 national lines ",
+     "100630: India 0.0% / normal 0.0% from WITS/TRAINS EUN 2023, average of 20 national lines",
+     "610910: India 12.0% / normal 12.0% from WITS/TRAINS EUN 2023, average of 1 national lines ",
+     "import VAT (standard rate): 19% (https://europa.eu/youreurope/business/taxation/vat/vat-rules-rates/index_en.htm)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Proof of origin: Statement on origin (REX) for EU GSP",
+     "cites: Cyprus: researched import rules > Cyprus: import rules for Indian exporters > Proof ",
+     "cites: EU GSP rules of origin page (DG TAXUD): cumulation, REX, sta > Annex 22-07 – statement on origin for the GSP sche"
+    ]
+   }
+  },
+  "CZE": {
+   "live": false,
+   "agreement": "India-EU Free Trade Agreement concluded, not yet in force; EU GSP (Standard GSP) - Regulation (EU) 978/2012 to 31 Dec 2026; Regulation (EU) 2026/1395 applies from 1 Jan 2027 preferences apply to some goods",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: HS6 average (WITS/TRAINS EUN 2023, average of 9 national lines in HS 6403)",
+     "100630: HS6 average (WITS/TRAINS EUN 2023, average of 20 national lines in HS 100)",
+     "610910: national line (WITS/TRAINS EUN 2023, average of 1 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "pass",
+    "evidence": [
+     "Stored 640391 imports 2024: US$164,167,236 (not re-fetched this run)"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 5 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: India 7.67% / normal 7.67% from WITS/TRAINS EUN 2023, average of 9 national lines ",
+     "100630: India 0.0% / normal 0.0% from WITS/TRAINS EUN 2023, average of 20 national lines",
+     "610910: India 12.0% / normal 12.0% from WITS/TRAINS EUN 2023, average of 1 national lines ",
+     "import VAT (standard rate): 21% (https://europa.eu/youreurope/business/taxation/vat/vat-rules-rates/index_en.htm)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Proof of origin: Statement on origin (REX) for EU GSP",
+     "cites: Czechia: researched import rules > Czechia: import rules for Indian exporters > Proof",
+     "cites: EU GSP rules of origin page (DG TAXUD): cumulation, REX, sta > Annex 22-07 – statement on origin for the GSP sche"
+    ]
+   }
+  },
+  "DNK": {
+   "live": false,
+   "agreement": "India-EU Free Trade Agreement concluded, not yet in force; EU GSP (Standard GSP) - Regulation (EU) 978/2012 to 31 Dec 2026; Regulation (EU) 2026/1395 applies from 1 Jan 2027 preferences apply to some goods",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: HS6 average (WITS/TRAINS EUN 2023, average of 9 national lines in HS 6403)",
+     "100630: HS6 average (WITS/TRAINS EUN 2023, average of 20 national lines in HS 100)",
+     "610910: national line (WITS/TRAINS EUN 2023, average of 1 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "pass",
+    "evidence": [
+     "Stored 640391 imports 2024: US$112,816,047 (not re-fetched this run)"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 5 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: India 7.67% / normal 7.67% from WITS/TRAINS EUN 2023, average of 9 national lines ",
+     "100630: India 0.0% / normal 0.0% from WITS/TRAINS EUN 2023, average of 20 national lines",
+     "610910: India 12.0% / normal 12.0% from WITS/TRAINS EUN 2023, average of 1 national lines ",
+     "import VAT (standard rate): 25% (https://europa.eu/youreurope/business/taxation/vat/vat-rules-rates/index_en.htm)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Proof of origin: Statement on origin (REX) for EU GSP",
+     "cites: Denmark: researched import rules > Denmark: import rules for Indian exporters > Proof",
+     "cites: EU GSP rules of origin page (DG TAXUD): cumulation, REX, sta > Annex 22-07 – statement on origin for the GSP sche"
+    ]
+   }
+  },
+  "EST": {
+   "live": false,
+   "agreement": "India-EU Free Trade Agreement concluded, not yet in force; EU GSP (Standard GSP) - Regulation (EU) 978/2012 to 31 Dec 2026; Regulation (EU) 2026/1395 applies from 1 Jan 2027 preferences apply to some goods",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: HS6 average (WITS/TRAINS EUN 2023, average of 9 national lines in HS 6403)",
+     "100630: HS6 average (WITS/TRAINS EUN 2023, average of 20 national lines in HS 100)",
+     "610910: national line (WITS/TRAINS EUN 2023, average of 1 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "pass",
+    "evidence": [
+     "Stored 640391 imports 2024: US$14,886,998 (not re-fetched this run)"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 5 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: India 7.67% / normal 7.67% from WITS/TRAINS EUN 2023, average of 9 national lines ",
+     "100630: India 0.0% / normal 0.0% from WITS/TRAINS EUN 2023, average of 20 national lines",
+     "610910: India 12.0% / normal 12.0% from WITS/TRAINS EUN 2023, average of 1 national lines ",
+     "import VAT (standard rate): 24% (https://europa.eu/youreurope/business/taxation/vat/vat-rules-rates/index_en.htm)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Proof of origin: Statement on origin (REX) for EU GSP",
+     "cites: Estonia: researched import rules > Estonia: import rules for Indian exporters > Proof",
+     "cites: EU GSP rules of origin page (DG TAXUD): cumulation, REX, sta > Annex 22-07 – statement on origin for the GSP sche"
+    ]
+   }
+  },
+  "FIN": {
+   "live": false,
+   "agreement": "India-EU Free Trade Agreement concluded, not yet in force; EU GSP (Standard GSP) - Regulation (EU) 978/2012 to 31 Dec 2026; Regulation (EU) 2026/1395 applies from 1 Jan 2027 preferences apply to some goods",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: HS6 average (WITS/TRAINS EUN 2023, average of 9 national lines in HS 6403)",
+     "100630: HS6 average (WITS/TRAINS EUN 2023, average of 20 national lines in HS 100)",
+     "610910: national line (WITS/TRAINS EUN 2023, average of 1 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "pass",
+    "evidence": [
+     "Stored 640391 imports 2024: US$44,139,555 (not re-fetched this run)"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 5 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: India 7.67% / normal 7.67% from WITS/TRAINS EUN 2023, average of 9 national lines ",
+     "100630: India 0.0% / normal 0.0% from WITS/TRAINS EUN 2023, average of 20 national lines",
+     "610910: India 12.0% / normal 12.0% from WITS/TRAINS EUN 2023, average of 1 national lines ",
+     "import VAT (standard rate): 25.5% (https://europa.eu/youreurope/business/taxation/vat/vat-rules-rates/index_en.htm)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Proof of origin: Statement on origin (REX) for EU GSP",
+     "cites: Finland: researched import rules > Finland: import rules for Indian exporters > Proof",
+     "cites: EU GSP rules of origin page (DG TAXUD): cumulation, REX, sta > Annex 22-07 – statement on origin for the GSP sche"
+    ]
+   }
+  },
+  "GRC": {
+   "live": false,
+   "agreement": "India-EU Free Trade Agreement concluded, not yet in force; EU GSP (Standard GSP) - Regulation (EU) 978/2012 to 31 Dec 2026; Regulation (EU) 2026/1395 applies from 1 Jan 2027 preferences apply to some goods",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: HS6 average (WITS/TRAINS EUN 2023, average of 9 national lines in HS 6403)",
+     "100630: HS6 average (WITS/TRAINS EUN 2023, average of 20 national lines in HS 100)",
+     "610910: national line (WITS/TRAINS EUN 2023, average of 1 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "pass",
+    "evidence": [
+     "Stored 640391 imports 2024: US$59,888,912 (not re-fetched this run)"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 5 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: India 7.67% / normal 7.67% from WITS/TRAINS EUN 2023, average of 9 national lines ",
+     "100630: India 0.0% / normal 0.0% from WITS/TRAINS EUN 2023, average of 20 national lines",
+     "610910: India 12.0% / normal 12.0% from WITS/TRAINS EUN 2023, average of 1 national lines ",
+     "import VAT (standard rate): 24% (https://europa.eu/youreurope/business/taxation/vat/vat-rules-rates/index_en.htm)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Proof of origin: Statement on origin (REX) for EU GSP",
+     "cites: Greece: researched import rules > Greece: import rules for Indian exporters > Proof ",
+     "cites: EU GSP rules of origin page (DG TAXUD): cumulation, REX, sta > Annex 22-07 – statement on origin for the GSP sche"
+    ]
+   }
+  },
+  "HUN": {
+   "live": false,
+   "agreement": "India-EU Free Trade Agreement concluded, not yet in force; EU GSP (Standard GSP) - Regulation (EU) 978/2012 to 31 Dec 2026; Regulation (EU) 2026/1395 applies from 1 Jan 2027 preferences apply to some goods",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: HS6 average (WITS/TRAINS EUN 2023, average of 9 national lines in HS 6403)",
+     "100630: HS6 average (WITS/TRAINS EUN 2023, average of 20 national lines in HS 100)",
+     "610910: national line (WITS/TRAINS EUN 2023, average of 1 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "pass",
+    "evidence": [
+     "Stored 640391 imports 2024: US$75,060,065 (not re-fetched this run)"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 5 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: India 7.67% / normal 7.67% from WITS/TRAINS EUN 2023, average of 9 national lines ",
+     "100630: India 0.0% / normal 0.0% from WITS/TRAINS EUN 2023, average of 20 national lines",
+     "610910: India 12.0% / normal 12.0% from WITS/TRAINS EUN 2023, average of 1 national lines ",
+     "import VAT (standard rate): 27% (https://europa.eu/youreurope/business/taxation/vat/vat-rules-rates/index_en.htm)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Proof of origin: Statement on origin (REX) for EU GSP",
+     "cites: Hungary: researched import rules > Hungary: import rules for Indian exporters > Proof",
+     "cites: EU GSP rules of origin page (DG TAXUD): cumulation, REX, sta > Annex 22-07 – statement on origin for the GSP sche"
+    ]
+   }
+  },
+  "IRL": {
+   "live": true,
+   "agreement": "India-EU Free Trade Agreement concluded, not yet in force; EU GSP (Standard GSP) - Regulation (EU) 978/2012 to 31 Dec 2026; Regulation (EU) 2026/1395 applies from 1 Jan 2027 preferences apply to some goods",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: HS6 average (WITS/TRAINS EUN 2023, average of 9 national lines in HS 6403)",
+     "100630: HS6 average (WITS/TRAINS EUN 2023, average of 20 national lines in HS 100)",
+     "610910: national line (WITS/TRAINS EUN 2023, average of 1 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "pass",
+    "evidence": [
+     "640391 2024: stored US$47,712,601, live US$47,712,601"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 5 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: normal duty 7.67% vs live WITS 7.66666650772095%",
+     "100630: normal duty 0.0% vs live WITS 0.0%",
+     "610910: normal duty 12.0% vs live WITS 12.0%",
+     "import VAT (standard rate): 23% (https://europa.eu/youreurope/business/taxation/vat/vat-rules-rates/index_en.htm)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Proof of origin: Statement on origin (REX) for EU GSP",
+     "cites: Ireland: researched import rules > Ireland: import rules for Indian exporters > Proof",
+     "cites: EU GSP rules of origin page (DG TAXUD): cumulation, REX, sta > Annex 22-07 – statement on origin for the GSP sche"
+    ]
+   }
+  },
+  "LVA": {
+   "live": false,
+   "agreement": "India-EU Free Trade Agreement concluded, not yet in force; EU GSP (Standard GSP) - Regulation (EU) 978/2012 to 31 Dec 2026; Regulation (EU) 2026/1395 applies from 1 Jan 2027 preferences apply to some goods",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: HS6 average (WITS/TRAINS EUN 2023, average of 9 national lines in HS 6403)",
+     "100630: HS6 average (WITS/TRAINS EUN 2023, average of 20 national lines in HS 100)",
+     "610910: national line (WITS/TRAINS EUN 2023, average of 1 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "pass",
+    "evidence": [
+     "Stored 640391 imports 2024: US$26,270,881 (not re-fetched this run)"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 5 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: India 7.67% / normal 7.67% from WITS/TRAINS EUN 2023, average of 9 national lines ",
+     "100630: India 0.0% / normal 0.0% from WITS/TRAINS EUN 2023, average of 20 national lines",
+     "610910: India 12.0% / normal 12.0% from WITS/TRAINS EUN 2023, average of 1 national lines ",
+     "import VAT (standard rate): 21% (https://europa.eu/youreurope/business/taxation/vat/vat-rules-rates/index_en.htm)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Proof of origin: Statement on origin (REX) for EU GSP",
+     "cites: Latvia: researched import rules > Latvia: import rules for Indian exporters > Proof ",
+     "cites: EU GSP rules of origin page (DG TAXUD): cumulation, REX, sta > Annex 22-07 – statement on origin for the GSP sche"
+    ]
+   }
+  },
+  "LTU": {
+   "live": true,
+   "agreement": "India-EU Free Trade Agreement concluded, not yet in force; EU GSP (Standard GSP) - Regulation (EU) 978/2012 to 31 Dec 2026; Regulation (EU) 2026/1395 applies from 1 Jan 2027 preferences apply to some goods",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: HS6 average (WITS/TRAINS EUN 2023, average of 9 national lines in HS 6403)",
+     "100630: HS6 average (WITS/TRAINS EUN 2023, average of 20 national lines in HS 100)",
+     "610910: national line (WITS/TRAINS EUN 2023, average of 1 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "pass",
+    "evidence": [
+     "640391 2024: stored US$44,695,721, live US$44,695,721"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 5 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: normal duty 7.67% vs live WITS 7.66666650772095%",
+     "100630: normal duty 0.0% vs live WITS 0.0%",
+     "610910: normal duty 12.0% vs live WITS 12.0%",
+     "import VAT (standard rate): 21% (https://europa.eu/youreurope/business/taxation/vat/vat-rules-rates/index_en.htm)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Proof of origin: Statement on origin (REX) for EU GSP",
+     "cites: Lithuania: researched import rules > Lithuania: import rules for Indian exporters > Pro",
+     "cites: EU GSP rules of origin page (DG TAXUD): cumulation, REX, sta > Annex 22-07 – statement on origin for the GSP sche"
+    ]
+   }
+  },
+  "LUX": {
+   "live": false,
+   "agreement": "India-EU Free Trade Agreement concluded, not yet in force; EU GSP (Standard GSP) - Regulation (EU) 978/2012 to 31 Dec 2026; Regulation (EU) 2026/1395 applies from 1 Jan 2027 preferences apply to some goods",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: HS6 average (WITS/TRAINS EUN 2023, average of 9 national lines in HS 6403)",
+     "100630: HS6 average (WITS/TRAINS EUN 2023, average of 20 national lines in HS 100)",
+     "610910: national line (WITS/TRAINS EUN 2023, average of 1 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "pass",
+    "evidence": [
+     "Stored 640391 imports 2024: US$7,927,909 (not re-fetched this run)"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 5 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: India 7.67% / normal 7.67% from WITS/TRAINS EUN 2023, average of 9 national lines ",
+     "100630: India 0.0% / normal 0.0% from WITS/TRAINS EUN 2023, average of 20 national lines",
+     "610910: India 12.0% / normal 12.0% from WITS/TRAINS EUN 2023, average of 1 national lines ",
+     "import VAT (standard rate): 17% (https://europa.eu/youreurope/business/taxation/vat/vat-rules-rates/index_en.htm)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Proof of origin: Statement on origin (REX) for EU GSP",
+     "cites: Luxembourg: researched import rules > Luxembourg: import rules for Indian exporters > Pr",
+     "cites: EU GSP rules of origin page (DG TAXUD): cumulation, REX, sta > Annex 22-07 – statement on origin for the GSP sche"
+    ]
+   }
+  },
+  "MLT": {
+   "live": false,
+   "agreement": "India-EU Free Trade Agreement concluded, not yet in force; EU GSP (Standard GSP) - Regulation (EU) 978/2012 to 31 Dec 2026; Regulation (EU) 2026/1395 applies from 1 Jan 2027 preferences apply to some goods",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: HS6 average (WITS/TRAINS EUN 2023, average of 9 national lines in HS 6403)",
+     "100630: HS6 average (WITS/TRAINS EUN 2023, average of 20 national lines in HS 100)",
+     "610910: national line (WITS/TRAINS EUN 2023, average of 1 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "pass",
+    "evidence": [
+     "Stored 640391 imports 2024: US$1,854,674 (not re-fetched this run)"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 5 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: India 7.67% / normal 7.67% from WITS/TRAINS EUN 2023, average of 9 national lines ",
+     "100630: India 0.0% / normal 0.0% from WITS/TRAINS EUN 2023, average of 20 national lines",
+     "610910: India 12.0% / normal 12.0% from WITS/TRAINS EUN 2023, average of 1 national lines ",
+     "import VAT (standard rate): 18% (https://europa.eu/youreurope/business/taxation/vat/vat-rules-rates/index_en.htm)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Proof of origin: Statement on origin (REX) for EU GSP",
+     "cites: Malta: researched import rules > Malta: import rules for Indian exporters > Proof o",
+     "cites: EU GSP rules of origin page (DG TAXUD): cumulation, REX, sta > Annex 22-07 – statement on origin for the GSP sche"
+    ]
+   }
+  },
+  "PRT": {
+   "live": false,
+   "agreement": "India-EU Free Trade Agreement concluded, not yet in force; EU GSP (Standard GSP) - Regulation (EU) 978/2012 to 31 Dec 2026; Regulation (EU) 2026/1395 applies from 1 Jan 2027 preferences apply to some goods",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: HS6 average (WITS/TRAINS EUN 2023, average of 9 national lines in HS 6403)",
+     "100630: HS6 average (WITS/TRAINS EUN 2023, average of 20 national lines in HS 100)",
+     "610910: national line (WITS/TRAINS EUN 2023, average of 1 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "pass",
+    "evidence": [
+     "Stored 640391 imports 2024: US$46,826,840 (not re-fetched this run)"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 5 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: India 7.67% / normal 7.67% from WITS/TRAINS EUN 2023, average of 9 national lines ",
+     "100630: India 0.0% / normal 0.0% from WITS/TRAINS EUN 2023, average of 20 national lines",
+     "610910: India 12.0% / normal 12.0% from WITS/TRAINS EUN 2023, average of 1 national lines ",
+     "import VAT (standard rate): 23% (https://europa.eu/youreurope/business/taxation/vat/vat-rules-rates/index_en.htm)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Proof of origin: Statement on origin (REX) for EU GSP",
+     "cites: Portugal: researched import rules > Portugal: import rules for Indian exporters > Proo",
+     "cites: EU GSP rules of origin page (DG TAXUD): cumulation, REX, sta > Annex 22-07 – statement on origin for the GSP sche"
+    ]
+   }
+  },
+  "ROU": {
+   "live": false,
+   "agreement": "India-EU Free Trade Agreement concluded, not yet in force; EU GSP (Standard GSP) - Regulation (EU) 978/2012 to 31 Dec 2026; Regulation (EU) 2026/1395 applies from 1 Jan 2027 preferences apply to some goods",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: HS6 average (WITS/TRAINS EUN 2023, average of 9 national lines in HS 6403)",
+     "100630: HS6 average (WITS/TRAINS EUN 2023, average of 20 national lines in HS 100)",
+     "610910: national line (WITS/TRAINS EUN 2023, average of 1 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "pass",
+    "evidence": [
+     "Stored 640391 imports 2024: US$117,880,233 (not re-fetched this run)"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 5 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: India 7.67% / normal 7.67% from WITS/TRAINS EUN 2023, average of 9 national lines ",
+     "100630: India 0.0% / normal 0.0% from WITS/TRAINS EUN 2023, average of 20 national lines",
+     "610910: India 12.0% / normal 12.0% from WITS/TRAINS EUN 2023, average of 1 national lines ",
+     "import VAT (standard rate): 21% (https://europa.eu/youreurope/business/taxation/vat/vat-rules-rates/index_en.htm)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Proof of origin: Statement on origin (REX) for EU GSP",
+     "cites: Romania: researched import rules > Romania: import rules for Indian exporters > Proof",
+     "cites: EU GSP rules of origin page (DG TAXUD): cumulation, REX, sta > Annex 22-07 – statement on origin for the GSP sche"
+    ]
+   }
+  },
+  "SVK": {
+   "live": false,
+   "agreement": "India-EU Free Trade Agreement concluded, not yet in force; EU GSP (Standard GSP) - Regulation (EU) 978/2012 to 31 Dec 2026; Regulation (EU) 2026/1395 applies from 1 Jan 2027 preferences apply to some goods",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: HS6 average (WITS/TRAINS EUN 2023, average of 9 national lines in HS 6403)",
+     "100630: HS6 average (WITS/TRAINS EUN 2023, average of 20 national lines in HS 100)",
+     "610910: national line (WITS/TRAINS EUN 2023, average of 1 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "pass",
+    "evidence": [
+     "Stored 640391 imports 2024: US$98,213,459 (not re-fetched this run)"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 5 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: India 7.67% / normal 7.67% from WITS/TRAINS EUN 2023, average of 9 national lines ",
+     "100630: India 0.0% / normal 0.0% from WITS/TRAINS EUN 2023, average of 20 national lines",
+     "610910: India 12.0% / normal 12.0% from WITS/TRAINS EUN 2023, average of 1 national lines ",
+     "import VAT (standard rate): 23% (https://europa.eu/youreurope/business/taxation/vat/vat-rules-rates/index_en.htm)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Proof of origin: Statement on origin (REX) for EU GSP",
+     "cites: Slovakia: researched import rules > Slovakia: import rules for Indian exporters > Proo",
+     "cites: EU GSP rules of origin page (DG TAXUD): cumulation, REX, sta > Annex 22-07 – statement on origin for the GSP sche"
+    ]
+   }
+  },
+  "SVN": {
+   "live": false,
+   "agreement": "India-EU Free Trade Agreement concluded, not yet in force; EU GSP (Standard GSP) - Regulation (EU) 978/2012 to 31 Dec 2026; Regulation (EU) 2026/1395 applies from 1 Jan 2027 preferences apply to some goods",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: HS6 average (WITS/TRAINS EUN 2023, average of 9 national lines in HS 6403)",
+     "100630: HS6 average (WITS/TRAINS EUN 2023, average of 20 national lines in HS 100)",
+     "610910: national line (WITS/TRAINS EUN 2023, average of 1 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "pass",
+    "evidence": [
+     "Stored 640391 imports 2024: US$23,588,919 (not re-fetched this run)"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 5 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: India 7.67% / normal 7.67% from WITS/TRAINS EUN 2023, average of 9 national lines ",
+     "100630: India 0.0% / normal 0.0% from WITS/TRAINS EUN 2023, average of 20 national lines",
+     "610910: India 12.0% / normal 12.0% from WITS/TRAINS EUN 2023, average of 1 national lines ",
+     "import VAT (standard rate): 22% (https://europa.eu/youreurope/business/taxation/vat/vat-rules-rates/index_en.htm)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Proof of origin: Statement on origin (REX) for EU GSP",
+     "cites: Slovenia: researched import rules > Slovenia: import rules for Indian exporters > Proo",
+     "cites: EU GSP rules of origin page (DG TAXUD): cumulation, REX, sta > Annex 22-07 – statement on origin for the GSP sche"
+    ]
+   }
+  },
+  "SWE": {
+   "live": false,
+   "agreement": "India-EU Free Trade Agreement concluded, not yet in force; EU GSP (Standard GSP) - Regulation (EU) 978/2012 to 31 Dec 2026; Regulation (EU) 2026/1395 applies from 1 Jan 2027 preferences apply to some goods",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: HS6 average (WITS/TRAINS EUN 2023, average of 9 national lines in HS 6403)",
+     "100630: HS6 average (WITS/TRAINS EUN 2023, average of 20 national lines in HS 100)",
+     "610910: national line (WITS/TRAINS EUN 2023, average of 1 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "pass",
+    "evidence": [
+     "Stored 640391 imports 2024: US$140,061,580 (not re-fetched this run)"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 5 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: India 7.67% / normal 7.67% from WITS/TRAINS EUN 2023, average of 9 national lines ",
+     "100630: India 0.0% / normal 0.0% from WITS/TRAINS EUN 2023, average of 20 national lines",
+     "610910: India 12.0% / normal 12.0% from WITS/TRAINS EUN 2023, average of 1 national lines ",
+     "import VAT (standard rate): 25% (https://europa.eu/youreurope/business/taxation/vat/vat-rules-rates/index_en.htm)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Proof of origin: Statement on origin (REX) for EU GSP",
+     "cites: Sweden: researched import rules > Sweden: import rules for Indian exporters > Proof ",
+     "cites: EU GSP rules of origin page (DG TAXUD): cumulation, REX, sta > Annex 22-07 – statement on origin for the GSP sche"
+    ]
+   }
+  },
+  "CHE": {
+   "live": false,
+   "agreement": "India-EFTA Trade and Economic Partnership Agreement (TEPA) in force since 2025-10-01",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: national line (WITS/TRAINS CHE 2023, average of 1 national lines in HS 6403)",
+     "100630: HS6 average (WITS/TRAINS CHE 2023, average of 4 national lines in HS 1006)",
+     "610910: national line (WITS/TRAINS CHE 2023, average of 1 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "pass",
+    "evidence": [
+     "Stored 640391 imports 2024: US$275,907,914 (not re-fetched this run)"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 5 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: India 0.0% / normal 0.0% from WITS/TRAINS CHE 2023, average of 1 national lines ",
+     "100630: India 0.0% / normal 0.0% from WITS/TRAINS CHE 2023, average of 4 national lines ",
+     "610910: India 0.0% / normal 0.0% from WITS/TRAINS CHE 2023, average of 1 national lines ",
+     "import VAT (MWST/TVA normal rate; 2.6% reduced for foodstuffs): 8.1% (https://www.estv.admin.ch/en/vat-rates-switzerland)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Proof of origin: TEPA certificate of origin (Appendix 2A.3), issued by authorised Indian a",
+     "cites: Switzerland: researched import rules > Switzerland: import rules for Indian exporters > P",
+     "cites: Annex 2.A - Rules of Origin and Methods of Administrative Co > Appendix 2.A.4 Movement Certificate EUR. 1 2.A - 4"
+    ]
+   }
+  },
+  "NOR": {
+   "live": false,
+   "agreement": "India-EFTA Trade and Economic Partnership Agreement (TEPA) in force since 2025-10-01",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: national line (WITS/TRAINS NOR 2023, average of 1 national lines in HS 6403)",
+     "100630: HS6 average (WITS/TRAINS NOR 2023, average of 2 national lines in HS 1006)",
+     "610910: national line (WITS/TRAINS NOR 2023, average of 1 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "pass",
+    "evidence": [
+     "Stored 640391 imports 2024: US$77,990,834 (not re-fetched this run)"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 5 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: India 0.0% / normal 0.0% from WITS/TRAINS NOR 2023, average of 1 national lines ",
+     "100630: India 0.0% / normal 0.0% from WITS/TRAINS NOR 2023, average of 2 national lines ",
+     "610910: India 10.7% / normal 10.7% from WITS/TRAINS NOR 2023, average of 1 national lines ",
+     "import VAT (MVA general rate; 15% foodstuffs): 25% (https://www.skatteetaten.no/en/rates/value-added-tax/)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Proof of origin: TEPA certificate of origin (Appendix 2A.3), issued by authorised Indian a",
+     "cites: Norway: researched import rules > Norway: import rules for Indian exporters > Proof ",
+     "cites: Annex 2.A - Rules of Origin and Methods of Administrative Co > Appendix 2.A.4 Movement Certificate EUR. 1 2.A - 4"
+    ]
+   }
+  },
+  "ISL": {
+   "live": false,
+   "agreement": "India-EFTA Trade and Economic Partnership Agreement (TEPA) in force since 2025-10-01",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: HS6 average (WITS/TRAINS ISL 2023, average of 3 national lines in HS 6403)",
+     "100630: HS6 average (WITS/TRAINS ISL 2023, average of 2 national lines in HS 1006)",
+     "610910: national line (WITS/TRAINS ISL 2023, average of 1 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "pass",
+    "evidence": [
+     "Stored 640391 imports 2024: US$8,127,153 (not re-fetched this run)"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 5 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: India 0.0% / normal 0.0% from WITS/TRAINS ISL 2023, average of 3 national lines ",
+     "100630: India 0.0% / normal 0.0% from WITS/TRAINS ISL 2023, average of 2 national lines ",
+     "610910: India 0.0% / normal 0.0% from WITS/TRAINS ISL 2023, average of 1 national lines ",
+     "import VAT (VSK standard rate; 11% reduced): 24% (https://www.skatturinn.is/english/companies/value-added-tax/)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Proof of origin: TEPA certificate of origin (Appendix 2A.3), issued by authorised Indian a",
+     "cites: Iceland: researched import rules > Iceland: import rules for Indian exporters > Proof",
+     "cites: Annex 2.A - Rules of Origin and Methods of Administrative Co > Appendix 2.A.4 Movement Certificate EUR. 1 2.A - 4"
+    ]
+   }
+  },
+  "LIE": {
+   "live": false,
+   "agreement": "India-EFTA Trade and Economic Partnership Agreement (TEPA) in force since 2025-10-01",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: national line (WITS/TRAINS CHE 2023, average of 1 national lines in HS 6403)",
+     "100630: HS6 average (WITS/TRAINS CHE 2023, average of 4 national lines in HS 1006)",
+     "610910: national line (WITS/TRAINS CHE 2023, average of 1 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "warn",
+    "evidence": [
+     "Country does not report imports to UN Comtrade for these years; left out of the ranking"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 5 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: India 0.0% / normal 0.0% from WITS/TRAINS CHE 2023, average of 1 national lines ",
+     "100630: India 0.0% / normal 0.0% from WITS/TRAINS CHE 2023, average of 4 national lines ",
+     "610910: India 0.0% / normal 0.0% from WITS/TRAINS CHE 2023, average of 1 national lines ",
+     "import VAT (MWST normal rate, aligned with Switzerland since 1 Jan 2024): 8.1% (https://www.gesetze.li/konso/pdf/2012238000)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Proof of origin: TEPA certificate of origin (Appendix 2A.3), issued by authorised Indian a",
+     "cites: Liechtenstein: researched import rules > Liechtenstein: import rules for Indian exporters >",
+     "cites: Annex 2.A - Rules of Origin and Methods of Administrative Co > Appendix 2.A.4 Movement Certificate EUR. 1 2.A - 4"
+    ]
+   }
+  },
+  "NZL": {
+   "live": false,
+   "agreement": "India-New Zealand Free Trade Agreement (signed 27 Apr 2026) in force since 2026-10-20",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: HS6 average (WITS/TRAINS NZL 2023, average of 3 national lines in HS 6403)",
+     "100630: national line (WITS/TRAINS NZL 2023, average of 1 national lines in HS 1006)",
+     "610910: HS6 average (WITS/TRAINS NZL 2023, average of 3 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "pass",
+    "evidence": [
+     "Stored 640391 imports 2024: US$33,247,695 (not re-fetched this run)"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 5 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: India 6.67% / normal 6.67% from WITS/TRAINS NZL 2023, average of 3 national lines ",
+     "100630: India 0.0% / normal 0.0% from WITS/TRAINS NZL 2023, average of 1 national lines ",
+     "610910: India 10.0% / normal 10.0% from WITS/TRAINS NZL 2023, average of 3 national lines ",
+     "import GST: 15% (https://www.ird.govt.nz/gst)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Proof of origin: Certificate of Origin (Annex 3B format) issued by an Indian issuing body,",
+     "cites: New Zealand: researched import rules > New Zealand: import rules for Indian exporters > P",
+     "cites: NZ Customs - NZ-India FTA Rules of Origin Guidebook > Chapter 3, which includes a good or material of > "
+    ]
+   }
+  },
+  "MUS": {
+   "live": true,
+   "agreement": "India-Mauritius Comprehensive Economic Cooperation and Partnership Agreement (CECPA) (signed 22 Feb 2021) in force since 2021-04-01",
+   "S1": {
+    "status": "pass",
+    "evidence": [
+     "640391: national line (WITS/TRAINS MUS 2023, average of 1 national lines in HS 6403)",
+     "100630: HS6 average (WITS/TRAINS MUS 2023, average of 2 national lines in HS 1006)",
+     "610910: national line (WITS/TRAINS MUS 2023, average of 1 national lines in HS 6109)"
+    ]
+   },
+   "S2": {
+    "status": "pass",
+    "evidence": [
+     "640391 2024: stored US$535,035, live US$535,035"
+    ]
+   },
+   "S5": {
+    "status": "pass",
+    "evidence": [
+     "No unverifiable names shown; 5 official channels"
+    ]
+   },
+   "S6": {
+    "status": "pass",
+    "evidence": [
+     "640391: normal duty 0.0% vs live WITS 0.0%",
+     "100630: normal duty 0.0% vs live WITS 0.0%",
+     "610910: normal duty 0.0% vs live WITS 0.0%",
+     "import VAT: 15% (https://taxsummaries.pwc.com/mauritius/corporate/other-taxes)"
+    ]
+   },
+   "S8": {
+    "status": "pass",
+    "evidence": [
+     "origin doc: Proof of origin: Certificate of Origin under India-Mauritius CECPA",
+     "cites: India-Mauritius CECPA full text (incl. rules of origin chapt > Annex 9. Issuance and acceptance of electronic cer",
+     "cites: India-Mauritius CECPA full text (incl. rules of origin chapt > Annex 9. Issuance and acceptance of electronic cer"
+    ]
+   }
+  }
+ }
+}

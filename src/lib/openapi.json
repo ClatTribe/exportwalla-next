@@ -1,0 +1,237 @@
+{
+ "openapi": "3.1.0",
+ "info": {
+  "title": "Exportwalla public API",
+  "description": "Duty on Indian goods by country, trade rules and HS codes. No key. Also available as an MCP server at /mcp.",
+  "version": "1.0"
+ },
+ "paths": {
+  "/api/public/duty": {
+   "get": {
+    "tags": [
+     "public"
+    ],
+    "summary": "Import duty on an Indian product in a country",
+    "description": "Duty for Indian goods vs the normal rate, with the source. hs6: 6 digits; country: ISO3 (GBR, ARE, USA...).",
+    "operationId": "public_duty_api_public_duty_get",
+    "parameters": [
+     {
+      "name": "hs6",
+      "in": "query",
+      "required": true,
+      "schema": {
+       "type": "string",
+       "title": "Hs6"
+      }
+     },
+     {
+      "name": "country",
+      "in": "query",
+      "required": true,
+      "schema": {
+       "type": "string",
+       "title": "Country"
+      }
+     }
+    ],
+    "responses": {
+     "200": {
+      "description": "Successful Response",
+      "content": {
+       "application/json": {
+        "schema": {}
+       }
+      }
+     },
+     "422": {
+      "description": "Validation Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/HTTPValidationError"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/api/public/country/{iso3}": {
+   "get": {
+    "tags": [
+     "public"
+    ],
+    "summary": "Trade rules for exporting from India to a country",
+    "operationId": "public_country_api_public_country__iso3__get",
+    "parameters": [
+     {
+      "name": "iso3",
+      "in": "path",
+      "required": true,
+      "schema": {
+       "type": "string",
+       "title": "Iso3"
+      }
+     }
+    ],
+    "responses": {
+     "200": {
+      "description": "Successful Response",
+      "content": {
+       "application/json": {
+        "schema": {}
+       }
+      }
+     },
+     "422": {
+      "description": "Validation Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/HTTPValidationError"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/api/public/product/{hs6}": {
+   "get": {
+    "tags": [
+     "public"
+    ],
+    "summary": "HS line, tariff lines and best markets for a product",
+    "operationId": "public_product_api_public_product__hs6__get",
+    "parameters": [
+     {
+      "name": "hs6",
+      "in": "path",
+      "required": true,
+      "schema": {
+       "type": "string",
+       "title": "Hs6"
+      }
+     }
+    ],
+    "responses": {
+     "200": {
+      "description": "Successful Response",
+      "content": {
+       "application/json": {
+        "schema": {}
+       }
+      }
+     },
+     "422": {
+      "description": "Validation Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/HTTPValidationError"
+        }
+       }
+      }
+     }
+    }
+   }
+  },
+  "/api/public/classify": {
+   "get": {
+    "tags": [
+     "public"
+    ],
+    "summary": "HS code candidates for a product description",
+    "operationId": "public_classify_api_public_classify_get",
+    "parameters": [
+     {
+      "name": "q",
+      "in": "query",
+      "required": true,
+      "schema": {
+       "type": "string",
+       "title": "Q"
+      }
+     }
+    ],
+    "responses": {
+     "200": {
+      "description": "Successful Response",
+      "content": {
+       "application/json": {
+        "schema": {}
+       }
+      }
+     },
+     "422": {
+      "description": "Validation Error",
+      "content": {
+       "application/json": {
+        "schema": {
+         "$ref": "#/components/schemas/HTTPValidationError"
+        }
+       }
+      }
+     }
+    }
+   }
+  }
+ },
+ "components": {
+  "schemas": {
+   "HTTPValidationError": {
+    "properties": {
+     "detail": {
+      "items": {
+       "$ref": "#/components/schemas/ValidationError"
+      },
+      "type": "array",
+      "title": "Detail"
+     }
+    },
+    "type": "object",
+    "title": "HTTPValidationError"
+   },
+   "ValidationError": {
+    "properties": {
+     "loc": {
+      "items": {
+       "anyOf": [
+        {
+         "type": "string"
+        },
+        {
+         "type": "integer"
+        }
+       ]
+      },
+      "type": "array",
+      "title": "Location"
+     },
+     "msg": {
+      "type": "string",
+      "title": "Message"
+     },
+     "type": {
+      "type": "string",
+      "title": "Error Type"
+     },
+     "input": {
+      "title": "Input"
+     },
+     "ctx": {
+      "type": "object",
+      "title": "Context"
+     }
+    },
+    "type": "object",
+    "required": [
+     "loc",
+     "msg",
+     "type"
+    ],
+    "title": "ValidationError"
+   }
+  }
+ }
+}

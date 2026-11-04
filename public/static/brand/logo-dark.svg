@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 64" role="img" aria-label="Exportwalla">
+  <rect width="64" height="64" rx="14" fill="#F7941D"/>
+  <path d="M14 30H50V52H14Z" fill="#0B1F3A"/>
+  <path d="M14 30L8 22H28L32 30Z" fill="#163A6B"/>
+  <path d="M50 30L56 22H36L32 30Z" fill="#163A6B"/>
+  <path d="M32 41V11" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round"/>
+  <path d="M23 19L32 10L41 19" fill="none" stroke="#FFFFFF" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <text x="78" y="45" font-family="'Baloo 2', 'SF Pro Rounded', 'Nunito', system-ui, sans-serif" font-size="38" font-weight="800" letter-spacing="-0.5"><tspan fill="#FFFFFF">export</tspan><tspan fill="#F7941D">walla</tspan></text>
+</svg>

@@ -1,0 +1,19 @@
+# Build-only data: the API response cache, the full build database, logs and the macOS OCR tool stay local.
+data/raw
+data/export_desk.db*
+# the database goes up compressed (26 MB, not 119 MB); `prebuild` unpacks it
+data/reference.db
+data/*.log
+data/local.db
+data/uploads
+data/rag_eval*
+tools
+# Migration and test material
+golden
+tests
+.next
+node_modules
+.env
+.env.*
+!.env.example
+samples

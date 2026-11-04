@@ -1,0 +1,29 @@
+<script>
+const META = __META__;
+const n = id => parseFloat($("#" + id).value) || 0, usd = v => "US$" + v.toLocaleString("en-US", {maximumFractionDigits: 2}), inr = v => "₹" + Math.round(v).toLocaleString("en-IN");
+function calc() {
+  const m = META[$("#cty").value], fx = n("fx"), q = Math.max(1, n("qty"));
+  const fobInr = (n("cost") + n("pack")) * q * (1 + n("margin") / 100) + n("inland") + n("port");
+  const fob = fobInr / fx, freight = n("freight"), cif = (fob + freight) / (1 - n("ins") / 100), ins = cif - fob - freight;
+  const base = m.fob ? fob : cif, duty = base * n("duty") / 100, vat = (cif + duty) * n("vat") / 100, landed = cif + duty + vat;
+  $("#calcOut").innerHTML = `<div class="facts"><div><span>Quote FOB</span><b>${usd(fob / q)}</b><small>per piece · ${usd(fob)} total</small></div>
+    <div><span>CIF</span><b>${usd(cif / q)}</b><small>per piece</small></div><div><span>Buyer's landed cost</span><b>${usd(landed / q)}</b><small>per piece, with VAT</small></div>
+    <div><span>Your margin</span><b>${inr((n("cost") + n("pack")) * q * n("margin") / 100)}</b><small>on this shipment</small></div></div>
+    <div class="table-wrap"><table><tbody><tr><td>FOB value</td><td class="num">${usd(fob)}</td></tr><tr><td>Sea freight (${esc(m.lane)})</td><td class="num">${usd(freight)}</td></tr>
+    <tr><td>Insurance</td><td class="num">${usd(ins)}</td></tr><tr><td><b>CIF value</b></td><td class="num"><b>${usd(cif)}</b></td></tr>
+    <tr><td>Import duty ${n("duty")}% on the ${m.fob ? "FOB" : "CIF"} value</td><td class="num">${usd(duty)}</td></tr>
+    <tr><td>${m.vat ? "Import " + esc(m.vatname || "VAT") : "Import VAT or sales tax"} ${n("vat")}% (usually reclaimed)</td><td class="num">${usd(vat)}</td></tr>
+    <tr><td><b>Landed cost</b></td><td class="num"><b>${usd(landed)}</b></td></tr></tbody></table></div>
+    ${dutyNote ? `<p class="src"><b>Duty note:</b> ${esc(dutyNote)} Add any extra duty to the rate above.</p>` : ""}`;
+}
+let dutyNote = "";
+function setCountry() { const m = META[$("#cty").value]; $("#freight").value = m.freight; $("#vat").value = m.vat ?? 0; fillDuty(); }
+async function fillDuty() {
+  const hs = $("#hs").value.trim(); dutyNote = ""; if (!/^\d{6}$/.test(hs)) { calc(); return; }
+  try { const r = await getJSON(`/api/public/duty?hs6=${hs}&country=${$("#cty").value}`); if (r.duty_for_india_pct !== null) $("#duty").value = r.duty_for_india_pct; dutyNote = r.note || ""; } catch (e) {}
+  calc();
+}
+document.querySelectorAll("#calc input").forEach(i => i.addEventListener("input", calc));
+$("#cty").addEventListener("change", setCountry); $("#hs").addEventListener("change", fillDuty);
+setCountry();
+</script>

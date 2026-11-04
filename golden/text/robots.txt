@@ -1,0 +1,176 @@
+# Exportwalla: public reference pages are open to search and AI assistants. The workspace is private.
+User-agent: Googlebot
+Allow: /
+Disallow: /app
+Disallow: /review
+Disallow: /api/
+Allow: /api/public/
+
+User-agent: Bingbot
+Allow: /
+Disallow: /app
+Disallow: /review
+Disallow: /api/
+Allow: /api/public/
+
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /app
+Disallow: /review
+Disallow: /api/
+Allow: /api/public/
+
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /app
+Disallow: /review
+Disallow: /api/
+Allow: /api/public/
+
+User-agent: GPTBot
+Allow: /
+Disallow: /app
+Disallow: /review
+Disallow: /api/
+Allow: /api/public/
+
+User-agent: Claude-SearchBot
+Allow: /
+Disallow: /app
+Disallow: /review
+Disallow: /api/
+Allow: /api/public/
+
+User-agent: Claude-User
+Allow: /
+Disallow: /app
+Disallow: /review
+Disallow: /api/
+Allow: /api/public/
+
+User-agent: ClaudeBot
+Allow: /
+Disallow: /app
+Disallow: /review
+Disallow: /api/
+Allow: /api/public/
+
+User-agent: anthropic-ai
+Allow: /
+Disallow: /app
+Disallow: /review
+Disallow: /api/
+Allow: /api/public/
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /app
+Disallow: /review
+Disallow: /api/
+Allow: /api/public/
+
+User-agent: Perplexity-User
+Allow: /
+Disallow: /app
+Disallow: /review
+Disallow: /api/
+Allow: /api/public/
+
+User-agent: Google-Extended
+Allow: /
+Disallow: /app
+Disallow: /review
+Disallow: /api/
+Allow: /api/public/
+
+User-agent: GoogleOther
+Allow: /
+Disallow: /app
+Disallow: /review
+Disallow: /api/
+Allow: /api/public/
+
+User-agent: Google-CloudVertexBot
+Allow: /
+Disallow: /app
+Disallow: /review
+Disallow: /api/
+Allow: /api/public/
+
+User-agent: Applebot
+Allow: /
+Disallow: /app
+Disallow: /review
+Disallow: /api/
+Allow: /api/public/
+
+User-agent: Applebot-Extended
+Allow: /
+Disallow: /app
+Disallow: /review
+Disallow: /api/
+Allow: /api/public/
+
+User-agent: DuckDuckBot
+Allow: /
+Disallow: /app
+Disallow: /review
+Disallow: /api/
+Allow: /api/public/
+
+User-agent: DuckAssistBot
+Allow: /
+Disallow: /app
+Disallow: /review
+Disallow: /api/
+Allow: /api/public/
+
+User-agent: Meta-ExternalAgent
+Allow: /
+Disallow: /app
+Disallow: /review
+Disallow: /api/
+Allow: /api/public/
+
+User-agent: Meta-ExternalFetcher
+Allow: /
+Disallow: /app
+Disallow: /review
+Disallow: /api/
+Allow: /api/public/
+
+User-agent: Amazonbot
+Allow: /
+Disallow: /app
+Disallow: /review
+Disallow: /api/
+Allow: /api/public/
+
+User-agent: MistralAI-User
+Allow: /
+Disallow: /app
+Disallow: /review
+Disallow: /api/
+Allow: /api/public/
+
+User-agent: CCBot
+Allow: /
+Disallow: /app
+Disallow: /review
+Disallow: /api/
+Allow: /api/public/
+
+User-agent: YandexBot
+Allow: /
+Disallow: /app
+Disallow: /review
+Disallow: /api/
+Allow: /api/public/
+
+User-agent: *
+Disallow: /app
+Disallow: /review
+Disallow: /api/
+Allow: /api/public/
+
+Sitemap: http://localhost:8040/sitemap.xml

@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Review Console</title>
+<link rel="stylesheet" href="/static/style.css"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><meta name="theme-color" content="#0B1F3A"><meta name="robots" content="noindex">
+</head>
+<body>
+<header class="top">
+  <div class="logo"><a href="/" style="text-decoration:none;color:inherit;display:flex;gap:8px;align-items:center" aria-label="Exportwalla home"><img src="/static/brand/mark.svg" alt="" width="28" height="28"><span>export<b>walla</b></span></a> · Review console</div>
+  <nav><a href="/app">Workspace</a></nav>
+</header>
+<main>
+  <h1>What you've checked</h1>
+  <p class="muted">Every ✓/✗ you give in the workspace (turn on <em>Review mode</em>) lands here. Wrong answers with your
+    correction become the golden set that <code>evals/run_evals.py</code> replays after every change.</p>
+  <div class="card"><h3>Every country × every stage <span class="small muted" id="vmMeta"></span></h3>
+    <p class="small muted">Automatic checks against the record keepers (<code>python -m evals.verify_matrix</code>). Click a cell for the evidence.
+      Your ✓/✗ for that country and stage are counted beside the automatic result.</p>
+    <div id="vmTally" class="small" style="margin:6px 0 10px"></div>
+    <div class="table-wrap" style="max-height:560px;overflow:auto"><table id="vm"></table></div>
+    <div id="vmDetail" class="small"></div></div>
+  <div class="card"><h3>Accuracy by feature</h3><div class="table-wrap"><table id="stats"></table></div></div>
+  <div class="card"><h3>Data loaded</h3><div class="table-wrap"><table id="data"></table></div></div>
+  <div class="card"><h3>Latest reviews</h3><div class="table-wrap"><table id="items"></table></div></div>
+</main>
+<script>
+const esc = (s) => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const short = (s) => { try { const v = JSON.parse(s); return typeof v === "string" ? v : JSON.stringify(v); } catch { return s; } };
+// Operator only: the console's data needs OPERATOR_TOKEN (asked once, kept in this browser).
+function opToken(force) {
+  let t = ""; try { t = localStorage.getItem("operator_token") || ""; } catch {}
+  if (!t || force) { t = prompt("Operator token") || ""; try { localStorage.setItem("operator_token", t); } catch {} }
+  return t;
+}
+const opFetch = (url) => fetch(url, { headers: { "X-Operator-Token": opToken(false) } }).then(r => {
+  if (r.status === 401 || r.status === 403) { opToken(true); throw new Error("operator token rejected: reload to try again"); }
+  return r.json(); });
+const STAGE_OF = {hs6: "S1", uk_code: "S1", us_code: "S1", uk_duty: "S6", country_rank: "S2", buyer: "S5", buyer_channel: "S5",
+  outreach: "S5", quote: "S6", duty: "S6", doc_proforma: "S8", doc_packing: "S8", doc_origin_field: "S8", origin_doc: "S8", rag_answer: "S8"};
+const ICON = {pass: "✅", warn: "⚠️", fail: "❌"};
+Promise.all([opFetch("/api/verify"), opFetch("/api/reviews")]).then(([vm, rv]) => {
+  const human = {};
+  for (const i of rv.items) {
+    const st = STAGE_OF[i.feature]; if (!st) continue;
+    const iso = /^[A-Z]{3}[:#]/.test(i.item_key) ? i.item_key.slice(0, 3) : "ALL";
+    const k = iso + st; human[k] = human[k] || {ok: 0, bad: 0};
+    if (i.verdict === "correct") human[k].ok++; else if (i.verdict === "wrong") human[k].bad++;
+  }
+  const C = vm.countries || {}, S = ["S1", "S2", "S5", "S6", "S8"], NAMES = {S1: "1 Diagnose", S2: "2 Country", S5: "5 Buyers", S6: "6 Quote", S8: "8 Documents"};
+  document.getElementById("vmMeta").textContent = vm.run_at ? `run ${vm.run_at.slice(0, 16)} · products: ${(vm.products || []).join(", ")}` : "not run yet";
+  if (vm.tally) document.getElementById("vmTally").innerHTML = S.map(s => `<span class="badge b-desk" style="margin-right:6px">${NAMES[s]}: ✅ ${vm.tally[s].pass} · ⚠️ ${vm.tally[s].warn} · ❌ ${vm.tally[s].fail}</span>`).join("")
+    + (vm.global_s1 ? `<div style="margin-top:6px">Stage 1 on ${vm.global_s1.products.length} test products: our HS6 matches the labelled key on <strong>${vm.global_s1.ours_vs_key}</strong>; the UK government tariff search gets <strong>${vm.global_s1.uk_search_vs_key}</strong>. The key is a starting point; your reviews override it.</div>` : "");
+  document.getElementById("vm").innerHTML = `<tr><th>Country</th><th>Trade deal</th>${S.map(s => `<th>${NAMES[s]}</th>`).join("")}</tr>` +
+    Object.entries(C).map(([iso, row]) => `<tr><td><strong>${iso}</strong>${row.live ? ' <span class="badge b-ok">live</span>' : ""}</td><td class="small">${esc(row.agreement)}</td>` +
+      S.map(s => { const h = human[iso + s]; return `<td style="cursor:pointer" data-iso="${iso}" data-s="${s}">${ICON[row[s].status]}${h ? ` <span class="small">👤${h.ok}✓${h.bad ? " " + h.bad + "✗" : ""}</span>` : ""}</td>`; }).join("") + `</tr>`).join("");
+  document.getElementById("vm").onclick = (e) => {
+    const td = e.target.closest("[data-iso]"); if (!td) return;
+    const cell = C[td.dataset.iso][td.dataset.s];
+    document.getElementById("vmDetail").innerHTML = `<div class="notice info"><strong>${td.dataset.iso} · ${NAMES[td.dataset.s]}: ${cell.status}</strong><ul>${cell.evidence.map(x => `<li>${esc(x)}</li>`).join("")}</ul></div>`;
+  };
+});
+Promise.all([opFetch("/api/reviews"), fetch("/api/status").then(r => r.json())]).then(([rv, st]) => {
+  document.getElementById("stats").innerHTML = `<tr><th>Feature</th><th class="num">Reviewed</th><th class="num">Right</th><th class="num">Wrong</th><th class="num">Unsure</th><th class="num">Accuracy</th></tr>` +
+    (rv.stats.length ? rv.stats.map(s => `<tr><td>${esc(s.feature)}</td><td class="num">${s.n}</td><td class="num">${s.correct || 0}</td><td class="num">${s.wrong || 0}</td><td class="num">${s.unsure || 0}</td><td class="num">${s.accuracy == null ? "–" : s.accuracy + "%"}</td></tr>`).join("")
+      : `<tr><td colspan="6" class="muted">No reviews yet.</td></tr>`);
+  document.getElementById("data").innerHTML = Object.entries(st.counts).map(([k, v]) => `<tr><td>${k}</td><td class="num">${v.toLocaleString()}</td></tr>`).join("") +
+    `<tr><td>AI (Claude)</td><td class="num">${st.ai ? "on" : "off"}</td></tr>` +
+    st.runs.map(r => `<tr><td class="small muted">${esc(r.source)} run</td><td class="num small muted">${esc(r.status)} · ${r.rows ?? "…"} rows · ${esc((r.finished_at || r.started_at || "").slice(0, 16))}</td></tr>`).join("");
+  document.getElementById("items").innerHTML = `<tr><th>When</th><th>Feature</th><th>Item</th><th>Verdict</th><th>Output</th><th>Correction / note</th></tr>` +
+    rv.items.map(i => `<tr><td class="small">${esc(i.created_at.slice(0, 16))}</td><td>${esc(i.feature)}</td><td class="small">${esc(i.item_key)}</td>
+      <td><span class="badge ${i.verdict === "correct" ? "b-ok" : i.verdict === "wrong" ? "b-bad" : "b-warn"}">${esc(i.verdict)}</span></td>
+      <td class="small">${esc(short(i.output)).slice(0, 160)}</td><td class="small">${esc(i.correction || i.note)}</td></tr>`).join("");
+});
+</script>
+</body>
+</html>

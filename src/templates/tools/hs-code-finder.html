@@ -1,0 +1,17 @@
+<script>
+const pages = __PAGES__;
+$("#hsForm").addEventListener("submit", async ev => {
+  ev.preventDefault(); const out = $("#hsOut"); out.innerHTML = "<p>Searching the tariff…</p>";
+  try {
+    const r = await getJSON("/api/public/classify?q=" + encodeURIComponent($("#q").value));
+    if (!r.hs6) { out.innerHTML = "<p>No match. Try simpler words: what it is made of and what it is for.</p>"; return; }
+    const link = h => pages[h] ? ` <a href="/hs-code/${pages[h]}">duty in every market →</a>` : "";
+    const seen = new Set([r.hs6]), others = (r.candidates || []).filter(c => { const h = c.code.slice(0, 6); if (seen.has(h)) return false; seen.add(h); return true; }).slice(0, 5)
+      .map(c => { const h = c.code.slice(0, 6), parts = c.path.split(" > ").map(x => x.trim()).filter(Boolean);
+        return `<li><b>HS ${h}</b>: ${esc(parts.slice(-2).join(" › "))}${link(h)}</li>`; }).join("");
+    out.innerHTML = `<div class="answer"><b>Most likely: HS ${r.hs6}</b> <small>(${esc(r.confidence)} confidence)</small><br>${esc(r.description)}${link(r.hs6)}</div>
+      ${others ? `<p>Other possible codes:</p><ul>${others}</ul>` : ""}
+      <p class="src">${esc(r.note)} Next: <a href="/tools/import-duty?hs6=${r.hs6}">check the duty for HS ${r.hs6}</a>.</p>`;
+  } catch (err) { out.innerHTML = `<p>${esc(err.message)}</p>`; }
+});
+</script>

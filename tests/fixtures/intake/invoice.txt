@@ -1,0 +1,15 @@
+EXPORT INVOICE
+Exporter: Kanpur Leather Works, Plot 25, MIDC, Tiruppur, Tamil Nadu - 755294
+GSTIN: 33BQIQX8127G6ZA
+IEC No: AAACK1234P
+Email: sales0@kanpur.in  Phone: +91 9638014093
+
+Consignee: Acme Imports Ltd, USA
+Port of discharge: Hamburg, USA
+Country of final destination: USA
+S.No  Description  HSN  Qty  Rate  Amount
+1. Basmati rice 1121 sella  HSN 1006 3020    Rs.2,038.00/kg
+2. Frozen vannamei shrimp 31/40  HSN 0306.17.20  1,492 sets  ₹3,312.50/kg
+3. Terry bath towels 500 GSM  HS code 630260  3,548 sets  ₹4,779 per pc
+4. Men's leather Chelsea boots, cow leather upper, TPR sole  ITC 6403 9190  1,867 sets  Rs.374
+Total  559,877

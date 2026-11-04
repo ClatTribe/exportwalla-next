@@ -1,0 +1,16 @@
+{"as_of": "2026-11-02",
+ "note": "Placeholders for destinations outside the two researched sets. No facts guessed: unknown fields are null and the desk confirms.",
+ "countries": [
+  {"iso3": "TZA", "name": "Tanzania", "region": "Africa", "eu_member": false, "agreements": [],
+   "gsp": {"scheme": null, "india_beneficiary": null, "notes": "not researched", "source_url": null},
+   "origin_proof": {"preferential_document": null, "issued_by": null, "how": null, "source_url": null},
+   "non_preferential_coo": {"needed": null, "issued_by": null, "source_url": null},
+   "import_vat": {"rate_pct": null, "name": "VAT", "source_url": null},
+   "customs_url": null, "india_mission_commerce_url": null, "rules_docs": [], "import_notes": [], "confidence": "low"},
+  {"iso3": "IRQ", "name": "Iraq", "region": "Middle East", "eu_member": false, "agreements": [],
+   "gsp": {"scheme": null, "india_beneficiary": null, "notes": "not researched", "source_url": null},
+   "origin_proof": {"preferential_document": null, "issued_by": null, "how": null, "source_url": null},
+   "non_preferential_coo": {"needed": null, "issued_by": null, "source_url": null},
+   "import_vat": {"rate_pct": null, "name": "sales tax", "source_url": null},
+   "customs_url": null, "india_mission_commerce_url": null, "rules_docs": [], "import_notes": [], "confidence": "low"}
+ ]}

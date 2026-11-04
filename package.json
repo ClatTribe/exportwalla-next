@@ -1,0 +1,43 @@
+{
+  "name": "exportwalla-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint",
+    "test": "vitest run",
+    "test:parity": "vitest run tests/",
+    "data": "tsx src/pipeline/cli.ts",
+    "test:pipeline": "PIPELINE_TEST=1 SKIP_BUILD=1 vitest run tests/pipeline.parity.test.ts",
+    "check": "tsx src/checks/cli.ts",
+    "release": "tsx src/checks/release.ts",
+    "prebuild": "tsx src/pipeline/fetchReference.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^1.4.0",
+    "better-sqlite3": "^12.11.1",
+    "next": "16.4.4",
+    "nodemailer": "10.1.7",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "unpdf": "^1.9.1"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^9.6.0",
+    "@types/node": "^20",
+    "@types/nodemailer": "^8.0.2",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.4",
+    "playwright-core": "1.64.1",
+    "tsx": "^4.23.15",
+    "typescript": "^5",
+    "vitest": "^3.2.7"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

@@ -1,0 +1,17 @@
+<script>
+const Q = __Q__;
+$("#quiz").addEventListener("submit", ev => {
+  ev.preventDefault();
+  const f = new FormData(ev.target), dims = {}; let total = 0, gaps = [];
+  Q.forEach((q, i) => { const v = +f.get("q" + i); total += v; dims[q.dim] = (dims[q.dim] || [0, 0]); dims[q.dim][0] += v; dims[q.dim][1] += 2;
+    if (v < 2) gaps.push([v, q]); });
+  const score = Math.round(total / (Q.length * 2) * 100);
+  const verdict = score >= 75 ? "Ready for a first order" : score >= 50 ? "Nearly ready" : "Getting ready";
+  gaps.sort((a, b) => a[0] - b[0]);
+  $("#quizOut").innerHTML = `<div class="answer"><b>${verdict}: ${score} out of 100.</b> ${gaps.length ? `Fix these ${gaps.length} things, most urgent first.` : "You have the basics in place: check your product in the workspace next."}</div>
+    <div class="facts">${Object.entries(dims).map(([k, [a, b]]) => `<div><span>${k}</span><b>${Math.round(a / b * 100)}%</b></div>`).join("")}</div>
+    ${gaps.length ? `<ol>${gaps.map(([v, q]) => `<li><a href="${q.link}">${esc(q.fix)}</a>${v === 0 ? " <small>(start here)</small>" : ""}</li>`).join("")}</ol>` : ""}
+    <p><a class="pill go" href="/app">Check my product, free →</a> <button type="button" class="pill dark" style="border:0;cursor:pointer;font:inherit;font-weight:700" data-ask data-ask-step="readiness" data-ask-title="Help me get export-ready" data-ask-message="${esc("Readiness score " + score + "/100. To fix: " + gaps.map(([v, q]) => q.fix).join("; "))}">Ask the desk to help</button></p>`;
+  $("#quizOut").scrollIntoView({behavior: "smooth"});
+});
+</script>

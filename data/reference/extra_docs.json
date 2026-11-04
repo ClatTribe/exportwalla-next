@@ -1,0 +1,622 @@
+{
+ "as_of": "2026-11-02",
+ "docs": [
+  {
+   "countries": [
+    "CHE",
+    "NOR",
+    "ISL",
+    "LIE"
+   ],
+   "agreement": "India-EFTA TEPA",
+   "title": "Annex 2.A - Rules of Origin and Methods of Administrative Cooperation",
+   "url": "https://www.commerce.gov.in/files/2025-08/2.A-Annex-Rules-of-Origin_India-EFTA-TEPA-1.pdf",
+   "format": "pdf",
+   "covers": "rules of origin",
+   "http_status": 200,
+   "official_source": "Department of Commerce, Government of India (commerce.gov.in)"
+  },
+  {
+   "countries": [
+    "CHE",
+    "NOR",
+    "ISL",
+    "LIE"
+   ],
+   "agreement": "India-EFTA TEPA",
+   "title": "Appendix 2.A.1 - Product-Specific Rules of Origin",
+   "url": "https://www.commerce.gov.in/files/2025-08/2.A.1-Appendix-Prodct-Specific-Rules-of-Origin-PSR_India-EFTA-TEPA-1.pdf",
+   "format": "pdf",
+   "covers": "rules of origin",
+   "http_status": 200,
+   "official_source": "Department of Commerce, Government of India (commerce.gov.in)"
+  },
+  {
+   "countries": [
+    "CHE",
+    "NOR",
+    "ISL",
+    "LIE"
+   ],
+   "agreement": "India-EFTA TEPA",
+   "title": "Appendix 2.A.2 - Origin Declaration",
+   "url": "https://www.commerce.gov.in/files/2025-08/2.A.2-Appendix-Origin-Declaration_India-EFTA-TEPA-1.pdf",
+   "format": "pdf",
+   "covers": "origin declaration",
+   "http_status": 200,
+   "official_source": "Department of Commerce, Government of India (commerce.gov.in)"
+  },
+  {
+   "countries": [
+    "CHE",
+    "NOR",
+    "ISL",
+    "LIE"
+   ],
+   "agreement": "India-EFTA TEPA",
+   "title": "Appendix 2.A.3 - India-EFTA Certificate of Origin",
+   "url": "https://www.commerce.gov.in/files/2025-08/2.A.3-Appendix-Origin-Certification_India-EFTA-TEPA-1.pdf",
+   "format": "pdf",
+   "covers": "origin declaration",
+   "http_status": 200,
+   "official_source": "Department of Commerce, Government of India (commerce.gov.in)"
+  },
+  {
+   "countries": [
+    "CHE",
+    "NOR",
+    "ISL",
+    "LIE"
+   ],
+   "agreement": "India-EFTA TEPA",
+   "title": "Appendix 2.A.4 - Movement Certificate EUR.1",
+   "url": "https://www.commerce.gov.in/files/2025-08/2.A.4-Appendix-Movement-Certificate-EUR.1_India-EFTA-TEPA-1.pdf",
+   "format": "pdf",
+   "covers": "origin declaration",
+   "http_status": 200,
+   "official_source": "Department of Commerce, Government of India (commerce.gov.in)"
+  },
+  {
+   "countries": [
+    "CHE",
+    "NOR",
+    "ISL",
+    "LIE"
+   ],
+   "agreement": "India-EFTA TEPA",
+   "title": "Chapter 2 - Trade in Goods (main agreement) [image-only PDF, needs OCR]",
+   "url": "https://www.commerce.gov.in/files/2025-08/2-Trade-in-Goods_India-EFTA-TEPA-1.pdf",
+   "format": "pdf",
+   "covers": "rules of origin",
+   "http_status": 200,
+   "official_source": "Department of Commerce, Government of India (commerce.gov.in)"
+  },
+  {
+   "countries": [
+    "CHE",
+    "NOR",
+    "ISL",
+    "LIE"
+   ],
+   "agreement": "India-EFTA TEPA",
+   "title": "Handels- und Wirtschaftspartnerschaftsabkommen EFTA-Indien, full main agreement (German, LGBl. 2025 Nr. 434, LR 0.632.311.651; annexes not included)",
+   "url": "https://www.gesetze.li/konso/pdf/2025434000?version=1",
+   "format": "pdf",
+   "covers": "rules of origin",
+   "http_status": 200,
+   "official_source": "Government of Liechtenstein (Liechtensteinisches Landesgesetzblatt, gesetze.li)"
+  },
+  {
+   "countries": [
+    "CHE",
+    "NOR",
+    "ISL",
+    "LIE"
+   ],
+   "agreement": "India-EFTA TEPA",
+   "title": "Handels- und Wirtschaftspartnerschaftsabkommen EFTA-Indien, main agreement (German translation, provisional version attached to Federal Council message)",
+   "url": "https://www.newsd.admin.ch/newsd/message/attachments/89474.pdf",
+   "format": "pdf",
+   "covers": "rules of origin",
+   "http_status": 200,
+   "official_source": "Swiss Federal Council / SECO (admin.ch)"
+  },
+  {
+   "countries": [
+    "CHE",
+    "NOR",
+    "ISL",
+    "LIE"
+   ],
+   "agreement": "India-EFTA TEPA",
+   "title": "Anhang 2.A - Ursprungsregeln und Verwaltungszusammenarbeit (German translation of Annex 2.A)",
+   "url": "https://www.bazg.admin.ch/dam/de/sd-web/0pp-LgkBHBpQ/5_4_in_de.pdf",
+   "format": "pdf",
+   "covers": "rules of origin",
+   "http_status": 200,
+   "official_source": "Swiss Federal Office for Customs and Border Security (BAZG)"
+  },
+  {
+   "countries": [
+    "CHE",
+    "NOR",
+    "ISL",
+    "LIE"
+   ],
+   "agreement": "India-EFTA TEPA",
+   "title": "Appendix 2.A.3 to Annex 2.A - EFTA-India Certificate of Origin (form and overleaf notes, English)",
+   "url": "https://www.bazg.admin.ch/dam/en/sd-web/IYDwfSZA4syc/1_6_4_in_en.pdf",
+   "format": "pdf",
+   "covers": "origin declaration",
+   "http_status": 200,
+   "official_source": "Swiss Federal Office for Customs and Border Security (BAZG)"
+  },
+  {
+   "countries": [
+    "CHE",
+    "NOR",
+    "ISL",
+    "LIE"
+   ],
+   "agreement": "India-EFTA TEPA",
+   "title": "Zirkular R-30: Inkrafttreten des Abkommens EFTA-Indien auf den 1. Oktober 2025 (origin rules, proofs of origin, tolerances)",
+   "url": "https://www.bazg.admin.ch/dam/de/sd-web/owg43YRAdZWp/zirkular-fha-indien-de.pdf",
+   "format": "pdf",
+   "covers": "procedures",
+   "http_status": 200,
+   "official_source": "Swiss Federal Office for Customs and Border Security (BAZG)"
+  },
+  {
+   "countries": [
+    "CHE",
+    "NOR",
+    "ISL",
+    "LIE"
+   ],
+   "agreement": "India-EFTA TEPA",
+   "title": "DGFT Trade Notice 13/2025-26: Electronic filing and issuance of preferential CoO under India-EFTA TEPA from 1 Oct 2025",
+   "url": "https://content.dgft.gov.in/Website/dgftprod/08f5d28b-7565-4efd-b7e1-0efa037908e0/Trade%20Notice%2013_%20IND-EFTA%20TEPA%2030092025%20signed.pdf",
+   "format": "pdf",
+   "covers": "procedures",
+   "http_status": 200,
+   "official_source": "Directorate General of Foreign Trade, Government of India"
+  },
+  {
+   "countries": [
+    "JPN"
+   ],
+   "agreement": "India-Japan CEPA",
+   "title": "Chapter 3 - Rules of Origin (agreement text excerpt)",
+   "url": "https://www.customs.go.jp/roo/english/text/india1.pdf",
+   "format": "pdf",
+   "covers": "rules of origin",
+   "http_status": 200,
+   "official_source": "Japan Customs (Ministry of Finance)"
+  },
+  {
+   "countries": [
+    "JPN"
+   ],
+   "agreement": "India-Japan CEPA",
+   "title": "Annex 2 - Product Specific Rules",
+   "url": "https://www.customs.go.jp/roo/english/text/india2.pdf",
+   "format": "pdf",
+   "covers": "rules of origin",
+   "http_status": 200,
+   "official_source": "Japan Customs (Ministry of Finance)"
+  },
+  {
+   "countries": [
+    "JPN"
+   ],
+   "agreement": "India-Japan CEPA",
+   "title": "Annex 3 - Operational Certification Procedures",
+   "url": "https://www.customs.go.jp/roo/english/text/india3.pdf",
+   "format": "pdf",
+   "covers": "procedures",
+   "http_status": 200,
+   "official_source": "Japan Customs (Ministry of Finance)"
+  },
+  {
+   "countries": [
+    "JPN"
+   ],
+   "agreement": "India-Japan CEPA",
+   "title": "Implementing Procedures (Section 11 of Annex 3) - certificate of origin rules",
+   "url": "https://www.customs.go.jp/roo/english/text/india4.pdf",
+   "format": "pdf",
+   "covers": "procedures",
+   "http_status": 200,
+   "official_source": "Japan Customs (Ministry of Finance)"
+  },
+  {
+   "countries": [
+    "JPN"
+   ],
+   "agreement": "India-Japan CEPA",
+   "title": "Comprehensive Economic Partnership Agreement between India and Japan, full text with annexes (incl. Chapter 3, Annex 2, Annex 3)",
+   "url": "https://www.commerce.gov.in/files/2025-04/IJCEPA_Basic_Agreement.pdf",
+   "format": "pdf",
+   "covers": "rules of origin",
+   "http_status": 200,
+   "official_source": "Department of Commerce, Government of India (commerce.gov.in)"
+  },
+  {
+   "countries": [
+    "VNM",
+    "IDN",
+    "PHL",
+    "THA",
+    "MYS",
+    "SGP"
+   ],
+   "agreement": "ASEAN-India AITIGA",
+   "title": "Agreement on Trade in Goods (ASEAN-India) with Annex 2 Rules of Origin, Appendix D OCP and Form AI",
+   "url": "https://image.mfa.go.th/mfa/0/6p4M7ae5k9/ASEAN-India.pdf",
+   "format": "pdf",
+   "covers": "rules of origin",
+   "http_status": 200,
+   "official_source": "Ministry of Foreign Affairs, Thailand"
+  },
+  {
+   "countries": [
+    "VNM",
+    "IDN",
+    "PHL",
+    "THA",
+    "MYS",
+    "SGP"
+   ],
+   "agreement": "ASEAN-India AITIGA",
+   "title": "Agreement on Trade in Goods under the ASEAN-India Framework Agreement, incl. Annex 2 Rules of Origin",
+   "url": "https://www.asean.org/wp-content/uploads/images/archive/22677.pdf",
+   "format": "pdf",
+   "covers": "rules of origin",
+   "http_status": 200,
+   "official_source": "ASEAN Secretariat (asean.org)"
+  },
+  {
+   "countries": [
+    "VNM",
+    "IDN",
+    "PHL",
+    "THA",
+    "MYS",
+    "SGP"
+   ],
+   "agreement": "ASEAN-India AITIGA",
+   "title": "Appendix C (Single List of Textiles) and Appendix D - Operational Certification Procedures for the AIFTA Rules of Origin",
+   "url": "https://www.enterprisesg.gov.sg/-/media/esg/files/non-financial-assistance/for-companies/free-trade-agreements/ASEAN-India-FTA/Legal-Text/Appendix-C-Single-List-of-Textiles-Textile-Products-Appendix-D-Operational-Certification-Procedures.pdf",
+   "format": "pdf",
+   "covers": "procedures",
+   "http_status": 200,
+   "official_source": "Enterprise Singapore (Government of Singapore)"
+  },
+  {
+   "countries": [
+    "VNM",
+    "IDN",
+    "PHL",
+    "THA",
+    "MYS",
+    "SGP"
+   ],
+   "agreement": "ASEAN-India AITIGA",
+   "title": "Attachment to Appendix D - Form AI certificate of origin and overleaf notes",
+   "url": "https://www.enterprisesg.gov.sg/-/media/esg/files/non-financial-assistance/for-companies/free-trade-agreements/ASEAN-India-FTA/Legal-Text/Attachment-to-Appendix-D-Operational-Certification-Procedures.pdf",
+   "format": "pdf",
+   "covers": "origin declaration",
+   "http_status": 200,
+   "official_source": "Enterprise Singapore (Government of Singapore)"
+  },
+  {
+   "countries": [
+    "VNM",
+    "IDN",
+    "PHL",
+    "THA",
+    "MYS",
+    "SGP"
+   ],
+   "agreement": "ASEAN-India AITIGA",
+   "title": "Agreement on Trade in Goods (Bangkok, 2009), incl. Annex 2 Rules of Origin",
+   "url": "https://www.bruneitrade.mofe.gov.bn/wp-content/uploads/2025/11/Agreement-in-Trade-in-Goods-under-the-Framework-Agreement-on-Comprehensive-Economic-Cooperation-between-ASEAN-and-the-Republic-of-India-Bangkok.pdf",
+   "format": "pdf",
+   "covers": "rules of origin",
+   "http_status": 200,
+   "official_source": "Ministry of Finance and Economy, Brunei Darussalam"
+  },
+  {
+   "countries": [
+    "VNM",
+    "IDN",
+    "PHL",
+    "THA",
+    "MYS",
+    "SGP"
+   ],
+   "agreement": "ASEAN-India AITIGA",
+   "title": "Appendix C and Appendix D - Operational Certification Procedures",
+   "url": "https://www.bruneitrade.mofe.gov.bn/wp-content/uploads/2025/11/Appendix-C-Single-List-of-Textiles-Textile-Products-Appendix-D-Operational-Certification-Procedures.pdf",
+   "format": "pdf",
+   "covers": "procedures",
+   "http_status": 200,
+   "official_source": "Ministry of Finance and Economy, Brunei Darussalam"
+  },
+  {
+   "countries": [
+    "VNM",
+    "IDN",
+    "PHL",
+    "THA",
+    "MYS",
+    "SGP"
+   ],
+   "agreement": "ASEAN-India AITIGA",
+   "title": "Attachment to Appendix D - Form AI",
+   "url": "https://www.bruneitrade.mofe.gov.bn/wp-content/uploads/2025/11/Attachment-to-Appendix-D-Operational-Certification-Procedures.pdf",
+   "format": "pdf",
+   "covers": "origin declaration",
+   "http_status": 200,
+   "official_source": "Ministry of Finance and Economy, Brunei Darussalam"
+  },
+  {
+   "countries": [
+    "VNM",
+    "IDN",
+    "PHL",
+    "THA",
+    "MYS",
+    "SGP"
+   ],
+   "agreement": "ASEAN-India AITIGA",
+   "title": "Form AI specimen with overleaf notes",
+   "url": "https://laotradeportal.gov.la/upload/files/Form_AI_25.8.17.pdf",
+   "format": "pdf",
+   "covers": "origin declaration",
+   "http_status": 200,
+   "official_source": "Lao Trade Portal, Ministry of Industry and Commerce, Lao PDR"
+  },
+  {
+   "countries": [
+    "BRA"
+   ],
+   "agreement": "India-MERCOSUR PTA",
+   "title": "Anexo III - Regime de Origem (Portuguese, as promulgated by Decreto 6.864/2009)",
+   "url": "https://www.gov.br/mdic/pt-br/arquivos/dwnla_1245176421.pdf",
+   "format": "pdf",
+   "covers": "rules of origin",
+   "http_status": 200,
+   "official_source": "Ministry of Development, Industry, Trade and Services (MDIC), Brazil"
+  },
+  {
+   "countries": [
+    "BRA"
+   ],
+   "agreement": "India-MERCOSUR PTA",
+   "title": "Ficha Tecnica ACP Mercosul-India (origin regime summary, SECEX/CGRO, 05.12.2023)",
+   "url": "https://www.gov.br/siscomex/pt-br/acordos-comerciais/arquivos/FichaTcnica_Mercosulndia_05.12.23.pdf",
+   "format": "pdf",
+   "covers": "rules of origin",
+   "http_status": 200,
+   "official_source": "SECEX/MDIC via Portal Siscomex, Brazil"
+  },
+  {
+   "countries": [
+    "BRA"
+   ],
+   "agreement": "India-MERCOSUR PTA",
+   "title": "Portaria SECEX no 13/2009 - instructions for completing the Mercosur-India certificate of origin",
+   "url": "https://www.gov.br/mdic/pt-br/acesso-a-informacao/arquivos/dwnla_1244144052.pdf",
+   "format": "pdf",
+   "covers": "procedures",
+   "http_status": 200,
+   "official_source": "SECEX/MDIC, Brazil"
+  },
+  {
+   "countries": [
+    "BRA"
+   ],
+   "agreement": "India-MERCOSUR PTA",
+   "title": "Portaria SECEX no 22/2009 - amendment to certificate of origin instructions",
+   "url": "https://www.gov.br/mdic/pt-br/arquivos/dwnla_1250534923.pdf",
+   "format": "pdf",
+   "covers": "procedures",
+   "http_status": 200,
+   "official_source": "SECEX/MDIC, Brazil"
+  },
+  {
+   "countries": [
+    "BRA"
+   ],
+   "agreement": "India-MERCOSUR PTA",
+   "title": "Texto do Acordo de Comercio Preferencial Mercosul-India (main agreement, Portuguese)",
+   "url": "https://www.gov.br/siscomex/pt-br/arquivos-e-imagens/2021/04/TextodoacordoMercosul_India.pdf",
+   "format": "pdf",
+   "covers": "rules of origin",
+   "http_status": 200,
+   "official_source": "SECEX/MDIC via Portal Siscomex, Brazil"
+  },
+  {
+   "countries": [
+    "BRA"
+   ],
+   "agreement": "India-MERCOSUR PTA",
+   "title": "India-MERCOSUR PTA with annexes (English) [image-only PDF, needs OCR]",
+   "url": "https://www.commerce.gov.in/files/2025-01/India-Mercosur-PTA.pdf",
+   "format": "pdf",
+   "covers": "rules of origin",
+   "http_status": 200,
+   "official_source": "Department of Commerce, Government of India (commerce.gov.in)"
+  },
+  {
+   "countries": [
+    "EGY",
+    "NGA"
+   ],
+   "agreement": "GSTP",
+   "title": "Global System of Trade Preferences: agreement text, Annex II Rules of Origin and GSTP certificate of origin (combined declaration and certificate)",
+   "url": "https://www.eicindia.gov.in/WebApp1/resources/PDF/Global_System_of_Trade_Preferences.pdf",
+   "format": "pdf",
+   "covers": "rules of origin",
+   "http_status": 200,
+   "official_source": "Export Inspection Council of India, Ministry of Commerce and Industry"
+  },
+  {
+   "countries": [
+    "KOR"
+   ],
+   "agreement": "India-Korea CEPA",
+   "title": "India-Korea CEPA full text (Chapter 3 Rules of Origin, Annex 3-A PSR, Chapter 4 Customs Procedures incl. certificate of origin)",
+   "url": "https://www.commerce.gov.in/files/2025-01/INDIA-KOREA-CEPA-2009.pdf",
+   "format": "pdf",
+   "covers": "rules of origin",
+   "http_status": 200,
+   "official_source": "Department of Commerce, Government of India (commerce.gov.in)"
+  },
+  {
+   "countries": [
+    "SGP"
+   ],
+   "agreement": "India-Singapore CECA",
+   "title": "Chapter 3 - Rules of Origin",
+   "url": "https://www.commerce.gov.in/files/2025-04/ch3.pdf",
+   "format": "pdf",
+   "covers": "rules of origin",
+   "http_status": 200,
+   "official_source": "Department of Commerce, Government of India (commerce.gov.in)"
+  },
+  {
+   "countries": [
+    "SGP"
+   ],
+   "agreement": "India-Singapore CECA",
+   "title": "Annex 3A - Product Specific Rules",
+   "url": "https://www.commerce.gov.in/files/2025-04/anx3a.pdf",
+   "format": "pdf",
+   "covers": "rules of origin",
+   "http_status": 200,
+   "official_source": "Department of Commerce, Government of India (commerce.gov.in)"
+  },
+  {
+   "countries": [
+    "SGP"
+   ],
+   "agreement": "India-Singapore CECA",
+   "title": "Annex 3B - Operational Certification Procedures",
+   "url": "https://www.commerce.gov.in/files/2025-04/anx3b.pdf",
+   "format": "pdf",
+   "covers": "procedures",
+   "http_status": 200,
+   "official_source": "Department of Commerce, Government of India (commerce.gov.in)"
+  },
+  {
+   "countries": [
+    "SGP"
+   ],
+   "agreement": "India-Singapore CECA",
+   "title": "Exchange of letters Annex 1 - De Minimis and Outward Processing",
+   "url": "https://www.commerce.gov.in/files/2025-04/let1.pdf",
+   "format": "pdf",
+   "covers": "rules of origin",
+   "http_status": 200,
+   "official_source": "Department of Commerce, Government of India (commerce.gov.in)"
+  },
+  {
+   "countries": [
+    "ALL"
+   ],
+   "agreement": "DGFT certificate of origin procedures",
+   "title": "Handbook of Procedures 2023, Chapter 2 (updated July 2026) - paras 2.88-2.94 on FTAs, Certificates of Origin, preferential and non-preferential rules of origin",
+   "url": "https://content.dgft.gov.in/Website/HBP_07_2026_Chapter_02.pdf",
+   "format": "pdf",
+   "covers": "procedures",
+   "http_status": 200,
+   "official_source": "Directorate General of Foreign Trade, Government of India"
+  },
+  {
+   "countries": [
+    "ALL"
+   ],
+   "agreement": "DGFT certificate of origin procedures",
+   "title": "Public Notice 01/2026-27 (7 Apr 2026): Para 2.90 HBP amended - CoO applications and issuance only through designated electronic platform [scanned, needs OCR]",
+   "url": "https://content.dgft.gov.in/Website/dgftprod/51a0fe19-0e0f-417c-bb95-6c6e6e79e2a7/PN%2001%20English%20dated%2007.04.2026%20signed.pdf",
+   "format": "pdf",
+   "covers": "procedures",
+   "http_status": 200,
+   "official_source": "Directorate General of Foreign Trade, Government of India"
+  },
+  {
+   "countries": [
+    "OMN"
+   ],
+   "agreement": "DGFT certificate of origin procedures",
+   "title": "Trade Notice 06/2026-27 (29 May 2026): eCoO under India-Oman CEPA on Trade Connect from 1 Jun 2026 [scanned, needs OCR]",
+   "url": "https://content.dgft.gov.in/Website/dgftprod/84d3046a-9902-41dc-b165-968ecefea6e7/tn%203%20%281%29.pdf",
+   "format": "pdf",
+   "covers": "procedures",
+   "http_status": 200,
+   "official_source": "Directorate General of Foreign Trade, Government of India"
+  },
+  {
+   "countries": [
+    "GBR"
+   ],
+   "agreement": "DGFT certificate of origin procedures",
+   "title": "Trade Notice 11/2026-27 (13 Jul 2026): eCoO under India-UK CETA on Trade Connect (www.trade.gov.in) from 15 Jul 2026",
+   "url": "https://content.dgft.gov.in/Website/dgftprod/b6f82c21-f67b-4bcf-b94f-ddd08d98c4ef/trade%20notice%20%281%29.pdf",
+   "format": "pdf",
+   "covers": "procedures",
+   "http_status": 200,
+   "official_source": "Directorate General of Foreign Trade, Government of India"
+  },
+  {
+   "countries": [
+    "ALL"
+   ],
+   "agreement": "DGFT certificate of origin procedures",
+   "title": "Trade Notice 25/2026-27 (7 Sep 2026): Open API integration for Certificate of Origin through Trade Connect e-Platform",
+   "url": "https://content.dgft.gov.in/Website/dgftprod/9bf5ab43-5394-4934-a882-822432108340/TN%20No.%2025%20dated%2007.09.2026.pdf",
+   "format": "pdf",
+   "covers": "procedures",
+   "http_status": 200,
+   "official_source": "Directorate General of Foreign Trade, Government of India"
+  },
+  {
+   "countries": [
+    "ALL"
+   ],
+   "agreement": "DGFT certificate of origin procedures",
+   "title": "Trade Notice 27/2026-27 (14 Sep 2026): draft amendment to HBP Para 2.93, Rules of Origin (Non-Preferential), for comments [scanned, needs OCR]",
+   "url": "https://content.dgft.gov.in/Website/dgftprod/c0ac01bd-f0fb-47cd-ac97-7b4d1bccd5f9/Trade%20notice%2027_0001.pdf",
+   "format": "pdf",
+   "covers": "procedures",
+   "http_status": 200,
+   "official_source": "Directorate General of Foreign Trade, Government of India"
+  },
+  {
+   "countries": [
+    "ALL"
+   ],
+   "agreement": "DGFT certificate of origin procedures",
+   "title": "Trade Notice 23/2024-25 (6 Dec 2024): launch of revamped Preferential eCoO 2.0 system",
+   "url": "https://content.dgft.gov.in/Website/dgftprod/ac43ceff-51e6-42b0-8c05-1d3002dbe95f/Launch%20of%20Revamped%20Preferential%20Certificate%20of%20Origin%20%28eCoO%29%202.0%20System24-reg..pdf",
+   "format": "pdf",
+   "covers": "procedures",
+   "http_status": 200,
+   "official_source": "Directorate General of Foreign Trade, Government of India"
+  },
+  {
+   "countries": [
+    "ALL"
+   ],
+   "agreement": "DGFT certificate of origin procedures",
+   "title": "Trade Notice 13/2024-25 (16 Aug 2024): launch of revamped Non-Preferential eCoO 2.0 system and migration to new platform",
+   "url": "https://content.dgft.gov.in/Website/dgftprod/6737c077-e988-47df-9b94-adae38dcaefb/Trade%20Notice%20-%20eCoO%20Migration%20to%20new%20Platform-reg..pdf",
+   "format": "pdf",
+   "covers": "procedures",
+   "http_status": 200,
+   "official_source": "Directorate General of Foreign Trade, Government of India"
+  }
+ ]
+}

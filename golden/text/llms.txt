@@ -1,0 +1,97 @@
+# Exportwalla
+
+> Exportwalla is an export desk for Indian manufacturers. Free tools give the HS code, the best destination countries, the import duty
+> an Indian product pays in 66 countries (including India–UK CETA, India–UAE CEPA, India–Australia ECTA and
+> ASEAN–India rates), named UK importers, a landed-cost quote and export documents. A human desk then handles IEC,
+> RCMC, freight, customs, certificates of origin, LC, e-BRC and refunds, paid per shipment. Data verified 2026-11-02.
+
+Duty figures come from the UK Trade Tariff, USITC HTS and World Bank WITS/TRAINS and link to their source. Market
+indicators are derived from UN Comtrade. Trade-agreement facts are researched with a source URL each.
+
+## Reference pages
+- [Export by country](http://localhost:8040/export-to): duty, trade deal, certificate of origin and import VAT for 66 countries
+- [HS codes and duty](http://localhost:8040/hs-code): 357 export products with UK/US lines and duty by country
+- [India's trade agreements](http://localhost:8040/fta): 19 agreements, status, which products pay less, how to claim
+- [Where India exports](http://localhost:8040/india-exports): top markets and product chapters as shares
+- [How to export from India](http://localhost:8040/guide/how-to-export-from-india): IEC to e-BRC, step by step
+- [Export guides](http://localhost:8040/guide): IEC, RCMC, HS codes, certificate of origin, GST LUT, RoDTEP, pricing, Incoterms, LC, ECGC, buyers, shipping; plus product guides
+- [Free tools](http://localhost:8040/tools): HS code finder, import duty checker, export price calculator, export readiness check
+- [Pricing](http://localhost:8040/pricing): free tools; export desk from ₹12,000 per shipment + GST; [contact](http://localhost:8040/contact)
+- [Export kaise kare (Hinglish)](http://localhost:8040/hi/export-kaise-kare)
+- [About Exportwalla](http://localhost:8040/about) and [sources and licences](http://localhost:8040/sources)
+- [Export to United Kingdom](http://localhost:8040/export-to/united-kingdom)
+- [Export to United Arab Emirates](http://localhost:8040/export-to/united-arab-emirates)
+- [Export to United States](http://localhost:8040/export-to/united-states)
+- [Export to Germany](http://localhost:8040/export-to/germany)
+- [Export to Australia](http://localhost:8040/export-to/australia)
+- [Export to Saudi Arabia](http://localhost:8040/export-to/saudi-arabia)
+- [Export to Netherlands](http://localhost:8040/export-to/netherlands)
+- [Export to Japan](http://localhost:8040/export-to/japan)
+
+## Guides
+- [How to get an IEC (Importer-Exporter Code) from DGFT](http://localhost:8040/guide/how-to-get-iec-code) ([Hinglish](http://localhost:8040/hi/guide/how-to-get-iec-code))
+- [RCMC: register with the right export promotion council](http://localhost:8040/guide/rcmc-export-promotion-council) ([Hinglish](http://localhost:8040/hi/guide/rcmc-export-promotion-council))
+- [HS code for export: find the right code before you quote](http://localhost:8040/guide/hs-code-for-export) ([Hinglish](http://localhost:8040/hi/guide/hs-code-for-export))
+- [Certificate of origin: which one you need and how to get it](http://localhost:8040/guide/certificate-of-origin) ([Hinglish](http://localhost:8040/hi/guide/certificate-of-origin))
+- [GST on exports: LUT, IGST refund and ITC refund](http://localhost:8040/guide/gst-on-exports-lut-refund) ([Hinglish](http://localhost:8040/hi/guide/gst-on-exports-lut-refund))
+- [RoDTEP and duty drawback: what they pay and how to claim](http://localhost:8040/guide/rodtep-and-duty-drawback) ([Hinglish](http://localhost:8040/hi/guide/rodtep-and-duty-drawback))
+- [How to build an export price: ex-works to FOB, CIF and the buyer's landed cost](http://localhost:8040/guide/export-pricing-fob-cif) ([Hinglish](http://localhost:8040/hi/guide/export-pricing-fob-cif))
+- [Incoterms 2020 for Indian exporters: which term to quote and why](http://localhost:8040/guide/incoterms-for-indian-exporters) ([Hinglish](http://localhost:8040/hi/guide/incoterms-for-indian-exporters))
+- [Export payment terms: advance, letter of credit, collections and open account](http://localhost:8040/guide/letter-of-credit-and-payment-terms) ([Hinglish](http://localhost:8040/hi/guide/letter-of-credit-and-payment-terms))
+- [ECGC export credit insurance: cover against buyer default and country risk](http://localhost:8040/guide/ecgc-export-credit-insurance) ([Hinglish](http://localhost:8040/hi/guide/ecgc-export-credit-insurance))
+- [How to find export buyers: channels that work, and how to check a buyer](http://localhost:8040/guide/how-to-find-export-buyers) ([Hinglish](http://localhost:8040/hi/guide/how-to-find-export-buyers))
+- [Export shipping and customs clearance in India: from booking to bill of lading](http://localhost:8040/guide/export-shipping-and-customs-clearance) ([Hinglish](http://localhost:8040/hi/guide/export-shipping-and-customs-clearance))
+- [How to export leather footwear from India](http://localhost:8040/guide/how-to-export-leather-footwear-from-india)
+- [How to export leather bags, wallets and saddlery from India](http://localhost:8040/guide/how-to-export-leather-bags-from-india)
+- [How to export spices from India](http://localhost:8040/guide/how-to-export-spices-from-india)
+- [How to export rice from India](http://localhost:8040/guide/how-to-export-rice-from-india)
+- [How to export garments from India](http://localhost:8040/guide/how-to-export-garments-from-india)
+- [How to export home textiles and carpets from India](http://localhost:8040/guide/how-to-export-home-textiles-from-india)
+- [How to export brass, metal ware and wooden handicrafts from India](http://localhost:8040/guide/how-to-export-brass-and-handicrafts-from-india)
+- [How to export shrimp and frozen seafood from India](http://localhost:8040/guide/how-to-export-shrimp-from-india)
+
+## Trade agreements
+- [India–UAE CEPA](http://localhost:8040/fta/india-uae-cepa): in force since 2022-05-01
+- [India–EU FTA](http://localhost:8040/fta/india-eu-fta): agreed, not yet in force
+- [India–Singapore CECA](http://localhost:8040/fta/india-singapore-ceca): in force since 2005-08-01
+- [ASEAN–India FTA](http://localhost:8040/fta/asean-india-fta): in force since 2010-01-01
+- [GSTP (few goods)](http://localhost:8040/fta/gstp): in force since 1989-04-19
+- [APTA](http://localhost:8040/fta/apta): in force since 1976-06-17
+- [India–UK CETA](http://localhost:8040/fta/india-uk-ceta): in force since 2026-07-15
+- [SAFTA](http://localhost:8040/fta/safta): in force since 2006-01-01
+- [India–Malaysia CECA](http://localhost:8040/fta/india-malaysia-ceca): in force since 2011-07-01
+- [India–Australia ECTA](http://localhost:8040/fta/india-australia-ecta): in force since 2022-12-29
+- [India–Nepal treaty](http://localhost:8040/fta/india-nepal-treaty): in force since 2009-10-27
+- [India–Mercosur PTA](http://localhost:8040/fta/india-mercosur-pta): in force since 2009-06-01
+- [India–Korea CEPA](http://localhost:8040/fta/india-korea-cepa): in force since 2010-01-01
+- [India–Japan CEPA](http://localhost:8040/fta/india-japan-cepa): in force since 2011-08-01
+- [India–Sri Lanka FTA](http://localhost:8040/fta/india-sri-lanka-fta): in force since 2000-03-01
+- [India–Oman CEPA](http://localhost:8040/fta/india-oman-cepa): in force since 2026-06-01
+- [India–EFTA TEPA](http://localhost:8040/fta/india-efta-tepa): in force since 2025-10-01
+- [India–NZ FTA](http://localhost:8040/fta/india-nz-fta): in force since 2026-10-20
+- [India–Mauritius CECPA](http://localhost:8040/fta/india-mauritius-cecpa): in force since 2021-04-01
+
+## Page URL patterns
+- `/export-to/{country}`: one country (e.g. `/export-to/united-kingdom`)
+- `/hs-code/{hs6}-{name}`: one product (e.g. `/hs-code/640391-leather-footwear-covering-the-ankle-outer-soles-of-rubber`)
+- `/export/{product}/{country}`: one product to one country, with duty, landed cost, documents and buyers
+- `/fta/{agreement}`: one trade agreement
+
+Every page is also available as markdown: append `.md` to its URL. The key pages in one file: http://localhost:8040/llms-full.txt
+
+## API (JSON, no key)
+- `GET http://localhost:8040/api/public/duty?hs6=640391&country=GBR`: duty for Indian goods vs normal duty, with source
+- `GET http://localhost:8040/api/public/country/ARE`: trade deal, origin document, VAT, top products
+- `GET http://localhost:8040/api/public/product/090931`: HS line, UK/US lines, ranked markets
+- `GET http://localhost:8040/api/public/classify?q=leather+chelsea+boots`: HS code candidates for a product description
+- OpenAPI: http://localhost:8040/openapi.json
+
+## MCP
+- Streamable HTTP endpoint: `http://localhost:8040/mcp`. Tools: lookup_duty, best_markets, country_rules, classify_product.
+- Server card: http://localhost:8040/.well-known/mcp.json
+
+## How to cite
+- Quote the page's duty figure with its source link and the "Data verified" date. Rates are guidance, not a customs ruling.
+
+## Contact
+- Exportwalla export desk: +91 00000 00000

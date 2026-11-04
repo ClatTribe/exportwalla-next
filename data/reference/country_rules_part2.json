@@ -1,0 +1,2313 @@
+{
+ "as_of": "2026-11-02",
+ "countries": [
+  {
+   "iso3": "ARE",
+   "name": "United Arab Emirates",
+   "region": "Middle East",
+   "eu_member": false,
+   "agreements": [
+    {
+     "name": "India-UAE Comprehensive Economic Partnership Agreement (CEPA)",
+     "status": "in_force",
+     "in_force_date": "2022-05-01",
+     "source_url": "https://rtais.wto.org/UI/PublicShowMemberRTAIDCard.aspx?rtaid=1198"
+    },
+    {
+     "name": "India-GCC Free Trade Agreement (ToR signed 5 Feb 2026; negotiations launched 24 Feb 2026)",
+     "status": "negotiating",
+     "in_force_date": null,
+     "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/feb/doc2026227806201.pdf"
+    }
+   ],
+   "gsp": {
+    "scheme": null,
+    "india_beneficiary": null,
+    "notes": "Not applicable/not researched: no GSP scheme of this importing country benefiting India was verified.",
+    "source_url": null
+   },
+   "origin_proof": {
+    "preferential_document": "Certificate of Origin under India-UAE CEPA (Annex 3E format)",
+    "issued_by": "EIC/EIAs (all products), DGFT regional offices, MPEDA, Textiles Committee, Spices Board, APEDA, Coir Board, Central Silk Board, DC Handicrafts, Tobacco Board, and SEZ authorities for their units (DGFT Appendix 2B)",
+    "how": "Exporter registers on DGFT's electronic CoO platform (coo.dgft.gov.in; DGFT now routes eCoO 2.0 through the Trade Connect ePlatform at trade.gov.in), applies online with a digital signature, picks the agreement and the issuing agency, uploads invoice/packing list and origin-criterion details; agency verifies and issues an e-CoO.",
+    "source_url": "https://content.dgft.gov.in/Website/dgftprod/f025f410-65c3-41b8-85c9-78f5059a53f8/Appendix%202B%20(Certificate%20of%20Origin%20%5BPreferential%5D)%20as%20on%2006.02.2023%20(1).pdf"
+   },
+   "non_preferential_coo": {
+    "needed": "usually",
+    "issued_by": "Agencies in DGFT Appendix 2E (DGFT regional offices, Textiles Committee, EPCs, chambers of commerce, etc.), applied for on the DGFT eCoO platform. UAE asks for a CoO approved by a chamber of commerce in the origin country; commercial invoices/shipping documents are subject to UAE MOFA attestation (https://www.mofa.gov.ae/en/services/attestation).",
+    "source_url": "https://www.trade.gov/country-commercial-guides/united-arab-emirates-import-requirements-and-documentation"
+   },
+   "import_vat": {
+    "rate_pct": 5,
+    "name": "VAT",
+    "source_url": "https://tax.gov.ae/en/taxes/Vat/vat.topics/vat.rates.aspx"
+   },
+   "customs_url": "https://icp.gov.ae/en/",
+   "india_mission_commerce_url": "https://www.indembassyuae.gov.in/page-links/?page=economic-and-commerce-relations&type=sub",
+   "rules_docs": [
+    {
+     "title": "India-UAE CEPA Chapter 3 - Rules of Origin",
+     "url": "https://www.commerce.gov.in/files/2025-04/Chapter-3.pdf",
+     "format": "pdf",
+     "covers": "rules of origin"
+    },
+    {
+     "title": "India-UAE CEPA Annex 3B - Product Specific Rules",
+     "url": "https://www.commerce.gov.in/files/2025-04/Chapter-3-Annex-3B.pdf",
+     "format": "pdf",
+     "covers": "rules of origin"
+    },
+    {
+     "title": "India-UAE CEPA Annex 3C - Issuing Authorities of India",
+     "url": "https://www.commerce.gov.in/files/2025-04/Chapter-3-Annex-3C.pdf",
+     "format": "pdf",
+     "covers": "procedures"
+    },
+    {
+     "title": "India-UAE CEPA Annex 3E - Certificate of Origin format",
+     "url": "https://www.commerce.gov.in/files/2025-04/Chapter-3-Annex-3E.pdf",
+     "format": "pdf",
+     "covers": "origin declaration"
+    },
+    {
+     "title": "FAQs on India-UAE CEPA (Department of Commerce)",
+     "url": "https://www.commerce.gov.in/files/2025-07/FAQs_on_CEPA_For_Uploading_on_DoCs_website_05-May-2022_1.pdf",
+     "format": "pdf",
+     "covers": "procedures"
+    },
+    {
+     "title": "DGFT Appendix 2B - agencies authorised to issue preferential CoO (as on 06.02.2023; later agreements added by public notices)",
+     "url": "https://content.dgft.gov.in/Website/dgftprod/f025f410-65c3-41b8-85c9-78f5059a53f8/Appendix%202B%20(Certificate%20of%20Origin%20%5BPreferential%5D)%20as%20on%2006.02.2023%20(1).pdf",
+     "format": "pdf",
+     "covers": "procedures"
+    },
+    {
+     "title": "DGFT Appendix 2E - agencies authorised to issue non-preferential CoO",
+     "url": "https://content.dgft.gov.in/Website/APPENDIX-2E.pdf",
+     "format": "pdf",
+     "covers": "procedures"
+    }
+   ],
+   "import_notes": [
+    {
+     "text": "Regulated non-food products (some electrical, engineering, child-care, cosmetic items on MoIAT's list) need an ECAS certificate of conformity (1 yr) or EQM mark (3 yrs) from a MoIAT-notified body.",
+     "source_url": "https://www.moiat.gov.ae/en/services/issue-conformity-certificates-for-regulated-products"
+    },
+    {
+     "text": "Dubai: importer and each food item must be registered in Dubai Municipality FIRS (linked to federal ZAD) before arrival; source PDF dates from 2020, so confirm current portal flow.",
+     "source_url": "https://www.dm.gov.ae/wp-content/uploads/2020/07/Food-Related-Permits-and-Approvals-Services.pdf"
+    },
+    {
+     "text": "Plant/animal products need MoCCAE import permits plus phytosanitary or veterinary certificates (general services page).",
+     "source_url": "https://www.moccae.gov.ae/en/services/"
+    },
+    {
+     "text": "GCC G-Mark is mandatory for toys and low-voltage electrical goods under GCC technical regulations.",
+     "source_url": "https://www.gso.org.sa/en/services/gcc-conformity-mark/"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "iso3": "SAU",
+   "name": "Saudi Arabia",
+   "region": "Middle East",
+   "eu_member": false,
+   "agreements": [
+    {
+     "name": "India-GCC Free Trade Agreement (ToR signed 5 Feb 2026; negotiations launched 24 Feb 2026)",
+     "status": "negotiating",
+     "in_force_date": null,
+     "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/feb/doc2026227806201.pdf"
+    }
+   ],
+   "gsp": {
+    "scheme": null,
+    "india_beneficiary": null,
+    "notes": "Not applicable/not researched: no GSP scheme of this importing country benefiting India was verified.",
+    "source_url": null
+   },
+   "origin_proof": {
+    "preferential_document": null,
+    "issued_by": null,
+    "how": "No India-Saudi preferential agreement in force; India-GCC FTA still under negotiation.",
+    "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/feb/doc2026227806201.pdf"
+   },
+   "non_preferential_coo": {
+    "needed": "usually",
+    "issued_by": "Agencies in DGFT Appendix 2E (DGFT regional offices, Textiles Committee, EPCs, chambers of commerce, etc.), applied for on the DGFT eCoO platform. ZATCA requires commercial invoice, bill of lading and certificate of origin; legalisation practice not verified for Indian origin.",
+    "source_url": "https://www.trade.gov/country-commercial-guides/saudi-arabia-import-requirements-and-documentation"
+   },
+   "import_vat": {
+    "rate_pct": 15,
+    "name": "VAT",
+    "source_url": "https://taxsummaries.pwc.com/saudi-arabia/corporate/other-taxes"
+   },
+   "customs_url": "https://zatca.gov.sa/en/",
+   "india_mission_commerce_url": "https://www.eoiriyadh.gov.in/page-links/?page=commercial&type=main",
+   "rules_docs": [
+    {
+     "title": "DGFT Appendix 2E - agencies authorised to issue non-preferential CoO",
+     "url": "https://content.dgft.gov.in/Website/APPENDIX-2E.pdf",
+     "format": "pdf",
+     "covers": "procedures"
+    }
+   ],
+   "import_notes": [
+    {
+     "text": "SFDA requires registration of foreign food establishments exporting to the Kingdom; the Saudi importer must also register each food product with SFDA before import.",
+     "source_url": "https://www.sfda.gov.sa/en/faq/are-all-external-facilities-exporting-kingdom-required-be-registered"
+    },
+    {
+     "text": "Non-food goods (textiles, footwear, engineering goods, etc.) need a Product Certificate of Conformity and a Shipment Certificate on SASO's SABER platform; without the shipment certificate goods face re-export.",
+     "source_url": "https://saber.sa/"
+    },
+    {
+     "text": "GCC G-Mark is mandatory for toys and low-voltage electrical goods.",
+     "source_url": "https://www.gso.org.sa/en/services/gcc-conformity-mark/"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "iso3": "OMN",
+   "name": "Oman",
+   "region": "Middle East",
+   "eu_member": false,
+   "agreements": [
+    {
+     "name": "India-Oman Comprehensive Economic Partnership Agreement (CEPA) (signed 18 Dec 2025)",
+     "status": "in_force",
+     "in_force_date": "2026-06-01",
+     "source_url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2268595"
+    },
+    {
+     "name": "India-GCC Free Trade Agreement (ToR signed 5 Feb 2026; negotiations launched 24 Feb 2026)",
+     "status": "negotiating",
+     "in_force_date": null,
+     "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/feb/doc2026227806201.pdf"
+    }
+   ],
+   "gsp": {
+    "scheme": null,
+    "india_beneficiary": null,
+    "notes": "Not applicable/not researched: no GSP scheme of this importing country benefiting India was verified.",
+    "source_url": null
+   },
+   "origin_proof": {
+    "preferential_document": "Certificate of Origin under India-Oman CEPA (Annex 3C template)",
+    "issued_by": "DGFT and its regional offices (Public Notice 15/2026-27 dated 2 Jun 2026 adding the CEPA to Appendix 2B, as reported; official notice text not retrieved)",
+    "how": "Electronic filing and issuance from 1 Jun 2026 under a separate India-Oman CEPA option in the Certificate of Origin service on DGFT's Trade Connect/eCoO platform (Trade Notice 06/2026-27, as reported).",
+    "source_url": "https://taxguru.in/dgft/dgft-notifies-authorised-agencies-issuance-preferential-coo-india-oman-cepa.html"
+   },
+   "non_preferential_coo": {
+    "needed": null,
+    "issued_by": "Agencies in DGFT Appendix 2E (DGFT regional offices, Textiles Committee, EPCs, chambers of commerce, etc.), applied for on the DGFT eCoO platform",
+    "source_url": "https://content.dgft.gov.in/Website/APPENDIX-2E.pdf"
+   },
+   "import_vat": {
+    "rate_pct": 5,
+    "name": "VAT",
+    "source_url": "https://tms.taxoman.gov.om/portal/web/taxportal/vat-tax"
+   },
+   "customs_url": "https://www.customs.gov.om/",
+   "india_mission_commerce_url": "https://www.indemb-oman.gov.in/page/contact-commerce-wing/",
+   "rules_docs": [
+    {
+     "title": "India-Oman CEPA Chapter 3 - Rules of Origin",
+     "url": "https://www.commerce.gov.in/files/2025-12/7.-Chapter-3-Rules-Of-Origin.pdf",
+     "format": "pdf",
+     "covers": "rules of origin"
+    },
+    {
+     "title": "India-Oman CEPA Annex 3A - Minimum Required Information",
+     "url": "https://www.commerce.gov.in/files/2025-12/8.-Annex-3A-Minimum-Required-Information.pdf",
+     "format": "pdf",
+     "covers": "procedures"
+    },
+    {
+     "title": "India-Oman CEPA Annex 3B - Product Specific Rules",
+     "url": "https://www.commerce.gov.in/files/2025-12/9.-Annex-3B-Product-Specific-Rules.pdf",
+     "format": "pdf",
+     "covers": "rules of origin"
+    },
+    {
+     "title": "India-Oman CEPA Annex 3C - Certificate of Origin Template",
+     "url": "https://www.commerce.gov.in/files/2025-12/10.-Annex-3C-Certificate-of-Origin-Template.pdf",
+     "format": "pdf",
+     "covers": "origin declaration"
+    },
+    {
+     "title": "DGFT Appendix 2E - agencies authorised to issue non-preferential CoO",
+     "url": "https://content.dgft.gov.in/Website/APPENDIX-2E.pdf",
+     "format": "pdf",
+     "covers": "procedures"
+    }
+   ],
+   "import_notes": [
+    {
+     "text": "Every food product placed on the Omani market needs an FSQC (MAFWR) Food Product Registration Certificate (label, lab report, origin health certificate, invoice).",
+     "source_url": "https://gov.om/en/w/apply-for-a-food-product-registration-certificate"
+    },
+    {
+     "text": "Press reports say halal certificates from bodies not designated by Oman's FSQC will be rejected from 1 Jul 2027; check your halal certifier (press source only).",
+     "source_url": "https://timesofoman.com/article/177326-oman-to-reject-halal-certificates-from-non-designated-bodies-starting-july-2027"
+    },
+    {
+     "text": "GCC G-Mark is mandatory for toys and low-voltage electrical goods.",
+     "source_url": "https://www.gso.org.sa/en/services/gcc-conformity-mark/"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "iso3": "QAT",
+   "name": "Qatar",
+   "region": "Middle East",
+   "eu_member": false,
+   "agreements": [
+    {
+     "name": "India-GCC Free Trade Agreement (ToR signed 5 Feb 2026; negotiations launched 24 Feb 2026)",
+     "status": "negotiating",
+     "in_force_date": null,
+     "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/feb/doc2026227806201.pdf"
+    }
+   ],
+   "gsp": {
+    "scheme": null,
+    "india_beneficiary": null,
+    "notes": "Not applicable/not researched: no GSP scheme of this importing country benefiting India was verified.",
+    "source_url": null
+   },
+   "origin_proof": {
+    "preferential_document": null,
+    "issued_by": null,
+    "how": "No India-Qatar preferential agreement in force. A bilateral India-Qatar FTA/ToR was reported as planned in 2025 but its signing could not be verified.",
+    "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/feb/doc2026227806201.pdf"
+   },
+   "non_preferential_coo": {
+    "needed": "usually",
+    "issued_by": "Agencies in DGFT Appendix 2E (DGFT regional offices, Textiles Committee, EPCs, chambers of commerce, etc.), applied for on the DGFT eCoO platform. Qatar Customs requires an official CoO, invoice and packing list; for L/C shipments documents may need notarisation by an Arab embassy/consulate or Arab chamber.",
+    "source_url": "https://www.trade.gov/country-commercial-guides/qatar-import-requirements-and-documentation"
+   },
+   "import_vat": {
+    "rate_pct": 0,
+    "name": "No VAT in force (GCC 5% framework not implemented)",
+    "source_url": "https://taxsummaries.pwc.com/qatar/corporate/other-taxes"
+   },
+   "customs_url": "https://www.customs.gov.qa/",
+   "india_mission_commerce_url": "https://www.indianembassyqatar.gov.in/eoidhpages?id=Nw,,&subid=Mjc,",
+   "rules_docs": [
+    {
+     "title": "DGFT Appendix 2E - agencies authorised to issue non-preferential CoO",
+     "url": "https://content.dgft.gov.in/Website/APPENDIX-2E.pdf",
+     "format": "pdf",
+     "covers": "procedures"
+    }
+   ],
+   "import_notes": [
+    {
+     "text": "Importer and each food product must be registered in MOPH's Watheq system before import.",
+     "source_url": "https://www.moph.gov.qa/english/OurServices/advancedsearch/Pages/servicesdetails.aspx?serviceId=104"
+    },
+    {
+     "text": "Registration only approves the label; every food consignment still faces port inspection/sampling with health certificate, invoice and customs declaration (Al Nadeeb).",
+     "source_url": "https://www.sharek.gov.qa/en/articles/ministry-of-public-health/registration-of-a-food-product/679b21ec22938a05a01e55a3"
+    },
+    {
+     "text": "GCC G-Mark is mandatory for toys and low-voltage electrical goods.",
+     "source_url": "https://www.gso.org.sa/en/services/gcc-conformity-mark/"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "iso3": "KWT",
+   "name": "Kuwait",
+   "region": "Middle East",
+   "eu_member": false,
+   "agreements": [
+    {
+     "name": "India-GCC Free Trade Agreement (ToR signed 5 Feb 2026; negotiations launched 24 Feb 2026)",
+     "status": "negotiating",
+     "in_force_date": null,
+     "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/feb/doc2026227806201.pdf"
+    }
+   ],
+   "gsp": {
+    "scheme": null,
+    "india_beneficiary": null,
+    "notes": "Not applicable/not researched: no GSP scheme of this importing country benefiting India was verified.",
+    "source_url": null
+   },
+   "origin_proof": {
+    "preferential_document": null,
+    "issued_by": null,
+    "how": "No India-Kuwait preferential agreement in force; India-GCC FTA under negotiation.",
+    "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/feb/doc2026227806201.pdf"
+   },
+   "non_preferential_coo": {
+    "needed": "usually",
+    "issued_by": "Agencies in DGFT Appendix 2E (DGFT regional offices, Textiles Committee, EPCs, chambers of commerce, etc.), applied for on the DGFT eCoO platform. Kuwait requires invoice, CoO (1 original + 2 copies), packing list and B/L; invoice and CoO should be legalised by a chamber of commerce (US guidance; Indian-side legalisation chain not verified).",
+    "source_url": "https://www.trade.gov/country-commercial-guides/kuwait-import-requirements-and-documentation"
+   },
+   "import_vat": {
+    "rate_pct": 0,
+    "name": "No VAT in force",
+    "source_url": "https://taxsummaries.pwc.com/kuwait/corporate/other-taxes"
+   },
+   "customs_url": "https://www.customs.gov.kw/",
+   "india_mission_commerce_url": "https://indembkwt.gov.in/commercial-representative.php",
+   "rules_docs": [
+    {
+     "title": "DGFT Appendix 2E - agencies authorised to issue non-preferential CoO",
+     "url": "https://content.dgft.gov.in/Website/APPENDIX-2E.pdf",
+     "format": "pdf",
+     "covers": "procedures"
+    }
+   ],
+   "import_notes": [
+    {
+     "text": "Food may be imported only with prior PAFN approval (Ministerial Resolution 6/2023); importer account and product registration are on PAFN's Raqeb portal.",
+     "source_url": "https://raqeb.pafn.gov.kw/en/Pages/ProductRegistrations.aspx"
+    },
+    {
+     "text": "An updated Kuwait 'Regulation of Imported Food' was notified via IPPC in Oct 2025; check whether it changes halal/health-certificate rules.",
+     "source_url": "https://www.ippc.int/en/countries/kuwait/reportingobligation/2025/10/kuwaits-regulation-of-imported-food/"
+    },
+    {
+     "text": "GCC G-Mark is mandatory for toys and low-voltage electrical goods.",
+     "source_url": "https://www.gso.org.sa/en/services/gcc-conformity-mark/"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "iso3": "BHR",
+   "name": "Bahrain",
+   "region": "Middle East",
+   "eu_member": false,
+   "agreements": [
+    {
+     "name": "India-GCC Free Trade Agreement (ToR signed 5 Feb 2026; negotiations launched 24 Feb 2026)",
+     "status": "negotiating",
+     "in_force_date": null,
+     "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/feb/doc2026227806201.pdf"
+    }
+   ],
+   "gsp": {
+    "scheme": null,
+    "india_beneficiary": null,
+    "notes": "Not applicable/not researched: no GSP scheme of this importing country benefiting India was verified.",
+    "source_url": null
+   },
+   "origin_proof": {
+    "preferential_document": null,
+    "issued_by": null,
+    "how": "No India-Bahrain preferential agreement in force; India-GCC FTA under negotiation.",
+    "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/feb/doc2026227806201.pdf"
+   },
+   "non_preferential_coo": {
+    "needed": null,
+    "issued_by": "Agencies in DGFT Appendix 2E (DGFT regional offices, Textiles Committee, EPCs, chambers of commerce, etc.), applied for on the DGFT eCoO platform",
+    "source_url": "https://content.dgft.gov.in/Website/APPENDIX-2E.pdf"
+   },
+   "import_vat": {
+    "rate_pct": 10,
+    "name": "VAT",
+    "source_url": "https://taxsummaries.pwc.com/bahrain/corporate/other-taxes"
+   },
+   "customs_url": "https://www.customs.gov.bh/",
+   "india_mission_commerce_url": "https://www.eoibahrain.gov.in/commercial-officer.php",
+   "rules_docs": [
+    {
+     "title": "DGFT Appendix 2E - agencies authorised to issue non-preferential CoO",
+     "url": "https://content.dgft.gov.in/Website/APPENDIX-2E.pdf",
+     "format": "pdf",
+     "covers": "procedures"
+    }
+   ],
+   "import_notes": [
+    {
+     "text": "Each food shipment needs a Ministry of Health 'Permit to import food products' (about 3 working days; CR, product image, application form; Public Health Law 34/2018).",
+     "source_url": "https://www.bahrain.bh/wps/portal/en/BNP/ServicesCatalogue/GSX-UI-PServiceDetails?psID=1267"
+    },
+    {
+     "text": "GCC G-Mark is mandatory for toys and low-voltage electrical goods.",
+     "source_url": "https://www.gso.org.sa/en/services/gcc-conformity-mark/"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "iso3": "ISR",
+   "name": "Israel",
+   "region": "Middle East",
+   "eu_member": false,
+   "agreements": [
+    {
+     "name": "India-Israel Free Trade Agreement (ToR Nov 2025; round 1 Feb 2026, round 2 20-23 Jul 2026)",
+     "status": "negotiating",
+     "in_force_date": null,
+     "source_url": "https://newsonair.gov.in/india-and-israel-conclude-negotiations-for-proposed-mutually-beneficial-fta/"
+    }
+   ],
+   "gsp": {
+    "scheme": null,
+    "india_beneficiary": null,
+    "notes": "Not applicable/not researched: no GSP scheme of this importing country benefiting India was verified.",
+    "source_url": null
+   },
+   "origin_proof": {
+    "preferential_document": null,
+    "issued_by": null,
+    "how": "No preferential agreement in force; FTA under negotiation.",
+    "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/feb/doc2026227806201.pdf"
+   },
+   "non_preferential_coo": {
+    "needed": null,
+    "issued_by": "Agencies in DGFT Appendix 2E (DGFT regional offices, Textiles Committee, EPCs, chambers of commerce, etc.), applied for on the DGFT eCoO platform",
+    "source_url": "https://content.dgft.gov.in/Website/APPENDIX-2E.pdf"
+   },
+   "import_vat": {
+    "rate_pct": 18,
+    "name": "VAT (Ma'am)",
+    "source_url": "https://taxsummaries.pwc.com/israel/corporate/other-taxes"
+   },
+   "customs_url": "https://www.gov.il/en/departments/israel_tax_authority/govil-landing-page",
+   "india_mission_commerce_url": "https://www.indembassyisrael.gov.in/pages?id=nel5a",
+   "rules_docs": [
+    {
+     "title": "DGFT Appendix 2E - agencies authorised to issue non-preferential CoO",
+     "url": "https://content.dgft.gov.in/Website/APPENDIX-2E.pdf",
+     "format": "pdf",
+     "covers": "procedures"
+    }
+   ],
+   "import_notes": [
+    {
+     "text": "Food importers must first register with the Ministry of Health National Food Service (2-year certificate); animal-origin food also needs an import permit.",
+     "source_url": "https://www.gov.il/en/service/non-animal-derived-food-importer-registration"
+    },
+    {
+     "text": "'What's good for Europe' import reform (from 1 Jan 2025) accepts EU-conformity declarations for many goods under official standards instead of Israeli testing.",
+     "source_url": "https://govextra.gov.il/media/ld4ez5lh/import-reform-good-for-europe-101124.pdf"
+    },
+    {
+     "text": "Standards Institution of Israel still tests/approves Import Group 1 goods and goods outside the reform.",
+     "source_url": "https://www.sii.org.il/en/israelistandards"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "iso3": "EGY",
+   "name": "Egypt",
+   "region": "Africa",
+   "eu_member": false,
+   "agreements": [
+    {
+     "name": "Global System of Trade Preferences among Developing Countries (GSTP)",
+     "status": "in_force",
+     "in_force_date": "1989-04-19",
+     "source_url": "https://rtais.wto.org/UI/PublicShowMemberRTAIDCard.aspx?rtaid=146"
+    }
+   ],
+   "gsp": {
+    "scheme": null,
+    "india_beneficiary": null,
+    "notes": "Not applicable/not researched: no GSP scheme of this importing country benefiting India was verified.",
+    "source_url": null
+   },
+   "origin_proof": {
+    "preferential_document": "GSTP Certificate of Origin (only for products in Egypt's GSTP concession list)",
+    "issued_by": "EIC (all goods), MPEDA (marine), Tobacco Board, Textiles Committee (DGFT Appendix 2B)",
+    "how": "Exporter registers on DGFT's electronic CoO platform (coo.dgft.gov.in; DGFT now routes eCoO 2.0 through the Trade Connect ePlatform at trade.gov.in), applies online with a digital signature, picks the agreement and the issuing agency, uploads invoice/packing list and origin-criterion details; agency verifies and issues an e-CoO.",
+    "source_url": "https://content.dgft.gov.in/Website/dgftprod/f025f410-65c3-41b8-85c9-78f5059a53f8/Appendix%202B%20(Certificate%20of%20Origin%20%5BPreferential%5D)%20as%20on%2006.02.2023%20(1).pdf"
+   },
+   "non_preferential_coo": {
+    "needed": "usually",
+    "issued_by": "Agencies in DGFT Appendix 2E (DGFT regional offices, Textiles Committee, EPCs, chambers of commerce, etc.), applied for on the DGFT eCoO platform. Under Egypt's ACI system the invoice, B/L and certificate of origin are uploaded (via CargoX/Nafeza) at least 48 h before shipment.",
+    "source_url": "https://www.nafeza.gov.eg/en/pages/15"
+   },
+   "import_vat": {
+    "rate_pct": 14,
+    "name": "VAT",
+    "source_url": "https://taxsummaries.pwc.com/egypt/corporate/other-taxes"
+   },
+   "customs_url": "https://www.customs.gov.eg/",
+   "india_mission_commerce_url": "https://www.eoicairo.gov.in/page/commerce-support-team/",
+   "rules_docs": [
+    {
+     "title": "DGFT Appendix 2B - agencies authorised to issue preferential CoO (as on 06.02.2023; later agreements added by public notices)",
+     "url": "https://content.dgft.gov.in/Website/dgftprod/f025f410-65c3-41b8-85c9-78f5059a53f8/Appendix%202B%20(Certificate%20of%20Origin%20%5BPreferential%5D)%20as%20on%2006.02.2023%20(1).pdf",
+     "format": "pdf",
+     "covers": "procedures"
+    },
+    {
+     "title": "DGFT Appendix 2E - agencies authorised to issue non-preferential CoO",
+     "url": "https://content.dgft.gov.in/Website/APPENDIX-2E.pdf",
+     "format": "pdf",
+     "covers": "procedures"
+    }
+   ],
+   "import_notes": [
+    {
+     "text": "Every sea shipment needs an ACID number (ACI): the Egyptian importer requests it on Nafeza and the Indian exporter must register on CargoX; sources conflict on whether air-cargo ACI is now mandatory.",
+     "source_url": "https://www.nafeza.gov.eg/en/pages/15"
+    },
+    {
+     "text": "Foreign factories/brand owners for products on the Decree 43/2016 list (amended by Decree 195/2022) must register with GOEIC before export; check the annexed list per product.",
+     "source_url": "https://www.goeic.gov.eg/en/pages/show/603"
+    },
+    {
+     "text": "Imported food is controlled by the National Food Safety Authority (importer licence, white lists).",
+     "source_url": "https://nfsa.gov.eg/en-gb"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "iso3": "ZAF",
+   "name": "South Africa",
+   "region": "Africa",
+   "eu_member": false,
+   "agreements": [
+    {
+     "name": "India-SACU Preferential Trade Agreement (negotiations commenced 5 Oct 2007; no conclusion found)",
+     "status": "negotiating",
+     "in_force_date": null,
+     "source_url": "https://rtais.wto.org/UI/PublicShowMemberRTAIDCard.aspx?rtaid=718"
+    }
+   ],
+   "gsp": {
+    "scheme": null,
+    "india_beneficiary": null,
+    "notes": "Not applicable/not researched: no GSP scheme of this importing country benefiting India was verified.",
+    "source_url": null
+   },
+   "origin_proof": {
+    "preferential_document": null,
+    "issued_by": null,
+    "how": "No preferential agreement in force.",
+    "source_url": "https://rtais.wto.org/UI/PublicShowMemberRTAIDCard.aspx?rtaid=718"
+   },
+   "non_preferential_coo": {
+    "needed": null,
+    "issued_by": "Agencies in DGFT Appendix 2E (DGFT regional offices, Textiles Committee, EPCs, chambers of commerce, etc.), applied for on the DGFT eCoO platform",
+    "source_url": "https://content.dgft.gov.in/Website/APPENDIX-2E.pdf"
+   },
+   "import_vat": {
+    "rate_pct": 15,
+    "name": "VAT",
+    "source_url": "https://www.sars.gov.za/types-of-tax/value-added-tax/"
+   },
+   "customs_url": "https://www.sars.gov.za/customs-and-excise/",
+   "india_mission_commerce_url": "https://www.hcipretoria.gov.in/page-links/?page=trade-and-commerce&type=sub",
+   "rules_docs": [
+    {
+     "title": "DGFT Appendix 2E - agencies authorised to issue non-preferential CoO",
+     "url": "https://content.dgft.gov.in/Website/APPENDIX-2E.pdf",
+     "format": "pdf",
+     "covers": "procedures"
+    }
+   ],
+   "import_notes": [
+    {
+     "text": "Canned and frozen fish, molluscs and crustaceans fall under NRCS compulsory specifications; imports need NRCS approval/Letter of Authority.",
+     "source_url": "https://www.nrcs.org.za/services/imports-and-exports"
+    },
+    {
+     "text": "Plants and plant products (spices, rice, fresh produce) need an import permit from the Department of Agriculture plant health office before export.",
+     "source_url": "https://dirco.gov.za/jordan/2026/08/26/how-to-obtain-import-permit-for-plants-and-plant-products-from-the-south-african-authorities/"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "iso3": "KEN",
+   "name": "Kenya",
+   "region": "Africa",
+   "eu_member": false,
+   "agreements": [],
+   "gsp": {
+    "scheme": null,
+    "india_beneficiary": null,
+    "notes": "Not applicable/not researched: no GSP scheme of this importing country benefiting India was verified.",
+    "source_url": null
+   },
+   "origin_proof": {
+    "preferential_document": null,
+    "issued_by": null,
+    "how": "No India-Kenya preferential trade agreement found in force or under negotiation.",
+    "source_url": "https://www.commerce.gov.in/ministryofcommerce/api/v1/international-trade/trade-agreements"
+   },
+   "non_preferential_coo": {
+    "needed": null,
+    "issued_by": "Agencies in DGFT Appendix 2E (DGFT regional offices, Textiles Committee, EPCs, chambers of commerce, etc.), applied for on the DGFT eCoO platform",
+    "source_url": "https://content.dgft.gov.in/Website/APPENDIX-2E.pdf"
+   },
+   "import_vat": {
+    "rate_pct": 16,
+    "name": "VAT",
+    "source_url": "https://www.kra.go.ke/individual/filing-paying/types-of-taxes/value-added-tax"
+   },
+   "customs_url": "https://www.kra.go.ke/",
+   "india_mission_commerce_url": "https://www.hcinairobi.gov.in/eoinrb_pages/NjEy",
+   "rules_docs": [
+    {
+     "title": "DGFT Appendix 2E - agencies authorised to issue non-preferential CoO",
+     "url": "https://content.dgft.gov.in/Website/APPENDIX-2E.pdf",
+     "format": "pdf",
+     "covers": "procedures"
+    }
+   ],
+   "import_notes": [
+    {
+     "text": "Regulated goods need a KEBS PVoC Certificate of Conformity issued in India before shipment; new PVoC contracts started 19 Feb 2026 (manual v15; kebs.org had a TLS error when checked).",
+     "source_url": "https://www.kebs.org/wp-content/uploads/2026/02/PVOC-MANUAL-VERSION-15.pdf"
+    },
+    {
+     "text": "Plants and plant products need a KEPHIS plant import permit before shipment plus a phytosanitary certificate.",
+     "source_url": "https://www.kephis.go.ke/"
+    },
+    {
+     "text": "Importer files the Import Declaration Form and agency permits on the KenTrade single window.",
+     "source_url": "https://www.kentrade.go.ke/"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "iso3": "NGA",
+   "name": "Nigeria",
+   "region": "Africa",
+   "eu_member": false,
+   "agreements": [
+    {
+     "name": "Global System of Trade Preferences among Developing Countries (GSTP)",
+     "status": "in_force",
+     "in_force_date": "1989-04-19",
+     "source_url": "https://rtais.wto.org/UI/PublicShowMemberRTAIDCard.aspx?rtaid=146"
+    }
+   ],
+   "gsp": {
+    "scheme": null,
+    "india_beneficiary": null,
+    "notes": "Not applicable/not researched: no GSP scheme of this importing country benefiting India was verified.",
+    "source_url": null
+   },
+   "origin_proof": {
+    "preferential_document": "GSTP Certificate of Origin (only for products in Nigeria's GSTP concession list)",
+    "issued_by": "EIC (all goods), MPEDA (marine), Tobacco Board, Textiles Committee (DGFT Appendix 2B)",
+    "how": "Exporter registers on DGFT's electronic CoO platform (coo.dgft.gov.in; DGFT now routes eCoO 2.0 through the Trade Connect ePlatform at trade.gov.in), applies online with a digital signature, picks the agreement and the issuing agency, uploads invoice/packing list and origin-criterion details; agency verifies and issues an e-CoO.",
+    "source_url": "https://content.dgft.gov.in/Website/dgftprod/f025f410-65c3-41b8-85c9-78f5059a53f8/Appendix%202B%20(Certificate%20of%20Origin%20%5BPreferential%5D)%20as%20on%2006.02.2023%20(1).pdf"
+   },
+   "non_preferential_coo": {
+    "needed": null,
+    "issued_by": "Agencies in DGFT Appendix 2E (DGFT regional offices, Textiles Committee, EPCs, chambers of commerce, etc.), applied for on the DGFT eCoO platform",
+    "source_url": "https://content.dgft.gov.in/Website/APPENDIX-2E.pdf"
+   },
+   "import_vat": {
+    "rate_pct": 7.5,
+    "name": "VAT",
+    "source_url": "https://taxsummaries.pwc.com/nigeria/corporate/other-taxes"
+   },
+   "customs_url": "https://customs.gov.ng/",
+   "india_mission_commerce_url": "https://www.hciabuja.gov.in/page-links/?page=trade-commerce&type=main",
+   "rules_docs": [
+    {
+     "title": "DGFT Appendix 2B - agencies authorised to issue preferential CoO (as on 06.02.2023; later agreements added by public notices)",
+     "url": "https://content.dgft.gov.in/Website/dgftprod/f025f410-65c3-41b8-85c9-78f5059a53f8/Appendix%202B%20(Certificate%20of%20Origin%20%5BPreferential%5D)%20as%20on%2006.02.2023%20(1).pdf",
+     "format": "pdf",
+     "covers": "procedures"
+    },
+    {
+     "title": "DGFT Appendix 2E - agencies authorised to issue non-preferential CoO",
+     "url": "https://content.dgft.gov.in/Website/APPENDIX-2E.pdf",
+     "format": "pdf",
+     "covers": "procedures"
+    }
+   ],
+   "import_notes": [
+    {
+     "text": "Regulated non-food goods need a SONCAP Product Certificate (to open Form M) and a per-shipment SONCAP Certificate; since 2026 SONCAP runs on the National Single Window.",
+     "source_url": "https://son.gov.ng/soncapservice/"
+    },
+    {
+     "text": "Imported food must be registered with NAFDAC before sale (notarised power of attorney, CMFS authenticated by Nigerian mission, factory inspection, label vetting, lab samples).",
+     "source_url": "https://www.nafdac.gov.ng/wp-content/uploads/Files/Resources/Guidelines/R_and_R_Guidelines/IIMPORTS/Guidelines-for-the-Registration-of-Imported-Food.pdf"
+    },
+    {
+     "text": "Cosmetics need separate NAFDAC registration (5-year certificate).",
+     "source_url": "https://www.nafdac.gov.ng/wp-content/uploads/Files/Resources/Guidelines/R_and_R_Guidelines/IIMPORTS/Guidelines-for-the-Registration-of-Imported-Cosmetics.pdf"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "iso3": "TGO",
+   "name": "Togo",
+   "region": "Africa",
+   "eu_member": false,
+   "agreements": [],
+   "gsp": {
+    "scheme": null,
+    "india_beneficiary": null,
+    "notes": "Not applicable/not researched: no GSP scheme of this importing country benefiting India was verified.",
+    "source_url": null
+   },
+   "origin_proof": {
+    "preferential_document": null,
+    "issued_by": null,
+    "how": "No India-Togo preferential trade agreement found.",
+    "source_url": "https://www.commerce.gov.in/ministryofcommerce/api/v1/international-trade/trade-agreements"
+   },
+   "non_preferential_coo": {
+    "needed": "usually",
+    "issued_by": "Agencies in DGFT Appendix 2E (DGFT regional offices, Textiles Committee, EPCs, chambers of commerce, etc.), applied for on the DGFT eCoO platform. OTR import declarations must include a valid certificate of origin and its reference number.",
+    "source_url": "https://www.trade.gov/country-commercial-guides/togo-import-requirements-and-documentation"
+   },
+   "import_vat": {
+    "rate_pct": 18,
+    "name": "VAT (TVA)",
+    "source_url": "https://www.trade.gov/country-commercial-guides/togo-import-tariffs"
+   },
+   "customs_url": "https://www.otr.tg/",
+   "india_mission_commerce_url": null,
+   "rules_docs": [
+    {
+     "title": "DGFT Appendix 2E - agencies authorised to issue non-preferential CoO",
+     "url": "https://content.dgft.gov.in/Website/APPENDIX-2E.pdf",
+     "format": "pdf",
+     "covers": "procedures"
+    }
+   ],
+   "import_notes": [
+    {
+     "text": "Shipments to Lome need a BESC/ECTN electronic cargo tracking note before loading, managed by the Conseil National des Chargeurs du Togo (mandatory status from secondary sources).",
+     "source_url": "https://cnct-togo.com/"
+    },
+    {
+     "text": "Since Mar 2025 licences/permits for priority products run through the Togo Trade Portal; declarations need a valid CoO reference.",
+     "source_url": "https://www.trade.gov/country-commercial-guides/togo-import-requirements-and-documentation"
+    }
+   ],
+   "confidence": "low"
+  },
+  {
+   "iso3": "BGD",
+   "name": "Bangladesh",
+   "region": "South Asia",
+   "eu_member": false,
+   "agreements": [
+    {
+     "name": "Agreement on South Asian Free Trade Area (SAFTA)",
+     "status": "in_force",
+     "in_force_date": "2006-01-01",
+     "source_url": "https://rtais.wto.org/UI/PublicShowMemberRTAIDCard.aspx?rtaid=188"
+    },
+    {
+     "name": "Asia-Pacific Trade Agreement (APTA, formerly Bangkok Agreement; amended APTA in force 1 Sep 2006)",
+     "status": "in_force",
+     "in_force_date": "1976-06-17",
+     "source_url": "https://rtais.wto.org/UI/PublicShowMemberRTAIDCard.aspx?rtaid=140"
+    },
+    {
+     "name": "Global System of Trade Preferences among Developing Countries (GSTP)",
+     "status": "in_force",
+     "in_force_date": "1989-04-19",
+     "source_url": "https://rtais.wto.org/UI/PublicShowMemberRTAIDCard.aspx?rtaid=146"
+    },
+    {
+     "name": "BIMSTEC Free Trade Agreement (negotiations commenced 2004; not concluded)",
+     "status": "negotiating",
+     "in_force_date": null,
+     "source_url": "https://rtais.wto.org/UI/PublicShowMemberRTAIDCard.aspx?rtaid=373"
+    }
+   ],
+   "gsp": {
+    "scheme": null,
+    "india_beneficiary": null,
+    "notes": "Not applicable/not researched: no GSP scheme of this importing country benefiting India was verified.",
+    "source_url": null
+   },
+   "origin_proof": {
+    "preferential_document": "SAFTA Certificate of Origin (or APTA certificate for APTA concessions)",
+    "issued_by": "SAFTA: EIC (all goods), MPEDA, Textiles Committee (Appendix 2B); APTA: agencies in Appendix 2D (APEDA, EPCs, FIEO, etc.) plus Textiles Committee",
+    "how": "Exporter registers on DGFT's electronic CoO platform (coo.dgft.gov.in; DGFT now routes eCoO 2.0 through the Trade Connect ePlatform at trade.gov.in), applies online with a digital signature, picks the agreement and the issuing agency, uploads invoice/packing list and origin-criterion details; agency verifies and issues an e-CoO. GSTP certificate of origin also possible (EIC, MPEDA, Tobacco Board, Textiles Committee) but GSTP concessions cover few lines.",
+    "source_url": "https://content.dgft.gov.in/Website/dgftprod/f025f410-65c3-41b8-85c9-78f5059a53f8/Appendix%202B%20(Certificate%20of%20Origin%20%5BPreferential%5D)%20as%20on%2006.02.2023%20(1).pdf"
+   },
+   "non_preferential_coo": {
+    "needed": null,
+    "issued_by": "Agencies in DGFT Appendix 2E (DGFT regional offices, Textiles Committee, EPCs, chambers of commerce, etc.), applied for on the DGFT eCoO platform",
+    "source_url": "https://content.dgft.gov.in/Website/APPENDIX-2E.pdf"
+   },
+   "import_vat": {
+    "rate_pct": 15,
+    "name": "VAT",
+    "source_url": "https://taxsummaries.pwc.com/bangladesh/corporate/other-taxes"
+   },
+   "customs_url": "https://customs.gov.bd/",
+   "india_mission_commerce_url": "https://hcidhaka.gov.in/tradeenquiry",
+   "rules_docs": [
+    {
+     "title": "SAFTA Agreement with SAFTA Rules of Origin (commerce.gov.in)",
+     "url": "https://www.commerce.gov.in/files/2025-01/safta.pdf",
+     "format": "pdf",
+     "covers": "rules of origin"
+    },
+    {
+     "title": "Asia-Pacific Trade Agreement text incl. Rules of Origin (commerce.gov.in)",
+     "url": "https://www.commerce.gov.in/files/2025-01/bangkok_agreement.pdf",
+     "format": "pdf",
+     "covers": "rules of origin"
+    },
+    {
+     "title": "DGFT Appendix 2B - agencies authorised to issue preferential CoO (as on 06.02.2023; later agreements added by public notices)",
+     "url": "https://content.dgft.gov.in/Website/dgftprod/f025f410-65c3-41b8-85c9-78f5059a53f8/Appendix%202B%20(Certificate%20of%20Origin%20%5BPreferential%5D)%20as%20on%2006.02.2023%20(1).pdf",
+     "format": "pdf",
+     "covers": "procedures"
+    },
+    {
+     "title": "DGFT Appendix 2D - agencies authorised to issue CoO for SAPTA and APTA",
+     "url": "https://content.dgft.gov.in/Website/dgftprod/8d1fc29e-03a5-4a3d-9fda-a602e21e3411/Appendix%202D_new.pdf",
+     "format": "pdf",
+     "covers": "procedures"
+    },
+    {
+     "title": "DGFT Appendix 2E - agencies authorised to issue non-preferential CoO",
+     "url": "https://content.dgft.gov.in/Website/APPENDIX-2E.pdf",
+     "format": "pdf",
+     "covers": "procedures"
+    }
+   ],
+   "import_notes": [
+    {
+     "text": "Import Policy Order 2026-2029 was gazetted 24 Aug 2026, replacing the 2021-24 order (full text not reviewed).",
+     "source_url": "https://mincom.gov.bd/pages/policies/import-policy-order-2026-2029-kwnpvf-6a8d0ccc1c79f3cb24defb56"
+    },
+    {
+     "text": "An LC is the usual route but no longer strictly mandatory: Bangladesh Bank's 13 Aug 2026 circular allows commercial imports without LC under purchase/sales contracts (D/P or up to 60-day usance); importer must hold an IRC.",
+     "source_url": "https://www.bb.org.bd/mediaroom/circulars/fepd/aug132026fepd-130e.pdf"
+    },
+    {
+     "text": "Plant products (rice, spices, pulses) need a Plant Quarantine Wing import permit before the LC is opened; wood packaging must meet ISPM-15.",
+     "source_url": "https://hub.bangladeshcustoms.gov.bd/hs-code-details/download/import/913"
+    },
+    {
+     "text": "About 229 products are under BSTI mandatory certification, including imports, before customs release.",
+     "source_url": "https://bsti.gov.bd/"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "iso3": "NPL",
+   "name": "Nepal",
+   "region": "South Asia",
+   "eu_member": false,
+   "agreements": [
+    {
+     "name": "Revised India-Nepal Treaty of Trade (auto-renewed for 7 years in Oct 2016 and Nov 2023)",
+     "status": "in_force",
+     "in_force_date": "2009-10-27",
+     "source_url": "https://rtais.wto.org/UI/PublicShowMemberRTAIDCard.aspx?rtaid=392"
+    },
+    {
+     "name": "Agreement on South Asian Free Trade Area (SAFTA)",
+     "status": "in_force",
+     "in_force_date": "2006-01-01",
+     "source_url": "https://rtais.wto.org/UI/PublicShowMemberRTAIDCard.aspx?rtaid=188"
+    },
+    {
+     "name": "BIMSTEC Free Trade Agreement (negotiations commenced 2004; not concluded)",
+     "status": "negotiating",
+     "in_force_date": null,
+     "source_url": "https://rtais.wto.org/UI/PublicShowMemberRTAIDCard.aspx?rtaid=373"
+    }
+   ],
+   "gsp": {
+    "scheme": null,
+    "india_beneficiary": null,
+    "notes": "Not applicable/not researched: no GSP scheme of this importing country benefiting India was verified.",
+    "source_url": null
+   },
+   "origin_proof": {
+    "preferential_document": "SAFTA Certificate of Origin for SAFTA concessions; the Treaty of Trade gives reciprocal duty exemption for listed primary products (rice, pulses, flour, agricultural produce, etc.)",
+    "issued_by": "SAFTA: EIC (all goods), MPEDA, Textiles Committee (Appendix 2B). Proof required by Nepal customs for treaty primary-product exemption not verified.",
+    "how": "Exporter registers on DGFT's electronic CoO platform (coo.dgft.gov.in; DGFT now routes eCoO 2.0 through the Trade Connect ePlatform at trade.gov.in), applies online with a digital signature, picks the agreement and the issuing agency, uploads invoice/packing list and origin-criterion details; agency verifies and issues an e-CoO.",
+    "source_url": "https://content.dgft.gov.in/Website/dgftprod/f025f410-65c3-41b8-85c9-78f5059a53f8/Appendix%202B%20(Certificate%20of%20Origin%20%5BPreferential%5D)%20as%20on%2006.02.2023%20(1).pdf"
+   },
+   "non_preferential_coo": {
+    "needed": null,
+    "issued_by": "Agencies in DGFT Appendix 2E (DGFT regional offices, Textiles Committee, EPCs, chambers of commerce, etc.), applied for on the DGFT eCoO platform",
+    "source_url": "https://content.dgft.gov.in/Website/APPENDIX-2E.pdf"
+   },
+   "import_vat": {
+    "rate_pct": 13,
+    "name": "VAT",
+    "source_url": "https://www.trade.gov/country-commercial-guides/nepal-import-tariffs"
+   },
+   "customs_url": "https://www.customs.gov.np/",
+   "india_mission_commerce_url": "https://www.indembkathmandu.gov.in/commerce-wing-brief",
+   "rules_docs": [
+    {
+     "title": "Revised India-Nepal Treaty of Trade 2009 (commerce.gov.in)",
+     "url": "https://www.commerce.gov.in/files/2025-01/nepal.pdf",
+     "format": "pdf",
+     "covers": "rules of origin"
+    },
+    {
+     "title": "SAFTA Agreement with SAFTA Rules of Origin (commerce.gov.in)",
+     "url": "https://www.commerce.gov.in/files/2025-01/safta.pdf",
+     "format": "pdf",
+     "covers": "rules of origin"
+    },
+    {
+     "title": "DGFT Appendix 2B - agencies authorised to issue preferential CoO (as on 06.02.2023; later agreements added by public notices)",
+     "url": "https://content.dgft.gov.in/Website/dgftprod/f025f410-65c3-41b8-85c9-78f5059a53f8/Appendix%202B%20(Certificate%20of%20Origin%20%5BPreferential%5D)%20as%20on%2006.02.2023%20(1).pdf",
+     "format": "pdf",
+     "covers": "procedures"
+    },
+    {
+     "title": "DGFT Appendix 2E - agencies authorised to issue non-preferential CoO",
+     "url": "https://content.dgft.gov.in/Website/APPENDIX-2E.pdf",
+     "format": "pdf",
+     "covers": "procedures"
+    }
+   ],
+   "import_notes": [
+    {
+     "text": "Food imports need DFTQC import approval through the Nepal National Single Window plus border food-quarantine check; new Food Safety and Quality Act 2024 may change procedures.",
+     "source_url": "http://www.dftqc.gov.np/en/pages/2/70332091/"
+    },
+    {
+     "text": "Plants and plant products need an entry permit/release order from a Plant Quarantine and Pesticide Management Centre office against an Indian phytosanitary certificate (hot-water treatment added for Indian mangoes in Jun 2026).",
+     "source_url": "https://npponepal.gov.np/en/pages/78/84661316/"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "iso3": "LKA",
+   "name": "Sri Lanka",
+   "region": "South Asia",
+   "eu_member": false,
+   "agreements": [
+    {
+     "name": "India-Sri Lanka Free Trade Agreement (ISFTA) (signed 28 Dec 1998)",
+     "status": "in_force",
+     "in_force_date": "2000-03-01",
+     "source_url": "https://rtais.wto.org/UI/PublicShowMemberRTAIDCard.aspx?rtaid=72"
+    },
+    {
+     "name": "Agreement on South Asian Free Trade Area (SAFTA)",
+     "status": "in_force",
+     "in_force_date": "2006-01-01",
+     "source_url": "https://rtais.wto.org/UI/PublicShowMemberRTAIDCard.aspx?rtaid=188"
+    },
+    {
+     "name": "Asia-Pacific Trade Agreement (APTA, formerly Bangkok Agreement; amended APTA in force 1 Sep 2006)",
+     "status": "in_force",
+     "in_force_date": "1976-06-17",
+     "source_url": "https://rtais.wto.org/UI/PublicShowMemberRTAIDCard.aspx?rtaid=140"
+    },
+    {
+     "name": "Global System of Trade Preferences among Developing Countries (GSTP)",
+     "status": "in_force",
+     "in_force_date": "1989-04-19",
+     "source_url": "https://rtais.wto.org/UI/PublicShowMemberRTAIDCard.aspx?rtaid=146"
+    },
+    {
+     "name": "BIMSTEC Free Trade Agreement (negotiations commenced 2004; not concluded)",
+     "status": "negotiating",
+     "in_force_date": null,
+     "source_url": "https://rtais.wto.org/UI/PublicShowMemberRTAIDCard.aspx?rtaid=373"
+    }
+   ],
+   "gsp": {
+    "scheme": null,
+    "india_beneficiary": null,
+    "notes": "Not applicable/not researched: no GSP scheme of this importing country benefiting India was verified.",
+    "source_url": null
+   },
+   "origin_proof": {
+    "preferential_document": "ISFTA Certificate of Origin (alternatively SAFTA or APTA certificate)",
+    "issued_by": "ISFTA: EIC (all goods), MPEDA (marine), Textiles Committee (DGFT Appendix 2B)",
+    "how": "Exporter registers on DGFT's electronic CoO platform (coo.dgft.gov.in; DGFT now routes eCoO 2.0 through the Trade Connect ePlatform at trade.gov.in), applies online with a digital signature, picks the agreement and the issuing agency, uploads invoice/packing list and origin-criterion details; agency verifies and issues an e-CoO. GSTP certificate of origin also possible (EIC, MPEDA, Tobacco Board, Textiles Committee) but GSTP concessions cover few lines.",
+    "source_url": "https://content.dgft.gov.in/Website/dgftprod/f025f410-65c3-41b8-85c9-78f5059a53f8/Appendix%202B%20(Certificate%20of%20Origin%20%5BPreferential%5D)%20as%20on%2006.02.2023%20(1).pdf"
+   },
+   "non_preferential_coo": {
+    "needed": null,
+    "issued_by": "Agencies in DGFT Appendix 2E (DGFT regional offices, Textiles Committee, EPCs, chambers of commerce, etc.), applied for on the DGFT eCoO platform",
+    "source_url": "https://content.dgft.gov.in/Website/APPENDIX-2E.pdf"
+   },
+   "import_vat": {
+    "rate_pct": 18,
+    "name": "VAT",
+    "source_url": "https://kpmg.com/us/en/taxnewsflash/news/2026/04/sri-lanka-importation-supply-fabric-vat-rate.html"
+   },
+   "customs_url": "https://www.customs.gov.lk/",
+   "india_mission_commerce_url": "https://www.hcicolombo.gov.in/page-links/?page=trade&type=main",
+   "rules_docs": [
+    {
+     "title": "India-Sri Lanka FTA text incl. Annexure C rules of origin (commerce.gov.in API JSON)",
+     "url": "https://www.commerce.gov.in/ministryofcommerce/api/v1/international-trade/trade-agreements/india-sri-lanka-fta",
+     "format": "html",
+     "covers": "rules of origin"
+    },
+    {
+     "title": "SAFTA Agreement with SAFTA Rules of Origin (commerce.gov.in)",
+     "url": "https://www.commerce.gov.in/files/2025-01/safta.pdf",
+     "format": "pdf",
+     "covers": "rules of origin"
+    },
+    {
+     "title": "Asia-Pacific Trade Agreement text incl. Rules of Origin (commerce.gov.in)",
+     "url": "https://www.commerce.gov.in/files/2025-01/bangkok_agreement.pdf",
+     "format": "pdf",
+     "covers": "rules of origin"
+    },
+    {
+     "title": "DGFT Appendix 2B - agencies authorised to issue preferential CoO (as on 06.02.2023; later agreements added by public notices)",
+     "url": "https://content.dgft.gov.in/Website/dgftprod/f025f410-65c3-41b8-85c9-78f5059a53f8/Appendix%202B%20(Certificate%20of%20Origin%20%5BPreferential%5D)%20as%20on%2006.02.2023%20(1).pdf",
+     "format": "pdf",
+     "covers": "procedures"
+    },
+    {
+     "title": "DGFT Appendix 2D - agencies authorised to issue CoO for SAPTA and APTA",
+     "url": "https://content.dgft.gov.in/Website/dgftprod/8d1fc29e-03a5-4a3d-9fda-a602e21e3411/Appendix%202D_new.pdf",
+     "format": "pdf",
+     "covers": "procedures"
+    },
+    {
+     "title": "DGFT Appendix 2E - agencies authorised to issue non-preferential CoO",
+     "url": "https://content.dgft.gov.in/Website/APPENDIX-2E.pdf",
+     "format": "pdf",
+     "covers": "procedures"
+    }
+   ],
+   "import_notes": [
+    {
+     "text": "Products listed under the SLSI Compulsory Import Inspection Scheme must show conformity with the relevant SLS (accredited-lab CoC, recognised marks such as BIS, etc.) before Customs release; latest list seen: Gazette 2384/35 (May 2024).",
+     "source_url": "https://slsi.lk/?p=476"
+    },
+    {
+     "text": "Imported food is cleared by the Ministry of Health Food Control Administration Unit under the Food Act No. 26 of 1980, with document checks and border sampling.",
+     "source_url": "https://eohfs.health.gov.lk/food/"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "iso3": "BTN",
+   "name": "Bhutan",
+   "region": "South Asia",
+   "eu_member": false,
+   "agreements": [
+    {
+     "name": "India-Bhutan Agreement on Trade, Commerce and Transit (signed 12 Nov 2016; free trade regime)",
+     "status": "in_force",
+     "in_force_date": "2017-07-29",
+     "source_url": "https://updates.manupatra.com/roundup/contentsummary.aspx?iid=10450"
+    },
+    {
+     "name": "Agreement on South Asian Free Trade Area (SAFTA)",
+     "status": "in_force",
+     "in_force_date": "2006-01-01",
+     "source_url": "https://rtais.wto.org/UI/PublicShowMemberRTAIDCard.aspx?rtaid=188"
+    },
+    {
+     "name": "BIMSTEC Free Trade Agreement (negotiations commenced 2004; not concluded)",
+     "status": "negotiating",
+     "in_force_date": null,
+     "source_url": "https://rtais.wto.org/UI/PublicShowMemberRTAIDCard.aspx?rtaid=373"
+    }
+   ],
+   "gsp": {
+    "scheme": null,
+    "india_beneficiary": null,
+    "notes": "Not applicable/not researched: no GSP scheme of this importing country benefiting India was verified.",
+    "source_url": null
+   },
+   "origin_proof": {
+    "preferential_document": null,
+    "issued_by": null,
+    "how": "Agreement establishes a free trade regime between India and Bhutan; the specific origin document Bhutan customs requires for Indian goods was not verified.",
+    "source_url": "https://www.indembthimphu.gov.in/pages/MzI,"
+   },
+   "non_preferential_coo": {
+    "needed": null,
+    "issued_by": "Agencies in DGFT Appendix 2E (DGFT regional offices, Textiles Committee, EPCs, chambers of commerce, etc.), applied for on the DGFT eCoO platform",
+    "source_url": "https://content.dgft.gov.in/Website/APPENDIX-2E.pdf"
+   },
+   "import_vat": {
+    "rate_pct": 5,
+    "name": "GST (replaced sales tax from 1 Jan 2026; collected on imports by DRC)",
+    "source_url": "https://kpmg.com/us/en/taxnewsflash/news/2025/10/tnf-bhutan-new-gst-regime-to-replace-existing-sales-tax-framework.html"
+   },
+   "customs_url": "https://www.drc.gov.bt/",
+   "india_mission_commerce_url": "https://www.indembthimphu.gov.in/pages/Ng,,",
+   "rules_docs": [
+    {
+     "title": "India-Bhutan Agreement on Trade, Commerce and Transit, 12 Nov 2016 (commerce.gov.in)",
+     "url": "https://www.commerce.gov.in/files/2025-01/MOC_636404697883366996_Agreement_between_India_Bhutan_12th_Nov_2016.pdf",
+     "format": "pdf",
+     "covers": "procedures"
+    },
+    {
+     "title": "SAFTA Agreement with SAFTA Rules of Origin (commerce.gov.in)",
+     "url": "https://www.commerce.gov.in/files/2025-01/safta.pdf",
+     "format": "pdf",
+     "covers": "rules of origin"
+    },
+    {
+     "title": "DGFT Appendix 2E - agencies authorised to issue non-preferential CoO",
+     "url": "https://content.dgft.gov.in/Website/APPENDIX-2E.pdf",
+     "format": "pdf",
+     "covers": "procedures"
+    }
+   ],
+   "import_notes": [
+    {
+     "text": "Regulated food imports need a prior BFDA permit via a designated entry point (currently processed milk and seaweed); imported food must have at least 50% shelf life remaining.",
+     "source_url": "https://bfda.gov.bt/sps-information-portal/"
+    },
+    {
+     "text": "Plants, livestock products and feed need a BFDA (former BAFRA) import permit; feed only from BFDA-registered companies.",
+     "source_url": "https://bfda.gov.bt/pabd-faqs/"
+    },
+    {
+     "text": "GST Amendment Act 2026 exempted additional items at the port of entry from 25 Jun 2026; check the exempt list.",
+     "source_url": "https://mof.gov.bt/wp-content/uploads/2026/06/GST_Public_Notification_2026.pdf"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "iso3": "SGP",
+   "name": "Singapore",
+   "region": "Southeast Asia",
+   "eu_member": false,
+   "agreements": [
+    {
+     "name": "India-Singapore Comprehensive Economic Cooperation Agreement (CECA)",
+     "status": "in_force",
+     "in_force_date": "2005-08-01",
+     "source_url": "https://rtais.wto.org/UI/PublicShowMemberRTAIDCard.aspx?rtaid=10"
+    },
+    {
+     "name": "ASEAN-India Trade in Goods Agreement (AITIGA / AIFTA)",
+     "status": "in_force",
+     "in_force_date": "2010-01-01",
+     "source_url": "https://rtais.wto.org/UI/PublicShowMemberRTAIDCard.aspx?rtaid=438"
+    },
+    {
+     "name": "Global System of Trade Preferences among Developing Countries (GSTP)",
+     "status": "in_force",
+     "in_force_date": "1989-04-19",
+     "source_url": "https://rtais.wto.org/UI/PublicShowMemberRTAIDCard.aspx?rtaid=146"
+    },
+    {
+     "name": "ASEAN-India Trade in Goods Agreement (AITIGA) review/upgrade",
+     "status": "negotiating",
+     "in_force_date": null,
+     "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/feb/doc2026227806201.pdf"
+    }
+   ],
+   "gsp": {
+    "scheme": null,
+    "india_beneficiary": null,
+    "notes": "Not applicable/not researched: no GSP scheme of this importing country benefiting India was verified.",
+    "source_url": null
+   },
+   "origin_proof": {
+    "preferential_document": "India-Singapore CECA Certificate of Origin, or AIFTA Form AI",
+    "issued_by": "Export Inspection Council (EIC/EIAs) for all goods; MPEDA for marine products; Textiles Committee for textiles and made-ups (DGFT Appendix 2B)",
+    "how": "Exporter registers on DGFT's electronic CoO platform (coo.dgft.gov.in; DGFT now routes eCoO 2.0 through the Trade Connect ePlatform at trade.gov.in), applies online with a digital signature, picks the agreement and the issuing agency, uploads invoice/packing list and origin-criterion details; agency verifies and issues an e-CoO. GSTP certificate of origin also possible (EIC, MPEDA, Tobacco Board, Textiles Committee) but GSTP concessions cover few lines.",
+    "source_url": "https://content.dgft.gov.in/Website/dgftprod/f025f410-65c3-41b8-85c9-78f5059a53f8/Appendix%202B%20(Certificate%20of%20Origin%20%5BPreferential%5D)%20as%20on%2006.02.2023%20(1).pdf"
+   },
+   "non_preferential_coo": {
+    "needed": "rarely",
+    "issued_by": "Agencies in DGFT Appendix 2E (DGFT regional offices, Textiles Committee, EPCs, chambers of commerce, etc.), applied for on the DGFT eCoO platform. Singapore applies zero duty on most goods; CoO not listed among standard import documents (inference).",
+    "source_url": "https://www.trade.gov/country-commercial-guides/singapore-import-requirements-and-documentation"
+   },
+   "import_vat": {
+    "rate_pct": 9,
+    "name": "GST",
+    "source_url": "https://www.iras.gov.sg/taxes/goods-services-tax-(gst)/basics-of-gst/current-gst-rates"
+   },
+   "customs_url": "https://www.customs.gov.sg/",
+   "india_mission_commerce_url": "https://www.hcisingapore.gov.in/commercial_representative",
+   "rules_docs": [
+    {
+     "title": "India-Singapore CECA Chapter 3 - Rules of Origin",
+     "url": "https://www.commerce.gov.in/files/2025-04/ch3.pdf",
+     "format": "pdf",
+     "covers": "rules of origin"
+    },
+    {
+     "title": "India-Singapore CECA Annex 3A - Product Specific Rules",
+     "url": "https://www.commerce.gov.in/files/2025-04/anx3a.pdf",
+     "format": "pdf",
+     "covers": "rules of origin"
+    },
+    {
+     "title": "India-Singapore CECA Annex 3B - Operational Certification Procedures",
+     "url": "https://www.commerce.gov.in/files/2025-04/anx3b.pdf",
+     "format": "pdf",
+     "covers": "procedures"
+    },
+    {
+     "title": "ASEAN-India Trade in Goods Agreement incl. Annex 2 Rules of Origin and Operational Certification Procedures (ASEAN Secretariat)",
+     "url": "https://asean.org/wp-content/uploads/images/archive/22677.pdf",
+     "format": "pdf",
+     "covers": "rules of origin"
+    },
+    {
+     "title": "DGFT Appendix 2B - agencies authorised to issue preferential CoO (as on 06.02.2023; later agreements added by public notices)",
+     "url": "https://content.dgft.gov.in/Website/dgftprod/f025f410-65c3-41b8-85c9-78f5059a53f8/Appendix%202B%20(Certificate%20of%20Origin%20%5BPreferential%5D)%20as%20on%2006.02.2023%20(1).pdf",
+     "format": "pdf",
+     "covers": "procedures"
+    },
+    {
+     "title": "DGFT Appendix 2E - agencies authorised to issue non-preferential CoO",
+     "url": "https://content.dgft.gov.in/Website/APPENDIX-2E.pdf",
+     "format": "pdf",
+     "covers": "procedures"
+    }
+   ],
+   "import_notes": [
+    {
+     "text": "Food importers need an SFA licence/registration and a TradeNet import permit for every consignment.",
+     "source_url": "https://www.sfa.gov.sg/food-import-export/commercial-imports/what-you-need-to-know-for-import-of-food"
+    },
+    {
+     "text": "Rice needs an SFA rice licence and the importer must join the Rice Stockpile Scheme.",
+     "source_url": "https://www.sfa.gov.sg/food-import-export/licence-permit-registration/businesses-that-need-licence-permit-registration-for-import-export"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "iso3": "MYS",
+   "name": "Malaysia",
+   "region": "Southeast Asia",
+   "eu_member": false,
+   "agreements": [
+    {
+     "name": "Malaysia-India Comprehensive Economic Cooperation Agreement (MICECA/IMCECA)",
+     "status": "in_force",
+     "in_force_date": "2011-07-01",
+     "source_url": "https://rtais.wto.org/UI/PublicShowMemberRTAIDCard.aspx?rtaid=544"
+    },
+    {
+     "name": "ASEAN-India Trade in Goods Agreement (AITIGA / AIFTA)",
+     "status": "in_force",
+     "in_force_date": "2010-01-01",
+     "source_url": "https://rtais.wto.org/UI/PublicShowMemberRTAIDCard.aspx?rtaid=438"
+    },
+    {
+     "name": "Global System of Trade Preferences among Developing Countries (GSTP)",
+     "status": "in_force",
+     "in_force_date": "1989-04-19",
+     "source_url": "https://rtais.wto.org/UI/PublicShowMemberRTAIDCard.aspx?rtaid=146"
+    },
+    {
+     "name": "ASEAN-India Trade in Goods Agreement (AITIGA) review/upgrade",
+     "status": "negotiating",
+     "in_force_date": null,
+     "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/feb/doc2026227806201.pdf"
+    }
+   ],
+   "gsp": {
+    "scheme": null,
+    "india_beneficiary": null,
+    "notes": "Not applicable/not researched: no GSP scheme of this importing country benefiting India was verified.",
+    "source_url": null
+   },
+   "origin_proof": {
+    "preferential_document": "MICECA Certificate of Origin (Form MICECA), or AIFTA Form AI",
+    "issued_by": "Export Inspection Council (EIC/EIAs) for all goods; MPEDA for marine products; Textiles Committee for textiles and made-ups (DGFT Appendix 2B)",
+    "how": "Exporter registers on DGFT's electronic CoO platform (coo.dgft.gov.in; DGFT now routes eCoO 2.0 through the Trade Connect ePlatform at trade.gov.in), applies online with a digital signature, picks the agreement and the issuing agency, uploads invoice/packing list and origin-criterion details; agency verifies and issues an e-CoO. GSTP certificate of origin also possible (EIC, MPEDA, Tobacco Board, Textiles Committee) but GSTP concessions cover few lines.",
+    "source_url": "https://content.dgft.gov.in/Website/dgftprod/f025f410-65c3-41b8-85c9-78f5059a53f8/Appendix%202B%20(Certificate%20of%20Origin%20%5BPreferential%5D)%20as%20on%2006.02.2023%20(1).pdf"
+   },
+   "non_preferential_coo": {
+    "needed": null,
+    "issued_by": "Agencies in DGFT Appendix 2E (DGFT regional offices, Textiles Committee, EPCs, chambers of commerce, etc.), applied for on the DGFT eCoO platform",
+    "source_url": "https://content.dgft.gov.in/Website/APPENDIX-2E.pdf"
+   },
+   "import_vat": {
+    "rate_pct": 10,
+    "name": "Sales tax (SST) - 10% standard, 5% on specified goods; services tax separate",
+    "source_url": "https://taxsummaries.pwc.com/malaysia/corporate/other-taxes"
+   },
+   "customs_url": "https://www.customs.gov.my/ms",
+   "india_mission_commerce_url": "https://www.hcikl.gov.in/home/Trade-Commerce/Trade-Complaints-Queries/Trade-Query",
+   "rules_docs": [
+    {
+     "title": "Malaysia-India CECA full text (MITI)",
+     "url": "https://fta.miti.gov.my/miti-fta/resources/Malaysia-India/MICECA.pdf",
+     "format": "pdf",
+     "covers": "rules of origin"
+    },
+    {
+     "title": "MICECA Operational Certification Procedures (MITI)",
+     "url": "https://fta.miti.gov.my/miti-fta/resources/Malaysia-India/Operational_Certification_Procedures.pdf",
+     "format": "pdf",
+     "covers": "procedures"
+    },
+    {
+     "title": "MICECA Certificate of Origin form (MITI)",
+     "url": "https://fta.miti.gov.my/miti-fta/resources/Malaysia-India/Certificate_of_Origin_form.pdf",
+     "format": "pdf",
+     "covers": "origin declaration"
+    },
+    {
+     "title": "MICECA list of products under Product Specific Rules (MITI)",
+     "url": "https://fta.miti.gov.my/miti-fta/resources/auto%20download%20images/558293fa56b4a.pdf",
+     "format": "pdf",
+     "covers": "rules of origin"
+    },
+    {
+     "title": "ASEAN-India Trade in Goods Agreement incl. Annex 2 Rules of Origin and Operational Certification Procedures (ASEAN Secretariat)",
+     "url": "https://asean.org/wp-content/uploads/images/archive/22677.pdf",
+     "format": "pdf",
+     "covers": "rules of origin"
+    },
+    {
+     "title": "DGFT Appendix 2B - agencies authorised to issue preferential CoO (as on 06.02.2023; later agreements added by public notices)",
+     "url": "https://content.dgft.gov.in/Website/dgftprod/f025f410-65c3-41b8-85c9-78f5059a53f8/Appendix%202B%20(Certificate%20of%20Origin%20%5BPreferential%5D)%20as%20on%2006.02.2023%20(1).pdf",
+     "format": "pdf",
+     "covers": "procedures"
+    },
+    {
+     "title": "DGFT Appendix 2E - agencies authorised to issue non-preferential CoO",
+     "url": "https://content.dgft.gov.in/Website/APPENDIX-2E.pdf",
+     "format": "pdf",
+     "covers": "procedures"
+    }
+   ],
+   "import_notes": [
+    {
+     "text": "MOH controls imported food (Food Act 1983); consignments are cleared via FoSIM with risk-based inspection; importers/brokers must register.",
+     "source_url": "https://hq.moh.gov.my/fsq/prosedur-pengimportan-makanan"
+    },
+    {
+     "text": "Plants and plant products need a MAQIS import permit and phytosanitary certificate.",
+     "source_url": "https://www.maqis.gov.my/index.php/makanan/"
+    },
+    {
+     "text": "Meat/poultry and any product labelled halal must be certified by a JAKIM-recognised foreign halal body (list effective 21 Aug 2026).",
+     "source_url": "https://www.halal.gov.my/pdf/cb/FHCB21August2026.pdf"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "iso3": "IDN",
+   "name": "Indonesia",
+   "region": "Southeast Asia",
+   "eu_member": false,
+   "agreements": [
+    {
+     "name": "ASEAN-India Trade in Goods Agreement (AITIGA / AIFTA)",
+     "status": "in_force",
+     "in_force_date": "2010-10-01",
+     "source_url": "https://rtais.wto.org/UI/PublicShowMemberRTAIDCard.aspx?rtaid=438"
+    },
+    {
+     "name": "Global System of Trade Preferences among Developing Countries (GSTP)",
+     "status": "in_force",
+     "in_force_date": "1989-04-19",
+     "source_url": "https://rtais.wto.org/UI/PublicShowMemberRTAIDCard.aspx?rtaid=146"
+    },
+    {
+     "name": "ASEAN-India Trade in Goods Agreement (AITIGA) review/upgrade",
+     "status": "negotiating",
+     "in_force_date": null,
+     "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/feb/doc2026227806201.pdf"
+    }
+   ],
+   "gsp": {
+    "scheme": null,
+    "india_beneficiary": null,
+    "notes": "Not applicable/not researched: no GSP scheme of this importing country benefiting India was verified.",
+    "source_url": null
+   },
+   "origin_proof": {
+    "preferential_document": "AIFTA Certificate of Origin (Form AI)",
+    "issued_by": "Export Inspection Council (EIC/EIAs) for all goods; MPEDA for marine products; Textiles Committee for textiles and made-ups (DGFT Appendix 2B)",
+    "how": "Exporter registers on DGFT's electronic CoO platform (coo.dgft.gov.in; DGFT now routes eCoO 2.0 through the Trade Connect ePlatform at trade.gov.in), applies online with a digital signature, picks the agreement and the issuing agency, uploads invoice/packing list and origin-criterion details; agency verifies and issues an e-CoO. GSTP certificate of origin also possible (EIC, MPEDA, Tobacco Board, Textiles Committee) but GSTP concessions cover few lines.",
+    "source_url": "https://content.dgft.gov.in/Website/dgftprod/f025f410-65c3-41b8-85c9-78f5059a53f8/Appendix%202B%20(Certificate%20of%20Origin%20%5BPreferential%5D)%20as%20on%2006.02.2023%20(1).pdf"
+   },
+   "non_preferential_coo": {
+    "needed": "usually",
+    "issued_by": "Agencies in DGFT Appendix 2E (DGFT regional offices, Textiles Committee, EPCs, chambers of commerce, etc.), applied for on the DGFT eCoO platform. Certificate of origin is listed among minimum import documents submitted via INSW.",
+    "source_url": "https://www.trade.gov/country-commercial-guides/indonesia-import-requirements-and-documentation"
+   },
+   "import_vat": {
+    "rate_pct": 12,
+    "name": "VAT (PPN) - statutory 12%; effective 11% for non-luxury goods via 11/12 tax base",
+    "source_url": "https://taxsummaries.pwc.com/indonesia/corporate/other-taxes"
+   },
+   "customs_url": "https://www.beacukai.go.id/",
+   "india_mission_commerce_url": "https://www.indianembassyjakarta.gov.in/CommercialRepresentative",
+   "rules_docs": [
+    {
+     "title": "ASEAN-India Trade in Goods Agreement incl. Annex 2 Rules of Origin and Operational Certification Procedures (ASEAN Secretariat)",
+     "url": "https://asean.org/wp-content/uploads/images/archive/22677.pdf",
+     "format": "pdf",
+     "covers": "rules of origin"
+    },
+    {
+     "title": "DGFT Appendix 2B - agencies authorised to issue preferential CoO (as on 06.02.2023; later agreements added by public notices)",
+     "url": "https://content.dgft.gov.in/Website/dgftprod/f025f410-65c3-41b8-85c9-78f5059a53f8/Appendix%202B%20(Certificate%20of%20Origin%20%5BPreferential%5D)%20as%20on%2006.02.2023%20(1).pdf",
+     "format": "pdf",
+     "covers": "procedures"
+    },
+    {
+     "title": "DGFT Appendix 2E - agencies authorised to issue non-preferential CoO",
+     "url": "https://content.dgft.gov.in/Website/APPENDIX-2E.pdf",
+     "format": "pdf",
+     "covers": "procedures"
+    }
+   ],
+   "import_notes": [
+    {
+     "text": "Retail-packed imported processed food needs a BPOM ML marketing authorisation (5 years) filed by the Indonesian importer with the Indian maker's appointment letter and GMP/HACCP evidence.",
+     "source_url": "https://registrasipangan.pom.go.id/layanan"
+    },
+    {
+     "text": "PP 40/2026 moved mandatory halal certification for imported food/beverages from 17 Oct 2026 to 18 Oct 2028; foreign halal certificates accepted only from bodies with a BPJPH MRA.",
+     "source_url": "https://bpjph.halal.go.id/main/read/penyesuaian-penahapan-kewajiban-sertifikasi-halal-diatur-dalam-pp-40-tahun-2026-begini-rinciannya"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "iso3": "VNM",
+   "name": "Vietnam",
+   "region": "Southeast Asia",
+   "eu_member": false,
+   "agreements": [
+    {
+     "name": "ASEAN-India Trade in Goods Agreement (AITIGA / AIFTA)",
+     "status": "in_force",
+     "in_force_date": "2010-06-01",
+     "source_url": "https://rtais.wto.org/UI/PublicShowMemberRTAIDCard.aspx?rtaid=438"
+    },
+    {
+     "name": "Global System of Trade Preferences among Developing Countries (GSTP)",
+     "status": "in_force",
+     "in_force_date": "1989-04-19",
+     "source_url": "https://rtais.wto.org/UI/PublicShowMemberRTAIDCard.aspx?rtaid=146"
+    },
+    {
+     "name": "ASEAN-India Trade in Goods Agreement (AITIGA) review/upgrade",
+     "status": "negotiating",
+     "in_force_date": null,
+     "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/feb/doc2026227806201.pdf"
+    }
+   ],
+   "gsp": {
+    "scheme": null,
+    "india_beneficiary": null,
+    "notes": "Not applicable/not researched: no GSP scheme of this importing country benefiting India was verified.",
+    "source_url": null
+   },
+   "origin_proof": {
+    "preferential_document": "AIFTA Certificate of Origin (Form AI)",
+    "issued_by": "Export Inspection Council (EIC/EIAs) for all goods; MPEDA for marine products; Textiles Committee for textiles and made-ups (DGFT Appendix 2B)",
+    "how": "Exporter registers on DGFT's electronic CoO platform (coo.dgft.gov.in; DGFT now routes eCoO 2.0 through the Trade Connect ePlatform at trade.gov.in), applies online with a digital signature, picks the agreement and the issuing agency, uploads invoice/packing list and origin-criterion details; agency verifies and issues an e-CoO. GSTP certificate of origin also possible (EIC, MPEDA, Tobacco Board, Textiles Committee) but GSTP concessions cover few lines.",
+    "source_url": "https://content.dgft.gov.in/Website/dgftprod/f025f410-65c3-41b8-85c9-78f5059a53f8/Appendix%202B%20(Certificate%20of%20Origin%20%5BPreferential%5D)%20as%20on%2006.02.2023%20(1).pdf"
+   },
+   "non_preferential_coo": {
+    "needed": null,
+    "issued_by": "Agencies in DGFT Appendix 2E (DGFT regional offices, Textiles Committee, EPCs, chambers of commerce, etc.), applied for on the DGFT eCoO platform",
+    "source_url": "https://content.dgft.gov.in/Website/APPENDIX-2E.pdf"
+   },
+   "import_vat": {
+    "rate_pct": 10,
+    "name": "VAT - 10% standard; 8% reduced rate for specified goods until 31 Dec 2026 (Resolution 204/2025/QH15)",
+    "source_url": "https://taxsummaries.pwc.com/vietnam/corporate/other-taxes"
+   },
+   "customs_url": "https://www.customs.gov.vn/",
+   "india_mission_commerce_url": "https://www.indembassyhanoi.gov.in/page-links/?page=economic-and-commerce&type=main",
+   "rules_docs": [
+    {
+     "title": "ASEAN-India Trade in Goods Agreement incl. Annex 2 Rules of Origin and Operational Certification Procedures (ASEAN Secretariat)",
+     "url": "https://asean.org/wp-content/uploads/images/archive/22677.pdf",
+     "format": "pdf",
+     "covers": "rules of origin"
+    },
+    {
+     "title": "DGFT Appendix 2B - agencies authorised to issue preferential CoO (as on 06.02.2023; later agreements added by public notices)",
+     "url": "https://content.dgft.gov.in/Website/dgftprod/f025f410-65c3-41b8-85c9-78f5059a53f8/Appendix%202B%20(Certificate%20of%20Origin%20%5BPreferential%5D)%20as%20on%2006.02.2023%20(1).pdf",
+     "format": "pdf",
+     "covers": "procedures"
+    },
+    {
+     "title": "DGFT Appendix 2E - agencies authorised to issue non-preferential CoO",
+     "url": "https://content.dgft.gov.in/Website/APPENDIX-2E.pdf",
+     "format": "pdf",
+     "covers": "procedures"
+    }
+   ],
+   "import_notes": [
+    {
+     "text": "Imported food still follows Decree 15/2018 (self-declaration plus state inspection); Decree 46/2026 has been suspended, duration uncertain.",
+     "source_url": "https://itpc.hochiminhcity.gov.vn/web/en/-/government-suspends-food-safety-decree-until-april-15"
+    },
+    {
+     "text": "Plant products on the Circular 14/2024 list need pest risk analysis and a phytosanitary import permit before first import.",
+     "source_url": "https://www.ppd.gov.vn/"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "iso3": "THA",
+   "name": "Thailand",
+   "region": "Southeast Asia",
+   "eu_member": false,
+   "agreements": [
+    {
+     "name": "ASEAN-India Trade in Goods Agreement (AITIGA / AIFTA)",
+     "status": "in_force",
+     "in_force_date": "2010-01-01",
+     "source_url": "https://rtais.wto.org/UI/PublicShowMemberRTAIDCard.aspx?rtaid=438"
+    },
+    {
+     "name": "India-Thailand Framework Agreement - Early Harvest Scheme (82 tariff lines)",
+     "status": "in_force",
+     "in_force_date": "2004-09-01",
+     "source_url": "https://rtais.wto.org/UI/PublicShowMemberRTAIDCard.aspx?rtaid=873"
+    },
+    {
+     "name": "Global System of Trade Preferences among Developing Countries (GSTP)",
+     "status": "in_force",
+     "in_force_date": "1989-04-19",
+     "source_url": "https://rtais.wto.org/UI/PublicShowMemberRTAIDCard.aspx?rtaid=146"
+    },
+    {
+     "name": "ASEAN-India Trade in Goods Agreement (AITIGA) review/upgrade",
+     "status": "negotiating",
+     "in_force_date": null,
+     "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/feb/doc2026227806201.pdf"
+    },
+    {
+     "name": "BIMSTEC Free Trade Agreement (negotiations commenced 2004; not concluded)",
+     "status": "negotiating",
+     "in_force_date": null,
+     "source_url": "https://rtais.wto.org/UI/PublicShowMemberRTAIDCard.aspx?rtaid=373"
+    },
+    {
+     "name": "India-Thailand CECA (29th round held Jun 2015; no later progress found)",
+     "status": "negotiating",
+     "in_force_date": null,
+     "source_url": "https://www.commerce.gov.in/ministryofcommerce/api/v1/international-trade/trade-agreements/indias-current-engagements-in-rtas"
+    }
+   ],
+   "gsp": {
+    "scheme": null,
+    "india_beneficiary": null,
+    "notes": "Not applicable/not researched: no GSP scheme of this importing country benefiting India was verified.",
+    "source_url": null
+   },
+   "origin_proof": {
+    "preferential_document": "AIFTA Form AI (or India-Thailand EHS certificate for EHS lines)",
+    "issued_by": "Export Inspection Council (EIC/EIAs) for all goods; MPEDA for marine products; Textiles Committee for textiles and made-ups (DGFT Appendix 2B); EHS: EIC and MPEDA",
+    "how": "Exporter registers on DGFT's electronic CoO platform (coo.dgft.gov.in; DGFT now routes eCoO 2.0 through the Trade Connect ePlatform at trade.gov.in), applies online with a digital signature, picks the agreement and the issuing agency, uploads invoice/packing list and origin-criterion details; agency verifies and issues an e-CoO. GSTP certificate of origin also possible (EIC, MPEDA, Tobacco Board, Textiles Committee) but GSTP concessions cover few lines.",
+    "source_url": "https://content.dgft.gov.in/Website/dgftprod/f025f410-65c3-41b8-85c9-78f5059a53f8/Appendix%202B%20(Certificate%20of%20Origin%20%5BPreferential%5D)%20as%20on%2006.02.2023%20(1).pdf"
+   },
+   "non_preferential_coo": {
+    "needed": "sometimes",
+    "issued_by": "Agencies in DGFT Appendix 2E (DGFT regional offices, Textiles Committee, EPCs, chambers of commerce, etc.), applied for on the DGFT eCoO platform. Some non-licensed imports may face CoO requirements.",
+    "source_url": "https://www.trade.gov/country-commercial-guides/thailand-import-requirements-and-documentation"
+   },
+   "import_vat": {
+    "rate_pct": 7,
+    "name": "VAT - reduced 7% (statutory 10%) extended to 30 Sep 2027",
+    "source_url": "https://taxsummaries.pwc.com/thailand/corporate/other-taxes"
+   },
+   "customs_url": "https://www.customs.go.th/",
+   "india_mission_commerce_url": "https://embassyofindiabangkok.gov.in/eoibk_pages/MzQw",
+   "rules_docs": [
+    {
+     "title": "ASEAN-India Trade in Goods Agreement incl. Annex 2 Rules of Origin and Operational Certification Procedures (ASEAN Secretariat)",
+     "url": "https://asean.org/wp-content/uploads/images/archive/22677.pdf",
+     "format": "pdf",
+     "covers": "rules of origin"
+    },
+    {
+     "title": "DGFT Appendix 2B - agencies authorised to issue preferential CoO (as on 06.02.2023; later agreements added by public notices)",
+     "url": "https://content.dgft.gov.in/Website/dgftprod/f025f410-65c3-41b8-85c9-78f5059a53f8/Appendix%202B%20(Certificate%20of%20Origin%20%5BPreferential%5D)%20as%20on%2006.02.2023%20(1).pdf",
+     "format": "pdf",
+     "covers": "procedures"
+    },
+    {
+     "title": "DGFT Appendix 2E - agencies authorised to issue non-preferential CoO",
+     "url": "https://content.dgft.gov.in/Website/APPENDIX-2E.pdf",
+     "format": "pdf",
+     "covers": "procedures"
+    }
+   ],
+   "import_notes": [
+    {
+     "text": "Only a Thai-registered company holding a Thai FDA food import licence can import food for sale; each product needs FDA approval and a food serial number on a Thai label.",
+     "source_url": "https://en.fda.moph.go.th/entrepreneurs-food/food-importation-01/"
+    },
+    {
+     "text": "'Specifically-controlled' foods need full product registration; some labels need prior approval.",
+     "source_url": "https://food.fda.moph.go.th/"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "iso3": "PHL",
+   "name": "Philippines",
+   "region": "Southeast Asia",
+   "eu_member": false,
+   "agreements": [
+    {
+     "name": "ASEAN-India Trade in Goods Agreement (AITIGA / AIFTA)",
+     "status": "in_force",
+     "in_force_date": "2011-05-17",
+     "source_url": "https://rtais.wto.org/UI/PublicShowMemberRTAIDCard.aspx?rtaid=438"
+    },
+    {
+     "name": "Global System of Trade Preferences among Developing Countries (GSTP)",
+     "status": "in_force",
+     "in_force_date": "1989-04-19",
+     "source_url": "https://rtais.wto.org/UI/PublicShowMemberRTAIDCard.aspx?rtaid=146"
+    },
+    {
+     "name": "ASEAN-India Trade in Goods Agreement (AITIGA) review/upgrade",
+     "status": "negotiating",
+     "in_force_date": null,
+     "source_url": "https://static.pib.gov.in/WriteReadData/specificdocs/documents/2026/feb/doc2026227806201.pdf"
+    }
+   ],
+   "gsp": {
+    "scheme": null,
+    "india_beneficiary": null,
+    "notes": "Not applicable/not researched: no GSP scheme of this importing country benefiting India was verified.",
+    "source_url": null
+   },
+   "origin_proof": {
+    "preferential_document": "AIFTA Certificate of Origin (Form AI)",
+    "issued_by": "Export Inspection Council (EIC/EIAs) for all goods; MPEDA for marine products; Textiles Committee for textiles and made-ups (DGFT Appendix 2B)",
+    "how": "Exporter registers on DGFT's electronic CoO platform (coo.dgft.gov.in; DGFT now routes eCoO 2.0 through the Trade Connect ePlatform at trade.gov.in), applies online with a digital signature, picks the agreement and the issuing agency, uploads invoice/packing list and origin-criterion details; agency verifies and issues an e-CoO. GSTP certificate of origin also possible (EIC, MPEDA, Tobacco Board, Textiles Committee) but GSTP concessions cover few lines.",
+    "source_url": "https://content.dgft.gov.in/Website/dgftprod/f025f410-65c3-41b8-85c9-78f5059a53f8/Appendix%202B%20(Certificate%20of%20Origin%20%5BPreferential%5D)%20as%20on%2006.02.2023%20(1).pdf"
+   },
+   "non_preferential_coo": {
+    "needed": null,
+    "issued_by": "Agencies in DGFT Appendix 2E (DGFT regional offices, Textiles Committee, EPCs, chambers of commerce, etc.), applied for on the DGFT eCoO platform",
+    "source_url": "https://content.dgft.gov.in/Website/APPENDIX-2E.pdf"
+   },
+   "import_vat": {
+    "rate_pct": 12,
+    "name": "VAT",
+    "source_url": "https://taxsummaries.pwc.com/philippines/corporate/other-taxes"
+   },
+   "customs_url": "https://customs.gov.ph/",
+   "india_mission_commerce_url": "https://www.eoimanila.gov.in/commercial-representative",
+   "rules_docs": [
+    {
+     "title": "ASEAN-India Trade in Goods Agreement incl. Annex 2 Rules of Origin and Operational Certification Procedures (ASEAN Secretariat)",
+     "url": "https://asean.org/wp-content/uploads/images/archive/22677.pdf",
+     "format": "pdf",
+     "covers": "rules of origin"
+    },
+    {
+     "title": "DGFT Appendix 2B - agencies authorised to issue preferential CoO (as on 06.02.2023; later agreements added by public notices)",
+     "url": "https://content.dgft.gov.in/Website/dgftprod/f025f410-65c3-41b8-85c9-78f5059a53f8/Appendix%202B%20(Certificate%20of%20Origin%20%5BPreferential%5D)%20as%20on%2006.02.2023%20(1).pdf",
+     "format": "pdf",
+     "covers": "procedures"
+    },
+    {
+     "title": "DGFT Appendix 2E - agencies authorised to issue non-preferential CoO",
+     "url": "https://content.dgft.gov.in/Website/APPENDIX-2E.pdf",
+     "format": "pdf",
+     "covers": "procedures"
+    }
+   ],
+   "import_notes": [
+    {
+     "text": "Importer needs an FDA License to Operate as food importer and a Certificate of Product Registration per processed food before first import (FDA eServices).",
+     "source_url": "https://www.fda.gov.ph/faqs/"
+    },
+    {
+     "text": "Unprocessed fish/fishery products need a BFAR-accredited importer and an SPSIC per shipment (bfar.da.gov.ph timed out when checked).",
+     "source_url": "https://www.bfar.da.gov.ph/quarantine-inspection-services/certification/"
+    },
+    {
+     "text": "Plant products (rice, onions, spices) need a BPI-registered importer and BPI SPSIC before shipment.",
+     "source_url": "https://buplant.da.gov.ph/"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "iso3": "CHN",
+   "name": "China",
+   "region": "East Asia",
+   "eu_member": false,
+   "agreements": [
+    {
+     "name": "Asia-Pacific Trade Agreement (APTA) - China's accession",
+     "status": "in_force",
+     "in_force_date": "2002-01-01",
+     "source_url": "https://rtais.wto.org/UI/PublicShowMemberRTAIDCard.aspx?rtaid=46"
+    }
+   ],
+   "gsp": {
+    "scheme": null,
+    "india_beneficiary": null,
+    "notes": "Not applicable/not researched: no GSP scheme of this importing country benefiting India was verified.",
+    "source_url": null
+   },
+   "origin_proof": {
+    "preferential_document": "APTA Certificate of Origin",
+    "issued_by": "Agencies in DGFT Appendix 2D (APEDA, EPCs, FIEO, etc.) and Textiles Committee (Appendix 2B s.11)",
+    "how": "Exporter registers on DGFT's electronic CoO platform (coo.dgft.gov.in; DGFT now routes eCoO 2.0 through the Trade Connect ePlatform at trade.gov.in), applies online with a digital signature, picks the agreement and the issuing agency, uploads invoice/packing list and origin-criterion details; agency verifies and issues an e-CoO.",
+    "source_url": "https://content.dgft.gov.in/Website/dgftprod/8d1fc29e-03a5-4a3d-9fda-a602e21e3411/Appendix%202D_new.pdf"
+   },
+   "non_preferential_coo": {
+    "needed": null,
+    "issued_by": "Agencies in DGFT Appendix 2E (DGFT regional offices, Textiles Committee, EPCs, chambers of commerce, etc.), applied for on the DGFT eCoO platform",
+    "source_url": "https://content.dgft.gov.in/Website/APPENDIX-2E.pdf"
+   },
+   "import_vat": {
+    "rate_pct": 13,
+    "name": "VAT - 13% general; 9% for specified goods incl. many agricultural products",
+    "source_url": "https://taxsummaries.pwc.com/peoples-republic-of-china/corporate/other-taxes"
+   },
+   "customs_url": "http://english.customs.gov.cn/",
+   "india_mission_commerce_url": "https://www.eoibeijing.gov.in/page-link.php?page=trade-and-commerce",
+   "rules_docs": [
+    {
+     "title": "Asia-Pacific Trade Agreement text incl. Rules of Origin (commerce.gov.in)",
+     "url": "https://www.commerce.gov.in/files/2025-01/bangkok_agreement.pdf",
+     "format": "pdf",
+     "covers": "rules of origin"
+    },
+    {
+     "title": "DGFT Appendix 2D - agencies authorised to issue CoO for SAPTA and APTA",
+     "url": "https://content.dgft.gov.in/Website/dgftprod/8d1fc29e-03a5-4a3d-9fda-a602e21e3411/Appendix%202D_new.pdf",
+     "format": "pdf",
+     "covers": "procedures"
+    },
+    {
+     "title": "DGFT Appendix 2E - agencies authorised to issue non-preferential CoO",
+     "url": "https://content.dgft.gov.in/Website/APPENDIX-2E.pdf",
+     "format": "pdf",
+     "covers": "procedures"
+    }
+   ],
+   "import_notes": [
+    {
+     "text": "Since 1 Jun 2026 GACC Decree 280 replaced Decree 248: overseas food manufacturers must be registered on CIFER (5-year validity, risk-based product catalogue).",
+     "source_url": "https://pk.china-embassy.gov.cn/eng/zbgx/202604/t20260415_11892478.htm"
+    },
+    {
+     "text": "Catalogue categories (e.g. aquatic products) need recommendation by India's competent authority (EIC for seafood, APEDA for its products); circular dates from 2021.",
+     "source_url": "https://apeda.gov.in/sites/default/files/announcements/Circular_GACC_Registration.pdf"
+    },
+    {
+     "text": "CIFER registration portal (no GACC fee).",
+     "source_url": "https://cifer.singlewindow.cn/"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "iso3": "HKG",
+   "name": "Hong Kong",
+   "region": "East Asia",
+   "eu_member": false,
+   "agreements": [],
+   "gsp": {
+    "scheme": null,
+    "india_beneficiary": null,
+    "notes": "Not applicable/not researched: no GSP scheme of this importing country benefiting India was verified.",
+    "source_url": null
+   },
+   "origin_proof": {
+    "preferential_document": null,
+    "issued_by": null,
+    "how": "No preferential agreement; Hong Kong is a free port with no tariff on most goods.",
+    "source_url": "https://taxsummaries.pwc.com/hong-kong-sar/corporate/other-taxes"
+   },
+   "non_preferential_coo": {
+    "needed": null,
+    "issued_by": "Agencies in DGFT Appendix 2E (DGFT regional offices, Textiles Committee, EPCs, chambers of commerce, etc.), applied for on the DGFT eCoO platform",
+    "source_url": "https://content.dgft.gov.in/Website/APPENDIX-2E.pdf"
+   },
+   "import_vat": {
+    "rate_pct": 0,
+    "name": "No VAT/GST/sales tax",
+    "source_url": "https://taxsummaries.pwc.com/hong-kong-sar/corporate/other-taxes"
+   },
+   "customs_url": "https://www.customs.gov.hk/en/home/index.html",
+   "india_mission_commerce_url": "https://cgihk.gov.in/pages/NzAw",
+   "rules_docs": [
+    {
+     "title": "DGFT Appendix 2E - agencies authorised to issue non-preferential CoO",
+     "url": "https://content.dgft.gov.in/Website/APPENDIX-2E.pdf",
+     "format": "pdf",
+     "covers": "procedures"
+    }
+   ],
+   "import_notes": [
+    {
+     "text": "Every food importer/distributor must register with FEHD under the Food Safety Ordinance (Cap. 612).",
+     "source_url": "https://www.cfs.gov.hk/english/foodsafetyordinance/FSO_application.html"
+    },
+    {
+     "text": "Meat, poultry, game and eggs need a health certificate from a recognised authority; frozen/chilled meat and poultry also need an import licence.",
+     "source_url": "https://www.cfs.gov.hk/english/import/import_icfsg_04.html"
+    },
+    {
+     "text": "Health certificates are not mandatory for other foods (spices, rice, most seafood) but food may be sampled at entry.",
+     "source_url": "https://www.cfs.gov.hk/english/import/import_icfsg_02.html"
+    }
+   ],
+   "confidence": "medium"
+  },
+  {
+   "iso3": "JPN",
+   "name": "Japan",
+   "region": "East Asia",
+   "eu_member": false,
+   "agreements": [
+    {
+     "name": "India-Japan Comprehensive Economic Partnership Agreement (IJCEPA)",
+     "status": "in_force",
+     "in_force_date": "2011-08-01",
+     "source_url": "https://rtais.wto.org/UI/PublicShowMemberRTAIDCard.aspx?rtaid=173"
+    }
+   ],
+   "gsp": {
+    "scheme": "Japan GSP",
+    "india_beneficiary": null,
+    "notes": "Japan operates a GSP scheme; India's current beneficiary status was not verified. IJCEPA preference is the main route.",
+    "source_url": "https://www.customs.go.jp/english/c-answer_e/imtsukan/1501_e.htm"
+   },
+   "origin_proof": {
+    "preferential_document": "IJCEPA Certificate of Origin",
+    "issued_by": "Export Inspection Council (EIC/EIAs) for all goods; MPEDA for marine products; Textiles Committee for textiles and made-ups (DGFT Appendix 2B)",
+    "how": "Exporter registers on DGFT's electronic CoO platform (coo.dgft.gov.in; DGFT now routes eCoO 2.0 through the Trade Connect ePlatform at trade.gov.in), applies online with a digital signature, picks the agreement and the issuing agency, uploads invoice/packing list and origin-criterion details; agency verifies and issues an e-CoO. Operational certification procedures are in the IJCEPA Implementing Procedures.",
+    "source_url": "https://content.dgft.gov.in/Website/dgftprod/f025f410-65c3-41b8-85c9-78f5059a53f8/Appendix%202B%20(Certificate%20of%20Origin%20%5BPreferential%5D)%20as%20on%2006.02.2023%20(1).pdf"
+   },
+   "non_preferential_coo": {
+    "needed": "rarely",
+    "issued_by": "Agencies in DGFT Appendix 2E (DGFT regional offices, Textiles Committee, EPCs, chambers of commerce, etc.), applied for on the DGFT eCoO platform. CoO is needed mainly to claim preferential/WTO rates.",
+    "source_url": "https://www.trade.gov/country-commercial-guides/japan-import-requirements-and-documentation"
+   },
+   "import_vat": {
+    "rate_pct": 10,
+    "name": "Consumption tax (8% reduced rate for food excl. alcohol and dining out)",
+    "source_url": "https://www.nta.go.jp/english/taxes/consumption_tax/01.htm"
+   },
+   "customs_url": "https://www.customs.go.jp/english/",
+   "india_mission_commerce_url": "https://www.indembassy-tokyo.gov.in/eoityo_pages/MTI,",
+   "rules_docs": [
+    {
+     "title": "India-Japan CEPA basic agreement (incl. rules of origin chapter)",
+     "url": "https://www.commerce.gov.in/files/2025-04/IJCEPA_Basic_Agreement.pdf",
+     "format": "pdf",
+     "covers": "rules of origin"
+    },
+    {
+     "title": "India-Japan CEPA Implementing Procedures - Operational Certification Procedures (Annex 3 s.11)",
+     "url": "https://www.commerce.gov.in/files/2025-04/Implementing-Procedures.pdf",
+     "format": "pdf",
+     "covers": "procedures"
+    },
+    {
+     "title": "DGFT Appendix 2B - agencies authorised to issue preferential CoO (as on 06.02.2023; later agreements added by public notices)",
+     "url": "https://content.dgft.gov.in/Website/dgftprod/f025f410-65c3-41b8-85c9-78f5059a53f8/Appendix%202B%20(Certificate%20of%20Origin%20%5BPreferential%5D)%20as%20on%2006.02.2023%20(1).pdf",
+     "format": "pdf",
+     "covers": "procedures"
+    },
+    {
+     "title": "DGFT Appendix 2E - agencies authorised to issue non-preferential CoO",
+     "url": "https://content.dgft.gov.in/Website/APPENDIX-2E.pdf",
+     "format": "pdf",
+     "covers": "procedures"
+    }
+   ],
+   "import_notes": [
+    {
+     "text": "Under Food Sanitation Act Art. 27 the importer files a food import notification with the MHLW quarantine station for every shipment; goods may be inspected before release.",
+     "source_url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/shokuhin/yunyu_kanshi/kanshi/index_00004.html"
+    },
+    {
+     "text": "Plants and plant products go through MAFF Plant Protection Station inspection with a phytosanitary certificate; some fruit (e.g. mangoes) has treatment conditions.",
+     "source_url": "https://www.maff.go.jp/pps/e/"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "iso3": "KOR",
+   "name": "South Korea",
+   "region": "East Asia",
+   "eu_member": false,
+   "agreements": [
+    {
+     "name": "India-Korea Comprehensive Economic Partnership Agreement (IKCEPA)",
+     "status": "in_force",
+     "in_force_date": "2010-01-01",
+     "source_url": "https://rtais.wto.org/UI/PublicShowMemberRTAIDCard.aspx?rtaid=715"
+    },
+    {
+     "name": "Asia-Pacific Trade Agreement (APTA, formerly Bangkok Agreement; amended APTA in force 1 Sep 2006)",
+     "status": "in_force",
+     "in_force_date": "1976-06-17",
+     "source_url": "https://rtais.wto.org/UI/PublicShowMemberRTAIDCard.aspx?rtaid=140"
+    },
+    {
+     "name": "Global System of Trade Preferences among Developing Countries (GSTP)",
+     "status": "in_force",
+     "in_force_date": "1989-04-19",
+     "source_url": "https://rtais.wto.org/UI/PublicShowMemberRTAIDCard.aspx?rtaid=146"
+    },
+    {
+     "name": "India-Korea CEPA upgrade (12th round May 2026, 13th round Aug 2026)",
+     "status": "negotiating",
+     "in_force_date": null,
+     "source_url": "https://newsonair.gov.in/12th-round-of-india-korea-cepa-upgrade-negotiations-concludes-in-new-delhi/"
+    }
+   ],
+   "gsp": {
+    "scheme": null,
+    "india_beneficiary": null,
+    "notes": "Not applicable/not researched: no GSP scheme of this importing country benefiting India was verified.",
+    "source_url": null
+   },
+   "origin_proof": {
+    "preferential_document": "IKCEPA Certificate of Origin (or APTA certificate)",
+    "issued_by": "Export Inspection Council (EIC/EIAs) for all goods; MPEDA for marine products; Textiles Committee for textiles and made-ups (DGFT Appendix 2B)",
+    "how": "Exporter registers on DGFT's electronic CoO platform (coo.dgft.gov.in; DGFT now routes eCoO 2.0 through the Trade Connect ePlatform at trade.gov.in), applies online with a digital signature, picks the agreement and the issuing agency, uploads invoice/packing list and origin-criterion details; agency verifies and issues an e-CoO. GSTP certificate of origin also possible (EIC, MPEDA, Tobacco Board, Textiles Committee) but GSTP concessions cover few lines.",
+    "source_url": "https://content.dgft.gov.in/Website/dgftprod/f025f410-65c3-41b8-85c9-78f5059a53f8/Appendix%202B%20(Certificate%20of%20Origin%20%5BPreferential%5D)%20as%20on%2006.02.2023%20(1).pdf"
+   },
+   "non_preferential_coo": {
+    "needed": null,
+    "issued_by": "Agencies in DGFT Appendix 2E (DGFT regional offices, Textiles Committee, EPCs, chambers of commerce, etc.), applied for on the DGFT eCoO platform",
+    "source_url": "https://content.dgft.gov.in/Website/APPENDIX-2E.pdf"
+   },
+   "import_vat": {
+    "rate_pct": 10,
+    "name": "VAT",
+    "source_url": "https://taxsummaries.pwc.com/republic-of-korea/corporate/other-taxes"
+   },
+   "customs_url": "https://www.customs.go.kr/english/main.do",
+   "india_mission_commerce_url": "https://www.indembassyseoul.gov.in/pages/NQ,,",
+   "rules_docs": [
+    {
+     "title": "India-Korea CEPA full text 2009 (incl. rules of origin chapter)",
+     "url": "https://www.commerce.gov.in/files/2025-01/INDIA-KOREA-CEPA-2009.pdf",
+     "format": "pdf",
+     "covers": "rules of origin"
+    },
+    {
+     "title": "Asia-Pacific Trade Agreement text incl. Rules of Origin (commerce.gov.in)",
+     "url": "https://www.commerce.gov.in/files/2025-01/bangkok_agreement.pdf",
+     "format": "pdf",
+     "covers": "rules of origin"
+    },
+    {
+     "title": "DGFT Appendix 2B - agencies authorised to issue preferential CoO (as on 06.02.2023; later agreements added by public notices)",
+     "url": "https://content.dgft.gov.in/Website/dgftprod/f025f410-65c3-41b8-85c9-78f5059a53f8/Appendix%202B%20(Certificate%20of%20Origin%20%5BPreferential%5D)%20as%20on%2006.02.2023%20(1).pdf",
+     "format": "pdf",
+     "covers": "procedures"
+    },
+    {
+     "title": "DGFT Appendix 2D - agencies authorised to issue CoO for SAPTA and APTA",
+     "url": "https://content.dgft.gov.in/Website/dgftprod/8d1fc29e-03a5-4a3d-9fda-a602e21e3411/Appendix%202D_new.pdf",
+     "format": "pdf",
+     "covers": "procedures"
+    },
+    {
+     "title": "DGFT Appendix 2E - agencies authorised to issue non-preferential CoO",
+     "url": "https://content.dgft.gov.in/Website/APPENDIX-2E.pdf",
+     "format": "pdf",
+     "covers": "procedures"
+    }
+   ],
+   "import_notes": [
+    {
+     "text": "Overseas food manufacturing facilities must be registered with MFDS at least 7 days before the first import declaration (2-year validity).",
+     "source_url": "https://mfds.go.kr/mfds/eng/html/sub01/MFDS-DE01-10-02-L0001.jsp"
+    },
+    {
+     "text": "Import declarations and registrations are filed on MFDS's imported-food portal; Korean labelling required.",
+     "source_url": "https://impfood.mfds.go.kr/"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "iso3": "AUS",
+   "name": "Australia",
+   "region": "Oceania",
+   "eu_member": false,
+   "agreements": [
+    {
+     "name": "India-Australia Economic Cooperation and Trade Agreement (ECTA) (signed 2 Apr 2022)",
+     "status": "in_force",
+     "in_force_date": "2022-12-29",
+     "source_url": "https://rtais.wto.org/UI/PublicShowMemberRTAIDCard.aspx?rtaid=536"
+    },
+    {
+     "name": "India-Australia Comprehensive Economic Cooperation Agreement (CECA)",
+     "status": "negotiating",
+     "in_force_date": null,
+     "source_url": "https://www.newsonair.gov.in/india-australia-aim-for-early-conclusion-of-ceca-says-union-minister-piyush-goyal"
+    }
+   ],
+   "gsp": {
+    "scheme": null,
+    "india_beneficiary": null,
+    "notes": "Not applicable/not researched: no GSP scheme of this importing country benefiting India was verified.",
+    "source_url": null
+   },
+   "origin_proof": {
+    "preferential_document": "Certificate of Origin under India-Australia ECTA",
+    "issued_by": "EIC/EIAs (all products), DGFT regional offices, MPEDA, Textiles Committee, Spices Board, APEDA, Coir Board, Central Silk Board, DC Handicrafts, Tobacco Board, and SEZ authorities for their units (DGFT Appendix 2B)",
+    "how": "Exporter registers on DGFT's electronic CoO platform (coo.dgft.gov.in; DGFT now routes eCoO 2.0 through the Trade Connect ePlatform at trade.gov.in), applies online with a digital signature, picks the agreement and the issuing agency, uploads invoice/packing list and origin-criterion details; agency verifies and issues an e-CoO.",
+    "source_url": "https://content.dgft.gov.in/Website/dgftprod/f025f410-65c3-41b8-85c9-78f5059a53f8/Appendix%202B%20(Certificate%20of%20Origin%20%5BPreferential%5D)%20as%20on%2006.02.2023%20(1).pdf"
+   },
+   "non_preferential_coo": {
+    "needed": null,
+    "issued_by": "Agencies in DGFT Appendix 2E (DGFT regional offices, Textiles Committee, EPCs, chambers of commerce, etc.), applied for on the DGFT eCoO platform",
+    "source_url": "https://content.dgft.gov.in/Website/APPENDIX-2E.pdf"
+   },
+   "import_vat": {
+    "rate_pct": 10,
+    "name": "GST",
+    "source_url": "https://taxsummaries.pwc.com/australia/corporate/other-taxes"
+   },
+   "customs_url": "https://www.abf.gov.au/",
+   "india_mission_commerce_url": "https://www.hcicanberra.gov.in/page-link/?page=doing-business-in-india",
+   "rules_docs": [
+    {
+     "title": "India-Australia ECTA Chapter 4 - Rules of Origin (commerce.gov.in)",
+     "url": "https://www.commerce.gov.in/files/2025-08/04-Rules-of-Origin.pdf",
+     "format": "pdf",
+     "covers": "rules of origin"
+    },
+    {
+     "title": "India-Australia ECTA Annex 4A - Minimum Information Requirements",
+     "url": "https://www.commerce.gov.in/files/2025-08/04A-AN_1.pdf",
+     "format": "pdf",
+     "covers": "procedures"
+    },
+    {
+     "title": "India-Australia ECTA Annex 4B - Product-Specific Rules of Origin",
+     "url": "https://www.commerce.gov.in/files/2025-08/04B-AN_1.pdf",
+     "format": "pdf",
+     "covers": "rules of origin"
+    },
+    {
+     "title": "DGFT Appendix 2B - agencies authorised to issue preferential CoO (as on 06.02.2023; later agreements added by public notices)",
+     "url": "https://content.dgft.gov.in/Website/dgftprod/f025f410-65c3-41b8-85c9-78f5059a53f8/Appendix%202B%20(Certificate%20of%20Origin%20%5BPreferential%5D)%20as%20on%2006.02.2023%20(1).pdf",
+     "format": "pdf",
+     "covers": "procedures"
+    },
+    {
+     "title": "DGFT Appendix 2E - agencies authorised to issue non-preferential CoO",
+     "url": "https://content.dgft.gov.in/Website/APPENDIX-2E.pdf",
+     "format": "pdf",
+     "covers": "procedures"
+    }
+   ],
+   "import_notes": [
+    {
+     "text": "Check BICON for each commodity's biosecurity conditions and permit needs (spices, rice, seafood, plant fibres); agriculture.gov.au blocked scripted checks.",
+     "source_url": "https://www.agriculture.gov.au/biosecurity-trade/import/online-services/bicon"
+    },
+    {
+     "text": "Imported Food Inspection Scheme: 'risk food' starts at 100% referral, reducing with compliance; 'surveillance food' about 5%.",
+     "source_url": "https://www.agriculture.gov.au/biosecurity-trade/import/goods/food/inspection-testing/ifis"
+    },
+    {
+     "text": "All imported food must comply with the Australia New Zealand Food Standards Code.",
+     "source_url": "https://www.foodstandards.gov.au/consumer/importedfoods"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "iso3": "NZL",
+   "name": "New Zealand",
+   "region": "Oceania",
+   "eu_member": false,
+   "agreements": [
+    {
+     "name": "India-New Zealand Free Trade Agreement (signed 27 Apr 2026)",
+     "status": "in_force",
+     "in_force_date": "2026-10-20",
+     "source_url": "https://www.mfat.govt.nz/indiafta"
+    }
+   ],
+   "gsp": {
+    "scheme": null,
+    "india_beneficiary": null,
+    "notes": "Not applicable/not researched: no GSP scheme of this importing country benefiting India was verified.",
+    "source_url": null
+   },
+   "origin_proof": {
+    "preferential_document": "Certificate of Origin (Annex 3B format) issued by an Indian issuing body, or a self-declaration (Annex 3C) by an Indian status holder",
+    "issued_by": "Indian issuing body via DGFT eCoO platform; the Appendix 2B agency list for this FTA was not verified",
+    "how": "Apply on the DGFT eCoO platform; proof valid 12 months and may cover multiple shipments of identical goods into NZ within that period (NZ Customs guidebook).",
+    "source_url": "https://www.customs.govt.nz/media/f2unxkzc/new-zealand-india-free-trade-agreement-rules-of-origin-guidebook.pdf"
+   },
+   "non_preferential_coo": {
+    "needed": null,
+    "issued_by": "Agencies in DGFT Appendix 2E (DGFT regional offices, Textiles Committee, EPCs, chambers of commerce, etc.), applied for on the DGFT eCoO platform",
+    "source_url": "https://content.dgft.gov.in/Website/APPENDIX-2E.pdf"
+   },
+   "import_vat": {
+    "rate_pct": 15,
+    "name": "GST",
+    "source_url": "https://www.ird.govt.nz/gst"
+   },
+   "customs_url": "https://www.customs.govt.nz/",
+   "india_mission_commerce_url": "https://www.hciwellington.gov.in/page-links/?page=trade-and-commerce&type=main",
+   "rules_docs": [
+    {
+     "title": "India-NZ FTA Chapter 3 - Rules of Origin (MFAT)",
+     "url": "https://www.mfat.govt.nz/assets/Trade-agreements/NZ-India-FTA/9.-Chapter-3-Rules-of-Origin.pdf",
+     "format": "pdf",
+     "covers": "rules of origin"
+    },
+    {
+     "title": "India-NZ FTA Annex 3A - Product Specific Rules of Origin (MFAT)",
+     "url": "https://www.mfat.govt.nz/assets/Trade-agreements/NZ-India-FTA/10.-Annex-3A-Product-Specific-Rules-of-Origin.pdf",
+     "format": "pdf",
+     "covers": "rules of origin"
+    },
+    {
+     "title": "India-NZ FTA Annex 3B - Certificate of Origin Template (MFAT)",
+     "url": "https://www.mfat.govt.nz/assets/Trade-agreements/NZ-India-FTA/11.-Annex-3B-Certificate-of-Origin-Template.pdf",
+     "format": "pdf",
+     "covers": "origin declaration"
+    },
+    {
+     "title": "India-NZ FTA Annex 3C - Origin Declaration Template (MFAT)",
+     "url": "https://www.mfat.govt.nz/assets/Trade-agreements/NZ-India-FTA/12.-Annex-3C-Origin-Declaration-Template.pdf",
+     "format": "pdf",
+     "covers": "origin declaration"
+    },
+    {
+     "title": "NZ Customs - NZ-India FTA Rules of Origin Guidebook",
+     "url": "https://www.customs.govt.nz/media/f2unxkzc/new-zealand-india-free-trade-agreement-rules-of-origin-guidebook.pdf",
+     "format": "pdf",
+     "covers": "procedures"
+    },
+    {
+     "title": "India-NZ FTA Chapter 3 - Rules of Origin (commerce.gov.in copy)",
+     "url": "https://www.commerce.gov.in/files/2026-04/3%20-%20Rules%20of%20Origin.pdf",
+     "format": "pdf",
+     "covers": "rules of origin"
+    },
+    {
+     "title": "DGFT Appendix 2E - agencies authorised to issue non-preferential CoO",
+     "url": "https://content.dgft.gov.in/Website/APPENDIX-2E.pdf",
+     "format": "pdf",
+     "covers": "procedures"
+    }
+   ],
+   "import_notes": [
+    {
+     "text": "Food for sale must be imported by or through an MPI-registered food importer (annual renewal); high-regulatory-interest foods need food safety clearance.",
+     "source_url": "https://www.mpi.govt.nz/import/importing-food-and-beverages/get-help-with-importing-food"
+    },
+    {
+     "text": "New Food Notice (issued 1 May 2026) takes effect 1 Feb 2027 and revises dried-spice rules (pepper, paprika, chilli stay high-regulatory-interest for Salmonella unless an MPI-assessed kill step applies).",
+     "source_url": "https://www.mpi.govt.nz/consultations/proposed-changes-to-the-import-requirements-for-dried-spices-dairy-products-bivalve-molluscan-shellfish-products-and-tahini-and-sesame-paste-products"
+    }
+   ],
+   "confidence": "high"
+  },
+  {
+   "iso3": "MUS",
+   "name": "Mauritius",
+   "region": "Africa",
+   "eu_member": false,
+   "agreements": [
+    {
+     "name": "India-Mauritius Comprehensive Economic Cooperation and Partnership Agreement (CECPA) (signed 22 Feb 2021)",
+     "status": "in_force",
+     "in_force_date": "2021-04-01",
+     "source_url": "https://rtais.wto.org/UI/PublicShowMemberRTAIDCard.aspx?rtaid=517"
+    }
+   ],
+   "gsp": {
+    "scheme": null,
+    "india_beneficiary": null,
+    "notes": "Not applicable/not researched: no GSP scheme of this importing country benefiting India was verified.",
+    "source_url": null
+   },
+   "origin_proof": {
+    "preferential_document": "Certificate of Origin under India-Mauritius CECPA",
+    "issued_by": "EIC/EIAs (all products), DGFT regional offices, MPEDA, Textiles Committee, Spices Board, APEDA, Coir Board, Central Silk Board, DC Handicrafts, Tobacco Board, and SEZ authorities for their units (DGFT Appendix 2B)",
+    "how": "Exporter registers on DGFT's electronic CoO platform (coo.dgft.gov.in; DGFT now routes eCoO 2.0 through the Trade Connect ePlatform at trade.gov.in), applies online with a digital signature, picks the agreement and the issuing agency, uploads invoice/packing list and origin-criterion details; agency verifies and issues an e-CoO.",
+    "source_url": "https://content.dgft.gov.in/Website/dgftprod/f025f410-65c3-41b8-85c9-78f5059a53f8/Appendix%202B%20(Certificate%20of%20Origin%20%5BPreferential%5D)%20as%20on%2006.02.2023%20(1).pdf"
+   },
+   "non_preferential_coo": {
+    "needed": null,
+    "issued_by": "Agencies in DGFT Appendix 2E (DGFT regional offices, Textiles Committee, EPCs, chambers of commerce, etc.), applied for on the DGFT eCoO platform",
+    "source_url": "https://content.dgft.gov.in/Website/APPENDIX-2E.pdf"
+   },
+   "import_vat": {
+    "rate_pct": 15,
+    "name": "VAT",
+    "source_url": "https://taxsummaries.pwc.com/mauritius/corporate/other-taxes"
+   },
+   "customs_url": "https://www.mra.mu/index.php/customs1",
+   "india_mission_commerce_url": "https://hcimauritius.gov.in/pages?id=9avme&nextid=1aMAa&subid=Pe9xd",
+   "rules_docs": [
+    {
+     "title": "India-Mauritius CECPA full text (incl. rules of origin chapter)",
+     "url": "https://www.commerce.gov.in/files/2025-04/India-Mauritius-CECPA-Text-for-Upload.pdf",
+     "format": "pdf",
+     "covers": "rules of origin"
+    },
+    {
+     "title": "DGFT Appendix 2B - agencies authorised to issue preferential CoO (as on 06.02.2023; later agreements added by public notices)",
+     "url": "https://content.dgft.gov.in/Website/dgftprod/f025f410-65c3-41b8-85c9-78f5059a53f8/Appendix%202B%20(Certificate%20of%20Origin%20%5BPreferential%5D)%20as%20on%2006.02.2023%20(1).pdf",
+     "format": "pdf",
+     "covers": "procedures"
+    },
+    {
+     "title": "DGFT Appendix 2E - agencies authorised to issue non-preferential CoO",
+     "url": "https://content.dgft.gov.in/Website/APPENDIX-2E.pdf",
+     "format": "pdf",
+     "covers": "procedures"
+    }
+   ],
+   "import_notes": [
+    {
+     "text": "Imported food needs health clearance under the Food Act 2022 and Food Regulations 2024, applied through TradeNet.",
+     "source_url": "https://health.govmu.org/health/wp-content/uploads/2024/09/FOOD-REGULATIONS-2024-1.pdf"
+    },
+    {
+     "text": "Port/airport food clearance is by the Food Import Unit and Airport Health Office under the Mauritius Food Standards Agency.",
+     "source_url": "https://mfsa.govmu.org/mfsa/?page_id=2041"
+    },
+    {
+     "text": "Other goods are cleared by sector agencies (fish, meat, plants, MSB for toys/consumer goods); goods in the First Schedule of the Consumer Protection (Control of Import) Regulations need an import permit.",
+     "source_url": "https://www.mra.mu/index.php/customs1/import/commercial-importers"
+    }
+   ],
+   "confidence": "high"
+  }
+ ]
+}

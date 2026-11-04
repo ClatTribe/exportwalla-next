@@ -1,0 +1,34 @@
+{
+ "name": "in.exportwalla/export-desk",
+ "title": "Exportwalla export data",
+ "description": "Import duty for Indian goods in 66 countries, best markets for an HS code, country export rules and HS classification.",
+ "version": "1.0.0",
+ "websiteUrl": "http://localhost:8040/",
+ "remotes": [
+  {
+   "type": "streamable-http",
+   "url": "http://localhost:8040/mcp"
+  }
+ ],
+ "tools": [
+  {
+   "name": "lookup_duty",
+   "description": "Import duty an Indian product pays in a country, vs the normal rate, with the official source."
+  },
+  {
+   "name": "best_markets",
+   "description": "Countries ranked for exporting this HS6 product from India (demand, growth, India's share, duty)."
+  },
+  {
+   "name": "country_rules",
+   "description": "Trade agreement with India, certificate of origin, import VAT and notes for a country."
+  },
+  {
+   "name": "classify_product",
+   "description": "HS code candidates for a product description (a search, not a ruling)."
+  }
+ ],
+ "documentation": "http://localhost:8040/llms.txt",
+ "openapi": "http://localhost:8040/openapi.json",
+ "authentication": "none"
+}

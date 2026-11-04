@@ -1,0 +1,589 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Your export plan | Exportwalla</title>
+<link rel="stylesheet" href="/static/style.css"><link rel="icon" href="/favicon.svg" type="image/svg+xml"><meta name="theme-color" content="#0B1F3A"><meta name="robots" content="noindex">
+</head>
+<body>
+<header class="top">
+  <div class="logo"><a href="/" style="text-decoration:none;color:inherit;display:flex;gap:8px;align-items:center" aria-label="Exportwalla home"><img src="/static/brand/mark.svg" alt="" width="28" height="28"><span>export<b>walla</b></span></a></div>
+  <nav>
+    <label class="small operator" style="display:flex;gap:6px;align-items:center;margin:0">
+      <input type="checkbox" id="reviewMode" style="width:auto"> Review mode</label>
+    <a class="operator" href="/review">Review console</a>
+    <a class="btn lang-btn" id="langBtn" href="#"></a>
+    <a class="btn" id="newProfile" href="#" data-i18n="new_business">Start over</a>
+  </nav>
+</header>
+<main>
+  <div id="statusBar"></div>
+  <ol class="flow" id="flow"><li class="on" data-i18n="flow1">1 · Your documents</li><li data-i18n="flow2">2 · Check your products</li><li data-i18n="flow3">3 · Your export plan</li></ol>
+
+  <section id="intake" class="card">
+    <h2 style="margin-top:0" data-i18n="intake_h">Start with a document you already have</h2>
+    <p class="muted" data-i18n="intake_p">No sign-up, no forms. Drop an invoice, a price list or a photo, or just type what you make.</p>
+    <div class="doc-chips">
+      <span>📑 Old invoice or shipping bill <small>products, HS codes, prices</small></span>
+      <span>📊 Price list (Excel) <small>products, MOQ</small></span>
+      <span>📷 Product photo <small>what you make</small></span>
+    </div>
+    <div class="drop" id="drop">
+      <span data-i18n="drop"><strong>Drop files here</strong> or tap to choose</span>
+      <div class="small muted">PDF, photo (JPG, PNG), Excel or CSV · up to 10 files, 4 MB in all (photos are made smaller for you)</div>
+      <input type="file" id="files" multiple style="display:none" accept=".pdf,.png,.jpg,.jpeg,.webp,.xlsx,.csv,.txt">
+    </div>
+    <div id="fileList" class="small muted" style="margin:6px 0"></div>
+    <details class="small" style="margin:8px 0"><summary data-i18n="typed">No documents handy? Type a few lines instead</summary>
+    <textarea id="typed" placeholder="e.g. We make men's leather Chelsea boots in Kanpur, cow leather upper, TPR sole, ₹1,450 a pair, 6,000 pairs a month, MOQ 600. GSTIN 09ABCDE1234F1Z5"></textarea></details>
+    <p class="small muted" data-i18n="private">🔒 Nothing is saved. Files are read once to fill in your products and are not stored; close the tab and it is gone.</p>
+    <p><button class="btn primary" id="readBtn" data-i18n="read">Read my documents</button>
+       <span id="readMsg" class="small muted"></span></p>
+  </section>
+
+  <section id="profileSec" class="card" hidden>
+    <h2 style="margin-top:0"><span data-i18n="profile_h">Your products</span> <span class="small muted" data-i18n="profile_sub">(check and correct, then build your plan)</span></h2>
+    <div id="profileForm"></div>
+    <p style="margin-top:16px"><button class="btn" id="saveProfile" data-i18n="save">Check again</button>
+       <button class="btn primary big" id="buildBtn" data-i18n="build">Build my export plan</button></p>
+    <div id="buildProgress" class="progress small muted"></div>
+  </section>
+
+  <section id="planSec" hidden>
+    <div id="families"></div>
+    <div class="tabs" id="tabs"></div>
+    <div id="panels"></div>
+  </section>
+</main>
+<script>
+// ---------------------------------------------------------------- language (English / Hinglish)
+const I18N = { hi: {
+  new_business: "Naya business", flow1: "1 · Aapke documents", flow2: "2 · Profile check kijiye", flow3: "3 · Aapka export plan",
+  intake_h: "Jo document aapke paas hai, usi se shuru kijiye", intake_p: "Koi form nahi. Inmein se ek ya zyada daaliye, hum aapka export profile bhar denge.",
+  drop: "<strong>Files yahan daaliye</strong> ya tap karke chuniye", typed: "Document paas nahi? Kuch lines type kar dijiye",
+  private: "🔒 Aapki files private hain. Sirf profile bharne ke liye padhte hain; na rakhte hain, na share karte hain.",
+  read: "Mere documents padhiye", profile_h: "Aapka export profile", profile_sub: "(check karke sudhaariye, phir plan banaiye)",
+  save: "Badlaav save karein", build: "Mera export plan banaiye",
+  tab_diag: "1 · Jaanch", tab_country: "2 · Desh", tab_buyers: "5 · Buyers", tab_quote: "6 · Quote", tab_docs: "8 · Documents", tab_desk: "Shipping mein madad →",
+  st_diag: "Kadam 1 · Product ki jaanch", st_country: "Kadam 2 · Desh chuniye", st_buyers: "Kadam 5 · Buyer dhundhiye", st_quote: "Kadam 6 · Quote", st_docs: "Kadam 8 · Documents",
+  planning_for: "Plan kiske liye:", fam_note: "Alag products alag deshon mein bikte hain, isliye har family ka alag plan.",
+  q_intro: "Buyer ko kya daam quote karein, aur wahan pahunch kar unka kharcha kitna hoga. Quantity ya margin badal kar dobara calculate kijiye.",
+  k_quote: "Yeh daam quote kijiye (FOB India)", k_landed: "Buyer ka landed cost", k_duty: "Aapke maal par import duty",
+  recalc: "Dobara calculate karein", order_size: "Order size", margin: "Aapka margin %",
+  desk_h: "Aage: hamara desk sambhalega", cb_h: "Export desk se call back paayein",
+  cb_p: "Ek tay vyakti ek working day mein Hindi ya English mein call karega.", cb_btn: "Call back maangiye",
+  cb_name: "Aapka naam", cb_phone: "Mobile number", cb_city: "Shehar", cb_product: "Product", cb_wa: "WhatsApp par message kar sakte hain",
+  cb_ok: "✓ Dhanyavaad. Desk ek working day mein call karega.",
+  ask_btn: "Desk se poochhiye", unread_h: "File padh nahi paaye?", unread: "Upar box mein product ki details type kijiye, ya photo desk ko bhejiye; hum bhar denge.", co_opt: "Optional: proforma invoice ke liye company ka naam aur pata (save nahi hota)",
+  ask_diag_h: "HS code par shak hai?", ask_diag: "Quote se pehle hum har product ka code confirm karte hain.",
+  ask_country_h: "Desk par dusri raay chahiye?", ask_country: "Aapka product, daam aur capacity dekh kar batate hain kahan se shuru karein.",
+  ask_buyers_h: "Buyer dhundhne aur check karne mein madad?", ask_buyers: "Shipment record wale importers ki list aur pehla email hum saath banate hain.",
+  ask_quote_h: "Apna daam check karwaiye", ask_quote: "Bhejne se pehle freight, duty, payment terms aur LC hum check karte hain.",
+  ask_docs_h: "Certificate of origin file karwana hai?", ask_docs: "Documents hum aapke saath banate hain; sign aap karte hain.",
+}};
+const LANG = (() => { const q = new URLSearchParams(location.search).get("lang");
+  try { if (q) localStorage.setItem("ew_lang", q); return q || localStorage.getItem("ew_lang") || "en"; } catch { return q || "en"; } })();
+const t = (key, en) => (LANG === "hi" && I18N.hi[key]) || en;
+function applyI18n() {
+  document.documentElement.lang = LANG === "hi" ? "hi-Latn" : "en-IN";
+  document.querySelectorAll("[data-i18n]").forEach(el => { if (LANG === "hi" && I18N.hi[el.dataset.i18n]) el.innerHTML = I18N.hi[el.dataset.i18n]; });
+  const b = document.getElementById("langBtn");
+  b.textContent = LANG === "hi" ? "English" : "हिंदी";
+  b.onclick = (e) => { e.preventDefault(); const u = new URL(location.href); u.searchParams.set("lang", LANG === "hi" ? "en" : "hi"); location.href = u; };
+}
+
+// ---------------------------------------------------------------- state & helpers
+let PROFILE = null, PLAN = null, STATUS = null, FILES = [];
+// Nothing about the business is saved, on our server or in the browser: the plan lives only in this tab.
+function saveLocal() {}
+["ew_profile", "ew_plan"].forEach(k => { try { localStorage.removeItem(k); } catch {} });   // clear what older versions stored
+const withPlan = (extra = {}) => ({ profile: PROFILE, plan: PLAN, ...extra });
+const $ = (s) => document.querySelector(s);
+const esc = (s) => String(s ?? "").replace(/[&<>"]/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
+const money = (v, cur) => v == null ? "–" : (cur === "₹" ? "₹" + Math.round(v).toLocaleString("en-IN")
+  : (cur || "") + Number(v).toLocaleString("en-GB", {maximumFractionDigits: 2}));
+const store = { get(k) { try { return localStorage.getItem(k); } catch { return null; } },
+                set(k, v) { try { localStorage.setItem(k, v); } catch {} } };
+async function api(path, opts = {}) {
+  const r = await fetch(path, opts);
+  const body = await r.json().catch(() => ({}));
+  if (!r.ok) throw new Error(body.detail || r.statusText);
+  return body;
+}
+const json = (method, body) => ({ method, headers: {"Content-Type": "application/json"}, body: JSON.stringify(body) });
+
+// A contact point at the end of every stage: free to ask, pre-filled with the product and country.
+const ASKS = {
+  diag: ["hs-code", t("ask_diag_h", "Not sure about an HS code?"), t("ask_diag", "We confirm the code for each product before you quote.")],
+  country: ["market", t("ask_country_h", "Want a second opinion on the country?"), t("ask_country", "We look at your product, price and capacity and tell you where to start.")],
+  buyers: ["buyers", t("ask_buyers_h", "Want us to find and check buyers?"), t("ask_buyers", "We shortlist importers with a shipment record and draft the first email with you.")],
+  quote: ["quote", t("ask_quote_h", "Want us to check your price?"), t("ask_quote", "We check freight, duty, payment terms and the LC before you send it.")],
+  docs: ["documents", t("ask_docs_h", "Want us to file the certificate of origin?"), t("ask_docs", "We prepare the documents with you; you sign.")],
+};
+function askBar(step, title, text) {
+  const fam = (PLAN?.families || []).find(f => f.code === PLAN.family);
+  const prod = fam ? fam.products.join(", ") : (PROFILE?.products || []).map(p => p.name).join(", ");
+  return `<div class="askbox no-print"><div><b>${esc(title)}</b><span>${esc(text)}</span></div>
+    <button type="button" class="btn primary" data-ask data-ask-step="${step}" data-ask-title="${esc(title)}" data-ask-product="${esc(prod)}"
+      data-ask-country="${esc(PLAN ? countryName() : "")}">${t("ask_btn", "Ask the desk")}</button></div>`;
+}
+function addAsks() {
+  for (const [k, [step, title, text]] of Object.entries(ASKS)) {
+    const el = document.getElementById("panel-" + k);
+    if (el && el.innerHTML && !el.querySelector(".askbox")) el.insertAdjacentHTML("beforeend", askBar(step, title, text));
+  }
+}
+new MutationObserver(addAsks).observe(document.getElementById("panels"), { childList: true, subtree: true });
+
+// Review controls: every checkable output gets Right / Wrong / Unsure and a correction box.
+function rev(feature, key, input, output) {
+  const id = "r" + Math.random().toString(36).slice(2, 9);
+  REVIEW_PAYLOADS[id] = { feature, item_key: key, input, output };
+  return `<span class="rev" data-rev="${id}">
+    <button data-v="correct">✓ Right</button><button data-v="wrong">✗ Wrong</button><button data-v="unsure">? Unsure</button>
+    <input placeholder="correct answer / note" hidden></span>`;
+}
+const REVIEW_PAYLOADS = {};
+document.addEventListener("click", async (e) => {
+  const b = e.target.closest(".rev button"); if (!b) return;
+  const wrap = b.closest(".rev"), inp = wrap.querySelector("input"), v = b.dataset.v;
+  const p = REVIEW_PAYLOADS[wrap.dataset.rev];
+  if (v !== "correct" && inp.hidden) { inp.hidden = false; inp.focus(); wrap.dataset.pending = v; return; }
+  await api("/api/review", { ...json("POST", { plan_id: PLAN?.created_at, ...p, verdict: v, correction: v === "wrong" ? inp.value : "", note: v !== "wrong" ? inp.value : "" }),
+    headers: { "Content-Type": "application/json", "X-Operator-Token": store.get("operator_token") || "" } });
+  wrap.querySelectorAll("button").forEach(x => x.className = "");
+  b.className = "on-" + v;
+});
+document.addEventListener("keydown", (e) => {
+  if (e.key === "Enter" && e.target.closest(".rev input")) {
+    const wrap = e.target.closest(".rev");
+    wrap.querySelector(`button[data-v="${wrap.dataset.pending || "wrong"}"]`).click();
+  }
+});
+$("#reviewMode").addEventListener("change", (e) => {
+  document.body.classList.toggle("reviewing", e.target.checked);
+  store.set("reviewMode", e.target.checked ? "1" : "");
+  applyReviewMode();
+});
+function applyReviewMode() {
+  const on = $("#reviewMode").checked;
+  document.querySelectorAll(".rev").forEach(x => x.style.display = on ? "" : "none");
+}
+
+function setFlow(n) { document.querySelectorAll("#flow li").forEach((li, i) => li.classList.toggle("on", i < n)); }
+
+// ---------------------------------------------------------------- intake
+const drop = $("#drop"), fileInput = $("#files");
+drop.onclick = () => fileInput.click();
+drop.ondragover = (e) => { e.preventDefault(); drop.classList.add("over"); };
+drop.ondragleave = () => drop.classList.remove("over");
+drop.ondrop = (e) => { e.preventDefault(); drop.classList.remove("over"); addFiles(e.dataTransfer.files); };
+fileInput.onchange = () => addFiles(fileInput.files);
+function addFiles(list) {
+  FILES.push(...list);
+  FILES = FILES.slice(0, 10);
+  $("#fileList").innerHTML = FILES.map(f => `<span class="chip">📄 ${esc(f.name)}</span>`).join(" ");
+}
+// Phone photos are often 3-8 MB, over what one upload may carry. A photo over 1 MB is redrawn with its long edge at
+// most 2400 px (still sharp enough to read) and saved as JPEG, if that makes it smaller. PDFs and spreadsheets go as
+// they are. A photo the browser cannot decode (some HEIC files) also goes as it is.
+async function shrinkPhoto(f) {
+  if (!/^image\/(jpeg|png|webp|heic|heif)$/i.test(f.type) || f.size <= 1e6) return f;
+  try {
+    const img = await createImageBitmap(f);
+    const scale = Math.min(1, 2400 / Math.max(img.width, img.height));
+    const c = document.createElement("canvas");
+    c.width = Math.round(img.width * scale); c.height = Math.round(img.height * scale);
+    const g = c.getContext("2d"); g.fillStyle = "#fff"; g.fillRect(0, 0, c.width, c.height); g.drawImage(img, 0, 0, c.width, c.height);
+    const blob = await new Promise(r => c.toBlob(r, "image/jpeg", 0.85));
+    return blob && blob.size < f.size ? new File([blob], f.name.replace(/\.[^.]+$/, "") + ".jpg", { type: "image/jpeg" }) : f;
+  } catch { return f; }
+}
+$("#readBtn").onclick = async () => {
+  if (FILES.length) { $("#readMsg").textContent = "Preparing your files…"; FILES = await Promise.all(FILES.map(shrinkPhoto)); }
+  // the host refuses request bodies over 4.5 MB before the server sees them, so check here with the server's own limits
+  const big = FILES.find(f => f.size > 4e6), total = FILES.reduce((s, f) => s + f.size, 0);
+  if (big || total > 4e6) {
+    $("#readMsg").textContent = big ? `${big.name} is larger than 4 MB. Try a smaller photo or a PDF.`
+      : "Together these files are larger than 4 MB. Send them in two goes, or use smaller photos.";
+    return;
+  }
+  const btn = $("#readBtn"); btn.disabled = true; $("#readMsg").textContent = "Reading…";
+  try {
+    const fd = new FormData();
+    FILES.forEach(f => fd.append("files", f));
+    fd.append("text", $("#typed").value);
+    fd.append("profile", JSON.stringify(PROFILE || {}));
+    const res = await api(`/api/read`, { method: "POST", body: fd });
+    PROFILE = res.profile; FILES = []; saveLocal(); $("#fileList").textContent = "";
+    const docs = res.extracted.documents || [];
+    $("#readMsg").innerHTML = `<div class="found">${docs.map(d => `<div class="found-doc"><div><strong>${esc(d.file)}</strong>
+        <span class="badge b-desk">${esc(d.type)}</span></div>
+        <div class="found-items">${(d.found || []).map(f => `<span>✓ ${esc(f)}</span>`).join("") || '<span class="miss">Nothing readable found. Try a sharper photo or a PDF.</span>'}</div></div>`).join("")}</div>` +
+      (res.extracted.notes ? `<div class="notice">${esc(res.extracted.notes)}</div>` : "") +
+      (docs.some(d => d.type === "Unreadable") ? `<div class="askbox"><div><b>${t("unread_h", "Could not read a file?")}</b>
+        <span>${t("unread", "Type the product details in the box above, or send the photo to our desk and a person fills it in for you.")}</span></div>
+        <button type="button" class="btn primary" data-ask data-ask-step="intake" data-ask-title="Send my documents to the desk"
+          data-ask-message="${esc("I could not upload: " + docs.filter(d => d.type === "Unreadable").map(d => d.file).join(", ") + ". Please contact me to collect them.")}">${t("ask_btn", "Ask the desk")}</button></div>` : "") +
+      `<p class="small">Check the profile below, fix anything we got wrong, then build your plan.</p>`;
+    if (docs.some(d => d.type === "Unreadable")) document.querySelector("#intake details").open = true;
+    setFlow(2);
+    renderProfile();
+  } catch (e) { $("#readMsg").textContent = e.message; }
+  btn.disabled = false;
+};
+
+// ---------------------------------------------------------------- profile form
+const CO_FIELDS = [["name","Company name"],["gstin","GSTIN"],["iec","IEC"],["contact_name","Contact person"],["phone","Phone"],
+  ["email","Email"],["website","Website"],["address","Address"],["city","City"],["state","State"]];
+const PR_FIELDS = [["name","Product"],["description","Description (materials, construction)"],["hs_code","HS code (if known)"],["for_whom","For"],
+  ["price_inr","Price ₹"],["price_unit","Per"],["moq","MOQ"],["monthly_capacity","Capacity / month"],["unit","Unit"]];
+function renderProfile() {
+  $("#profileSec").hidden = false;
+  const c = PROFILE.company || {}, g = PROFILE.checks?.gstin || {};
+  const gBadge = c.gstin ? `<span class="badge ${g.ok ? "b-ok" : "b-bad"}">${esc(g.message)}${g.state ? " · " + esc(g.state) : ""}</span>` : "";
+  $("#profileForm").innerHTML = `
+    <h3>Products</h3>
+    <div class="table-wrap"><table><thead><tr>${PR_FIELDS.map(([, l]) => `<th>${l}</th>`).join("")}<th></th></tr></thead>
+    <tbody>${(PROFILE.products || []).map((p, i) => `<tr>${PR_FIELDS.map(([k]) =>
+      `<td><input data-pr="${i}" data-k="${k}" value="${esc(p[k])}" ${k === "description" ? 'style="min-width:260px"' : ""}></td>`).join("")}
+      <td><button class="btn small" data-del="${i}">✕</button>${rev("extraction_product", p.id || "p" + i, null, p)}</td></tr>`).join("")}
+    </tbody></table></div>
+    <p><button class="btn" id="addProd">+ Add product</button></p>
+    ${(PROFILE.notes || []).length ? `<div class="notice">${PROFILE.notes.map(esc).join("<br>")}</div>` : ""}
+    <details style="margin-top:12px"><summary class="small">${t("co_opt", "Optional: your company name and address for the proforma invoice (not saved)")}</summary>
+    <div class="fields">${CO_FIELDS.map(([k, l]) => `<div><label>${l} ${k === "gstin" ? gBadge : ""}</label>
+      <input data-co="${k}" value="${esc(c[k])}"></div>`).join("")}</div>
+    ${rev("extraction_company", "company", null, c)}</details>`;
+  $("#addProd").onclick = () => { collect(); PROFILE.products.push({ name: "", description: "" }); renderProfile(); };
+  document.querySelectorAll("[data-del]").forEach(b => b.onclick = () => { collect(); PROFILE.products.splice(+b.dataset.del, 1); renderProfile(); });
+  applyReviewMode();
+}
+function collect() {
+  const c = PROFILE.company = PROFILE.company || {};
+  document.querySelectorAll("[data-co]").forEach(i => c[i.dataset.co] = i.value.trim());
+  document.querySelectorAll("[data-co-list]").forEach(i => c[i.dataset.coList] = i.value.split(",").map(s => s.trim()).filter(Boolean));
+  document.querySelectorAll("[data-pr]").forEach(i => {
+    const p = PROFILE.products[+i.dataset.pr], k = i.dataset.k, v = i.value.trim();
+    p[k] = ["price_inr", "moq", "monthly_capacity"].includes(k) ? (v === "" ? null : Number(v.replace(/,/g, ""))) : v;
+  });
+  PROFILE.products = PROFILE.products.filter(p => p.name);
+}
+$("#saveProfile").onclick = async () => { collect(); PROFILE = await api(`/api/check`, json("POST", PROFILE)); saveLocal(); renderProfile(); };
+
+// ---------------------------------------------------------------- one-click plan
+$("#buildBtn").onclick = async () => {
+  collect();
+  const btn = $("#buildBtn"); btn.disabled = true;
+  const steps = ["Saving your profile", "Finding HS codes and duty", "Scoring 66 countries", "Finding importers", "Pricing and drafting documents",
+                 "Still working: fetching fresh import data for a new product (up to 30 seconds)"];
+  const prog = $("#buildProgress"); prog.innerHTML = "";
+  let i = 0; const tick = setInterval(() => { if (i < steps.length) prog.innerHTML += `<div>${steps[i++]}…</div>`; }, i < 5 ? 900 : 4000);
+  try {
+    PROFILE = await api(`/api/check`, json("POST", PROFILE));
+    PLAN = await api(`/api/plan`, json("POST", { profile: PROFILE }));
+    saveLocal();
+    renderPlan(); setFlow(3); $("#planSec").scrollIntoView({ behavior: "smooth" });
+  } catch (e) { prog.innerHTML += `<div style="color:var(--bad)">${esc(e.message)}</div>`; }
+  clearInterval(tick); prog.innerHTML = ""; btn.disabled = false;
+};
+
+const TABS = [["diag", t("tab_diag", "1 · Diagnose")], ["country", t("tab_country", "2 · Country")], ["buyers", t("tab_buyers", "5 · Buyers")],
+  ["quote", t("tab_quote", "6 · Quote")], ["docs", t("tab_docs", "8 · Documents")], ["desk", t("tab_desk", "Get help to ship →")]];
+function renderPlan() {
+  $("#planSec").hidden = false;
+  $("#tabs").innerHTML = TABS.map(([k, l], i) => `<div class="tab ${i ? "" : "active"}" data-tab="${k}">${l}</div>`).join("");
+  $("#panels").innerHTML = TABS.map(([k], i) => `<div class="panel" id="panel-${k}" ${i ? "hidden" : ""}></div>`).join("");
+  document.querySelectorAll(".tab").forEach(t => t.onclick = () => {
+    document.querySelectorAll(".tab").forEach(x => x.classList.toggle("active", x === t));
+    document.querySelectorAll(".panel").forEach(p => p.hidden = p.id !== "panel-" + t.dataset.tab);
+  });
+  const fams = PLAN.families || [];
+  $("#families").innerHTML = fams.length > 1 ? `<div class="card fam"><strong>${t("planning_for", "Planning for:")}</strong>
+    ${fams.map(f => `<button class="btn small ${f.code === PLAN.family ? "primary" : ""}" data-family="${f.code}" title="${esc(f.products.join(", "))}">${esc(f.name)} <span class="muted">· ${f.products.length}</span></button>`).join(" ")}
+    <div class="small muted">${t("fam_note", "Different products sell best in different countries, so each family gets its own plan.")}</div></div>` : "";
+  document.querySelectorAll("[data-family]").forEach(b => b.onclick = async () => {
+    if (b.dataset.family === PLAN.family) return;
+    b.disabled = true; b.textContent = "Building…";
+    PLAN = await api(`/api/plan`, json("POST", { profile: PROFILE, family: b.dataset.family }));
+    saveLocal(); renderPlan();
+  });
+  renderDiag(); renderCountry(); renderBuyers(); renderQuotes(); renderDocs(); renderDesk();
+  applyReviewMode();
+}
+
+function band(c) {
+  if (c.source === "document") return `<span class="badge b-ok">From your document</span>`;
+  if (c.confidence === "high") return `<span class="badge b-ok">Confident</span>`;
+  if (c.confidence === "medium") return `<span class="badge b-warn">Two codes possible · check below</span>`;
+  return `<span class="badge b-bad">Not sure · pick the right line below</span>`;
+}
+function renderDiag() {
+  const d = PLAN.diagnosis;
+  const prods = d.products.map(p => {
+    const c = p.classification;
+    if (c.status !== "ok") return `<div class="card"><h3>${esc(p.name)}</h3><div class="notice">No tariff line matched. Add materials and use, or ask our desk.</div></div>`;
+    const uk = c.uk, us = c.us, ref = c.reference;
+    const saved = uk && uk.mfn_pct != null && uk.india_pct != null ? uk.mfn_pct - uk.india_pct : null;
+    return `<div class="card">
+      <h3>${esc(p.name)} ${band(c)}</h3>
+      ${c.note ? `<div class="notice">${esc(c.note)}</div>` : ""}
+      <div class="kv">
+        <div>HS (6-digit)</div><div><strong>${c.hs6}</strong> · ${esc(c.hs6_description)} ${rev("hs6", p.product_id, c.text, c.hs6)}</div>
+        ${c.india_8digit ? `<div>India ITC-HS</div><div><strong>${c.india_8digit}</strong> <span class="small muted">from your document</span></div>` : ""}
+        <div>UK commodity code</div><div>${uk ? `<strong>${uk.code}</strong> · <span class="small">${esc(uk.path)}</span>
+          <a class="small src" target="_blank" rel="noopener" href="https://www.trade-tariff.service.gov.uk/commodities/${uk.code}">check source ↗</a> ${rev("uk_code", p.product_id, c.text, uk.code)}` : `<span class="muted">UK line not loaded for this HS6; duty uses the WITS average</span>`}</div>
+        ${uk ? `<div>UK duty</div><div>Normal ${esc(uk.mfn)} → <strong>from India ${esc(uk.india ?? "no preference")}</strong>
+          ${saved ? `<span class="badge b-ok">saves ${saved.toFixed(1)} points</span>` : ""}
+          <span class="small muted">UK Trade Tariff, ${esc((uk.fetched_at || "").slice(0, 10))}</span> ${rev("uk_duty", uk.code, uk.code, {mfn: uk.mfn, india: uk.india})}</div>` : ""}
+        <div>US HTS line</div><div>${us ? `<strong>${us.code}</strong> · general rate ${esc(us.general)} <span class="small muted">(extra US tariffs on Indian goods not included)</span>
+          <a class="small src" target="_blank" rel="noopener" href="https://hts.usitc.gov/search?query=${encodeURIComponent(us.code)}">check source ↗</a> ${rev("us_code", p.product_id, c.text, us.code)}` : "–"}</div>
+        <div>Cross-check</div><div>${ref ? `UK government tariff search suggests <strong>${esc(ref.top_code)}</strong>
+          ${ref.agrees_hs4 ? '<span class="badge b-ok">same heading</span>' : '<span class="badge b-warn">different heading: check</span>'}
+          <a class="small src" target="_blank" rel="noopener" href="${ref.url}">open ↗</a>` : `<span class="muted">${c.source === "document" ? "Code taken from your document" : "No independent match"}</span>`}</div>
+        <div>Why</div><div>${esc(c.rationale)} ${c.what_would_change_it ? `<br><span class="small muted">Would change if: ${esc(c.what_would_change_it)} (alternative ${esc(c.alternative_uk_code)})</span>` : ""}
+          <br><span class="small muted">Method: ${esc(c.method)}</span></div>
+      </div>
+      <details class="small" ${c.confidence === "low" ? "open" : ""}><summary>${c.confidence === "low" ? "Not sure? Pick the right line" : "Other candidate lines"}</summary>
+        ${c.candidates.map(x => `<div style="display:flex;gap:8px;align-items:center;margin:4px 0"><button class="btn small" data-pick="${p.product_id}" data-code="${x.code}">Use ${x.code}</button><span>${esc(x.path)}</span></div>`).join("")}
+        ${ref && !c.candidates.some(x => x.code === ref.top_code) ? `<div style="display:flex;gap:8px;align-items:center;margin:4px 0"><button class="btn small" data-pick="${p.product_id}" data-code="${ref.top_code}">Use ${ref.top_code}</button><span>${esc(ref.top_path)} <em>(UK search)</em></span></div>` : ""}
+      </details>
+    </div>`;
+  }).join("");
+  const r = d.readiness;
+  const ready = `<div class="card"><h3>Export readiness <span class="score">${r.score}%</span></h3>
+    <table>${r.items.map(i => `<tr><td>${i.ok === true ? "✅" : i.ok === false ? "⚠️" : "❔"}</td><td><strong>${esc(i.check)}</strong><br>
+      <span class="small muted">${esc(i.detail)}</span></td><td><span class="badge ${i.ok === true ? "b-ok" : "b-desk"}">stage ${i.stage}</span>
+      ${rev("readiness", i.check, null, i)}</td></tr>`).join("")}</table></div>`;
+  $("#panel-diag").innerHTML = `<h2>${t("st_diag", "Stage 1 · Diagnose")}</h2>${prods}${ready}`;
+  document.querySelectorAll("[data-pick]").forEach(b => b.onclick = async () => {
+    b.disabled = true; b.textContent = "Rebuilding…";
+    const prod = PROFILE.products.find(x => x.id === b.dataset.pick);
+    if (prod) prod.hs_code = b.dataset.code;
+    PROFILE = await api(`/api/check`, json("POST", PROFILE));
+    PLAN = await api(`/api/plan`, json("POST", { profile: PROFILE, country: PLAN.country, family: PLAN.family }));
+    saveLocal(); renderProfile(); renderPlan();
+  });
+}
+
+function renderCountry() {
+  const c = PLAN.countries;
+  if (c.status !== "ok") { $("#panel-country").innerHTML = `<h2>${t("st_country", "Stage 2 · Choose the country")}</h2><div class="notice">${esc(c.message || c.status)}</div>`; return; }
+  $("#panel-country").innerHTML = `<h2>${t("st_country", "Stage 2 · Choose the country")}</h2>
+    <p class="muted">We compared ${c.considered} countries that import your products (HS ${c.hs6.join(", ")}) on demand, growth, India's share and the duty your buyer pays. Pick any of them; your quote and documents follow.</p>
+    <div class="grid">${c.markets.map((m, i) => `<div class="card mkt ${m.iso3 === PLAN.country ? "sel" : ""}">
+      <div class="small muted">#${i + 1} of ${c.considered}</div><h3 style="margin-top:2px">${esc(m.name)} ${m.iso3 === PLAN.country ? '<span class="badge b-ok">your plan</span>' : ""}</h3>
+      <div class="score">${m.score}<span class="small muted">/100</span></div>
+      <ul class="why">
+        <li>📦 Buys <strong>US$${(m.imp1 / 1e6).toLocaleString("en-IN", {maximumFractionDigits: 0})}m</strong> a year <span class="${m.growth >= 0 ? "up" : "down"}">${m.growth >= 0 ? "▲" : "▼"} ${Math.abs(m.growth * 100).toFixed(0)}%</span></li>
+        <li>🇮🇳 <strong>${(m.india_share * 100).toFixed(1)}%</strong> already from India</li>
+        <li>🧾 Duty for your goods: <strong>${m.india_duty_pct == null ? "desk confirms" : m.india_duty_pct + "%"}</strong>${m.duty_edge_pts > 0 ? ` <span class="small muted">(others pay ${m.mfn_duty_pct}%)</span>` : ""}</li>
+        <li>🤝 ${esc(m.deal || m.duty_note)}</li>
+        <li>👥 ${esc(m.buyer_data)}</li>
+      </ul>
+      <details class="small"><summary>Score breakdown</summary>${Object.entries(m.parts).map(([k, v]) => `<div class="small">${k}</div><div class="bar"><span style="width:${Math.round(v * 100)}%"></span></div>`).join("")}<p>${esc(m.why)}</p></details>
+      ${m.iso3 !== PLAN.country ? `<button class="btn" data-country="${m.iso3}">Plan for ${esc(m.name)}</button>` : ""}
+      ${rev("country_rank", m.iso3 + "#" + (i + 1), c.hs6, {score: m.score, parts: m.parts})}
+    </div>`).join("")}</div>
+    <div class="card"><h3>All ${c.considered} markets with data <span class="small muted">of ${c.universe} we cover${c.no_data?.length ? ` · no recent import data: ${esc(c.no_data.join(", "))}` : ""}</span></h3>
+      <div class="table-wrap" style="max-height:420px;overflow:auto"><table><thead><tr><th>#</th><th>Market</th><th class="num">Score</th><th class="num">Imports US$m</th><th class="num">Growth</th><th class="num">From India</th><th class="num">Duty on Indian goods</th><th>Trade deal</th><th></th></tr></thead><tbody>
+      ${(c.all || []).map((m, i) => `<tr><td>${i + 1}</td><td><strong>${esc(m.name)}</strong></td><td class="num">${m.score}</td><td class="num">${(m.imp1 / 1e6).toFixed(0)}</td>
+        <td class="num">${(m.growth * 100).toFixed(0)}%</td><td class="num">${(m.india_share * 100).toFixed(1)}%</td><td class="num">${m.india_duty_pct == null ? "–" : m.india_duty_pct + "%"}</td>
+        <td class="small">${esc(m.deal || m.duty_note)}</td><td>${m.iso3 === PLAN.country ? '<span class="badge b-ok">selected</span>' : `<button class="btn small" data-country="${m.iso3}">Choose</button>`}</td></tr>`).join("")}
+      </tbody></table></div></div>
+    <details class="small"><summary>How the score works</summary><p>${esc(c.method)}</p></details>`;
+  document.querySelectorAll("[data-country]").forEach(b => b.onclick = async () => {
+    b.disabled = true;
+    PLAN = await api(`/api/plan/country`, json("POST", withPlan({ country: b.dataset.country })));
+    saveLocal();
+    renderPlan();
+  });
+}
+
+function renderBuyers() {
+  const b = PLAN.buyers;
+  const chans = (b.channels || []).length ? `<h3>Official channels for this market</h3><div class="grid">${b.channels.map(ch =>
+    `<div class="card"><strong>${esc(ch.name)}</strong><div class="small muted">${esc(ch.what)}</div><a class="small" target="_blank" rel="noopener" href="${ch.url}">${esc(ch.url)} ↗</a>
+     ${rev("buyer_channel", PLAN.country + ":" + ch.name, PLAN.country, ch.url)}</div>`).join("")}</div>` : "";
+  const mail = (o) => o ? `<h3>First email (you approve before anything is sent)</h3>
+    <div class="card"><div><strong>Subject:</strong> ${esc(o.subject)}</div><pre class="email">${esc(o.body)}</pre>
+      <div class="small muted">Drafted by: ${esc(o.method)} · Send from your own mailbox.</div>
+      <button class="btn" id="copyEmail">Copy email</button> ${rev("outreach", PLAN.country, o.facts_used, o.body)}</div>` : "";
+  if (b.status !== "ok") { $("#panel-buyers").innerHTML = `<h2>${t("st_buyers", "Stage 5 · Find buyers")}</h2><div class="notice info">${esc(b.message || b.status)}</div>
+    <p><a class="btn primary" href="tel:${(STATUS?.desk_phone || "").replace(/\s/g, "")}">Ask our desk for verified importers: ${esc(STATUS?.desk_phone || "")}</a></p>${chans}${mail(b.outreach)}`;
+    const ce = $("#copyEmail"); if (ce) ce.onclick = () => navigator.clipboard?.writeText(`Subject: ${b.outreach.subject}\n\n${b.outreach.body}`);
+    return; }
+  const o = b.outreach;
+  $("#panel-buyers").innerHTML = `<h2>${t("st_buyers", "Stage 5 · Find buyers")}</h2>
+    <p class="muted">${b.total_importers} UK companies imported these products (CN8 ${b.cn8.join(", ")}). Top ${b.buyers.length} shown. Source: ${esc(b.source)}.</p>
+    <div class="table-wrap"><table><thead><tr><th>#</th><th>Importer</th><th>Evidence</th><th></th></tr></thead><tbody>
+    ${b.buyers.map((x, i) => `<tr><td>${i + 1}</td><td><strong>${esc(x.name)}</strong><br><span class="small muted">${esc(x.address)} ${esc(x.postcode)}</span>
+      <br><a class="small" target="_blank" rel="noopener" href="https://find-and-update.company-information.service.gov.uk/search/companies?q=${encodeURIComponent(x.name)}">Companies House ↗</a>
+      · <a class="small" target="_blank" rel="noopener" href="https://www.uktradeinfo.com/trade-data/uk-trader-search/">HMRC trader search ↗</a></td>
+      <td class="small">${esc(x.evidence_text)}</td>
+      <td><button class="btn small" data-buyer="${x.trader_id}">${PLAN.selected_buyer === x.trader_id ? "✓ In documents" : "Use in documents"}</button>
+      ${rev("buyer", String(x.trader_id), b.cn8, {name: x.name, evidence: x.evidence_text})}</td></tr>`).join("")}
+    </tbody></table></div>
+    ${mail(o)}<p class="small muted">UK limited companies can be emailed; sole traders need consent.</p>${chans}`;
+  $("#copyEmail").onclick = () => navigator.clipboard?.writeText(`Subject: ${o.subject}\n\n${o.body}`);
+  document.querySelectorAll("[data-buyer]").forEach(btn => btn.onclick = async () => {
+    const r = await api(`/api/plan/buyer`, json("POST", withPlan({ trader_id: +btn.dataset.buyer })));
+    PLAN.documents = r.documents; PLAN.selected_buyer = +btn.dataset.buyer; renderBuyers(); renderDocs(); applyReviewMode();
+  });
+}
+
+const Q_FIELDS = [["inr_per_usd", "₹ per US$"], ["inr_per_gbp", "₹ per £"], ["inland_freight_inr", "Inland freight ₹"],
+  ["port_and_cha_inr", "Port + CHA ₹"], ["sea_freight_usd", "Sea freight US$"], ["insurance_pct", "Insurance %"], ["margin_pct", "Your margin %"]];
+function renderQuotes() {
+  const prods = PLAN.diagnosis.products.filter(p => PLAN.quotes[p.product_id]);
+  const unit1 = (q) => esc((q.unit || "unit").replace(/s$/, ""));
+  $("#panel-quote").innerHTML = `<h2>${t("st_quote", "Stage 6 · Quote")}</h2><p class="muted">${t("q_intro", `What to quote your buyer in ${esc(countryName())}, and what it costs them once it lands. Change the order size or your margin and recalculate.`)}</p>` + prods.map(p => {
+    const q = PLAN.quotes[p.product_id], tf = q.tariff || {};
+    const fields = Q_FIELDS.filter(([k]) => k !== "inr_per_gbp" || PLAN.country === "GBR");
+    return `<div class="card" data-q="${p.product_id}"><h3>${esc(p.name)}</h3>
+      <div class="kpis">
+        <div><span>${t("k_quote", "Quote this price (FOB India)")}</span><b>US$${q.suggested_fob_usd_per_unit}</b><small>per ${unit1(q)} at your ${q.assumptions.margin_pct}% margin</small></div>
+        <div><span>${t("k_landed", "Your buyer's landed cost")}</span><b>${money(q.landed_per_unit, q.currency)}</b><small>per ${unit1(q)} in ${esc(countryName())}${q.landed_note ? " · " + esc(q.landed_note) : ""}</small></div>
+        <div><span>${t("k_duty", "Import duty on your goods")}</span><b>${tf.india_pct == null ? "desk confirms" : tf.india_pct + "%"}</b><small>${tf.mfn_pct > tf.india_pct ? `others pay ${tf.mfn_pct}% · your buyer saves ${money(q.duty_saved, q.currency)} on this order` : tf.india_pct > tf.mfn_pct ? `${tf.mfn_pct}% normal + ${+(tf.india_pct - tf.mfn_pct).toFixed(2)}% extra US duty on Indian goods` : esc(tf.precision || "")}</small></div>
+      </div>
+      <div class="fields" style="margin-top:12px"><div><label>${t("order_size", "Order size")} (${esc(q.unit)})</label><input data-qty value="${q.qty}"></div>
+        <div><label>${t("margin", "Your margin %")}</label><input data-ov="margin_pct" value="${q.assumptions.margin_pct}"></div>
+        <div style="align-self:end"><button class="btn primary" data-requote="${p.product_id}">${t("recalc", "Recalculate")}</button></div></div>
+      <details class="small" style="margin-top:10px"><summary>Edit freight, exchange rate and other assumptions</summary>
+        <div class="fields" style="margin-top:8px">${fields.filter(([k]) => k !== "margin_pct").map(([k, l]) => `<div><label>${l}</label><input data-ov="${k}" value="${q.assumptions[k]}"></div>`).join("")}</div></details>
+      <details class="small"><summary>See the full calculation and sources</summary>
+        <div class="table-wrap"><table>${q.lines.map(l => `<tr><td>${esc(l.label)}</td><td class="num">${money(l.amount, l.currency)}</td><td class="small muted">${esc(l.note)}</td></tr>`).join("")}</table></div>
+        ${tf.source ? `<p>Duty source: ${tf.source_url ? `<a target="_blank" rel="noopener" href="${tf.source_url}">${esc(tf.source)} ↗</a>` : esc(tf.source)} · <span class="badge ${tf.precision === "national line" ? "b-ok" : "b-warn"}">${esc(tf.precision)}</span> · charged on ${esc(tf.basis)} value</p>` : ""}
+        <p class="muted">${esc(q.note)}</p></details>
+      ${rev("quote", PLAN.country + ":" + p.product_id, q.assumptions, {landed: q.landed_per_unit, fob: q.suggested_fob_usd_per_unit})}
+      ${rev("duty", PLAN.country + ":" + p.product_id, {country: PLAN.country, hs6: p.classification.hs6}, {india: tf.india_pct, mfn: tf.mfn_pct})}
+    </div>`;
+  }).join("");
+  document.querySelectorAll("[data-requote]").forEach(btn => btn.onclick = async () => {
+    const card = btn.closest("[data-q]"), overrides = {};
+    card.querySelectorAll("[data-ov]").forEach(i => overrides[i.dataset.ov] = i.value);
+    btn.disabled = true; btn.textContent = "Calculating…";
+    const r = await api(`/api/plan/quote`, json("POST", withPlan({ product_id: btn.dataset.requote, qty: +card.querySelector("[data-qty]").value, overrides })));
+    PLAN.quotes[btn.dataset.requote] = r.quote; PLAN.documents = r.documents; saveLocal(); renderQuotes(); renderDocs(); applyReviewMode();
+  });
+}
+function countryName() {
+  const all = PLAN.countries?.all || [];
+  return (all.find(m => m.iso3 === PLAN.country) || {}).name || PLAN.country;
+}
+
+function party(p) { return `<strong>${esc(p.name)}</strong><br>${esc(p.address)}${p.gstin ? `<br>GSTIN ${esc(p.gstin)} · IEC ${esc(p.iec)}` : ""}`; }
+function renderDocs() {
+  const d = PLAN.documents, pi = d.proforma, pl = d.packing_list, od = d.origin_declaration;
+  $("#panel-docs").innerHTML = `<h2>${t("st_docs", "Stage 8 · Documents")} <button class="btn no-print" onclick="window.print()">Print / PDF</button></h2>
+    <div class="card doc"><h3>${pi.title} ${esc(pi.number)} · ${pi.date}</h3>
+      <div class="grid"><div><div class="small muted">Seller</div>${party(pi.seller)}</div><div><div class="small muted">Buyer</div>${party(pi.buyer)}</div></div>
+      <div class="table-wrap"><table><thead><tr><th>Description</th><th>HS6</th><th>Import code</th><th class="num">Qty</th><th class="num">Unit US$</th><th class="num">Amount US$</th></tr></thead>
+      <tbody>${pi.items.map(i => `<tr><td>${esc(i.description)}</td><td>${i.hs6}</td><td>${i.national_code || i.hs6}</td><td class="num">${i.qty} ${esc(i.unit)}</td><td class="num">${i.unit_price_usd}</td><td class="num">${money(i.amount_usd)}</td></tr>`).join("")}
+      <tr><td colspan="5"><strong>Total ${esc(pi.incoterm)}</strong></td><td class="num"><strong>${money(pi.total)}</strong></td></tr></tbody></table></div>
+      <div class="kv small"><div>Payment</div><div>${esc(pi.payment_terms)}</div><div>Validity</div><div>${esc(pi.validity)}</div><div>Origin</div><div>${esc(pi.origin)}</div><div>Bank</div><div>${esc(pi.bank)}</div></div>
+      ${rev("doc_proforma", pi.number, null, pi)}</div>
+    <div class="card doc"><h3>${pl.title} ${esc(pl.number)}</h3>
+      <div class="table-wrap"><table><thead><tr><th>Description</th><th>HS6</th><th class="num">Qty</th><th class="num">Per carton</th><th class="num">Cartons</th><th>Net kg</th><th>Gross kg</th><th>CBM</th></tr></thead>
+      <tbody>${pl.rows.map(r => `<tr><td>${esc(r.description)}</td><td>${r.hs6}</td><td class="num">${r.qty} ${esc(r.unit)}</td><td class="num">${r.per_carton}</td><td class="num">${r.cartons}</td><td>${r.net_kg}</td><td>${r.gross_kg}</td><td>${r.cbm}</td></tr>`).join("")}</tbody></table></div>
+      <div class="small">Marks: ${esc(pl.marks)}</div>${rev("doc_packing", pl.number, null, pl)}</div>
+    <div class="card doc"><h3>${esc(od.title)}</h3>
+      ${od.agreement ? `<p><span class="badge b-ok">${esc(od.agreement)}</span>${od.issued_by ? ` <span class="small">Issued by: ${esc(od.issued_by)}</span>` : ""}
+        ${od.source_url ? ` <a class="small" target="_blank" rel="noopener" href="${od.source_url}">official source ↗</a>` : ""}</p>` : ""}
+      ${od.how ? `<details class="small"><summary>How to get it</summary><p>${esc(od.how)}</p></details>` : ""}
+      ${od.statement ? `<h4>Statement to print on your invoice</h4><pre class="email">${esc(od.statement)}</pre><button class="btn small no-print" id="copyStmt">Copy statement</button>` : ""}
+      <div class="notice">${esc(od.warning)} ${od.template_url ? `<a href="${od.template_url}" target="_blank" rel="noopener">Official template</a>` : ""}</div>
+      <table>${(od.fields || []).map(f => `<tr><td class="num">${f.n}</td><td class="small muted">${esc(f.field)}</td><td>${esc(f.value)}</td><td>${rev("doc_origin_field", PLAN.country + ":field" + f.n, null, f.value)}</td></tr>`).join("")}</table>
+      ${od.non_preferential?.needed ? `<p class="small">Non-preferential certificate of origin: needed <strong>${esc(od.non_preferential.needed)}</strong>${od.non_preferential.issued_by ? `, from ${esc(od.non_preferential.issued_by)}` : ""}.</p>` : ""}
+      ${(od.import_notes || []).length ? `<h4>Before you ship</h4><ul class="small">${od.import_notes.map(n => `<li>${esc(n.text)} ${n.source_url ? `<a target="_blank" rel="noopener" href="${n.source_url}">source ↗</a>` : ""}</li>`).join("")}</ul>` : ""}
+      ${(od.citations || []).length ? `<h4>From the official text</h4>${od.citations.map(ct => `<blockquote class="small" style="border-left:3px solid var(--line);margin:8px 0;padding:4px 10px">${esc(ct.snippet)}<br>
+        <span class="muted">${esc(ct.title)}${ct.heading ? " › " + esc(ct.heading) : ""}</span> ${ct.url.startsWith("http") ? `<a target="_blank" rel="noopener" href="${ct.url}">open ↗</a>` : ""}</blockquote>`).join("")}` : ""}
+      ${rev("origin_doc", PLAN.country, PLAN.country, od.title)}
+      <p><span class="badge b-sign">You sign with DSC</span> <span class="badge b-desk">Desk reviews origin first</span></p></div>
+    <div class="card no-print"><h3>Ask the rules <span class="small muted">searches official trade-agreement texts for ${esc(PLAN.country)}</span></h3>
+      <div style="display:flex;gap:8px"><input id="askQ" placeholder="e.g. How long is the proof of origin valid? Which records must I keep?"><button class="btn primary" id="askBtn">Search</button></div>
+      <div id="askOut"></div></div>`;
+  const cs = $("#copyStmt"); if (cs) cs.onclick = () => navigator.clipboard?.writeText(od.statement);
+  $("#askBtn").onclick = async () => {
+    const q = $("#askQ").value.trim(); if (!q) return;
+    $("#askOut").innerHTML = '<p class="small muted">Searching the official texts…</p>';
+    const a = await api(`/api/ask?country=${encodeURIComponent(PLAN.country)}&q=${encodeURIComponent(q)}`);
+    $("#askOut").innerHTML = (a.answer ? `<div class="notice info"><strong>Answer:</strong> ${esc(a.answer)}
+        ${(a.citations || []).map(c => `<blockquote class="small">“${esc(c.cited_text)}”<br><span class="muted">${esc(c.title)}</span> ${c.url && c.url.startsWith("http") ? `<a target="_blank" rel="noopener" href="${c.url}">open ↗</a>` : ""}</blockquote>`).join("")}
+        <div class="small muted">${esc(a.method)}</div></div><h4>Matching passages</h4>` : "") + (a.passages || []).map(h => `<blockquote class="small" style="border-left:3px solid var(--brand);margin:10px 0;padding:4px 10px">${esc(h.snippet)}<br>
+      <span class="muted">${esc(h.title)}${h.heading ? " › " + esc(h.heading) : ""}</span> ${h.url.startsWith("http") ? `<a target="_blank" rel="noopener" href="${h.url}">open ↗</a>` : ""}
+      ${rev("rag_answer", PLAN.country + ":" + q, q, {chunk: h.chunk_id, title: h.title})}</blockquote>`).join("") || '<p class="small muted">Nothing found in the indexed texts. Our desk can answer.</p>';
+    $("#askOut").insertAdjacentHTML("beforeend", `<div class="askbox"><div><b>${a.answer ? "Need a person to confirm?" : "Not the answer you need?"}</b>
+      <span>${a.answer ? "Rules change; our desk checks the current rule for your exact product." : "These are the closest passages from the official texts. Send your question and a person replies."}</span></div>
+      <button type="button" class="btn primary" data-ask data-ask-step="rules" data-ask-title="Ask the desk about the rules" data-ask-country="${esc(countryName())}"
+        data-ask-message="${esc(q)}">${t("ask_btn", "Ask the desk")}</button></div>`);
+    applyReviewMode();
+  };
+}
+
+function renderDesk() {
+  const ph = STATUS?.desk_phone || "";
+  const desk = [[3, "Export set-up", "IEC, AD code, LUT, RCMC"], [4, "Product compliance", "Destination rules, lab tests, labelling"],
+    [7, "Finance and FX", "Packing credit, subvention, payment partner"], [9, "Freight", "Forwarder quotes and booking"],
+    [10, "Indian customs", "Pre-check before your CHA files"], [11, "Destination clearance", "Origin pack for the buyer's broker"],
+    [12, "Documents and payment", "LC check, payment matching, e-BRC"], [13, "Refunds and close-out", "IGST refund, RoDTEP, drawback"]];
+  const c = PROFILE.company || {}, fam = (PLAN.families || []).find(f => f.code === PLAN.family);
+  $("#panel-desk").innerHTML = `<h2>${t("desk_h", "Next: our desk takes it from here")}</h2>
+    <div class="card callback"><h3 style="margin-top:0">${t("cb_h", "Get a call back from the export desk")}</h3>
+      <p class="muted">${t("cb_p", `A named person calls you within one working day, in Hindi or English, to take ${esc(countryName())} forward.`)}</p>
+      <form id="leadForm" class="fields">
+        <input name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px;width:1px;height:1px">
+        <div><label>${t("cb_name", "Your name")}</label><input name="name" required value="${esc(c.contact_name || "")}"></div>
+        <div><label>${t("cb_phone", "Mobile number")}</label><input name="phone" inputmode="tel" value="${esc(c.phone || "")}"></div>
+        <div><label>Email</label><input name="email" type="email" value="${esc(c.email || "")}"></div>
+        <div><label>${t("cb_city", "City")}</label><input name="city" value="${esc(c.city || "")}"></div>
+        <div><label>${t("cb_product", "Product")}</label><input name="product" value="${esc(fam ? fam.products.join(", ") : "")}"></div>
+        <div style="grid-column:1/-1"><label><input type="checkbox" name="whatsapp_ok" checked style="width:auto"> ${t("cb_wa", "You can message me on WhatsApp")}</label></div>
+        <div style="grid-column:1/-1"><button class="btn primary big" type="submit">${t("cb_btn", "Request a call back")}</button> <span id="leadMsg" class="small"></span></div>
+      </form>
+      <p class="small muted">We use these details only to call you about your export. <a href="/privacy">Privacy</a></p></div>
+    <p class="muted">These steps need licences, signatures, banks or labs. A named person picks up your whole profile and plan.</p>
+    <div class="stages">${desk.map(([n, t, d]) => `<div class="stage desk"><div class="num">Stage ${n}</div><strong>${t}</strong>
+      <div class="small muted">${d}</div></div>`).join("")}</div>`;
+  $("#leadForm").onsubmit = async (e) => {
+    e.preventDefault();
+    const f = new FormData(e.target), body = Object.fromEntries(f.entries());
+    body.whatsapp_ok = f.has("whatsapp_ok"); body.country = countryName(); body.source = "workspace";
+    body.message = `Plan for ${body.product} to ${body.country}`; body.step = "desk"; body.page = "/app";
+    try { const r = await api("/api/lead", json("POST", body));
+      $("#leadMsg").innerHTML = r.saved ? t("cb_ok", "✓ Thank you. The desk will call you within one working day.") : `Thank you. Please also call us on <a href="tel:${r.desk_phone.replace(/\s/g, "")}">${esc(r.desk_phone)}</a>.`;
+      e.target.querySelector("button").disabled = true;
+    } catch (err) { $("#leadMsg").textContent = err.message; }
+  };
+}
+
+// ---------------------------------------------------------------- boot
+async function boot() {
+  applyI18n();
+  STATUS = await api("/api/status");
+  const c = STATUS.counts;
+  const warn = [];
+  if (new URLSearchParams(location.search).has("debug")) {   // operator view only; customers never see this
+    if (!STATUS.ai) warn.push("No ANTHROPIC_API_KEY: documents read by on-server OCR, HS codes by tariff rules and search.");
+    if (!c.trade_flow) warn.push("Country data (UN Comtrade) is still loading.");
+    if (!c.uk_trader_commodity) warn.push("UK importer data (HMRC) is still loading.");
+  }
+  $("#statusBar").innerHTML = warn.map(w => `<div class="notice">${esc(w)}</div>`).join("");
+  // Review tools are for the operator: shown with ?review (remembered), hidden from customers.
+  const rv = new URLSearchParams(location.search).get("review");
+  if (rv !== null) { store.set("operator", "1"); if (rv) store.set("operator_token", rv); }   // open /app?review=<OPERATOR_TOKEN>
+  const operator = store.get("operator") === "1";
+  document.querySelectorAll(".operator").forEach(x => x.style.display = operator ? "" : "none");
+  $("#reviewMode").checked = operator && store.get("reviewMode") === "1";
+  PROFILE = { company: {}, products: [] };
+}
+$("#newProfile").onclick = async (e) => {
+  e.preventDefault();
+  PROFILE = { company: {}, products: [] }; PLAN = null; saveLocal();
+  $("#profileSec").hidden = true; $("#planSec").hidden = true; $("#typed").value = ""; $("#readMsg").innerHTML = ""; setFlow(1);
+};
+boot();
+</script>
+__CONTACT__
+</body>
+</html>

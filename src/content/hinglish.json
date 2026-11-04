@@ -1,0 +1,523 @@
+{
+ "HOME": [
+  [
+   "<html lang=\"en-IN\">",
+   "<html lang=\"hi-Latn\">"
+  ],
+  [
+   "<title>Export from India: HS code, best country, duty and buyers in one click | Exportwalla</title>",
+   "<title>Export kaise kare: HS code, sahi desh, duty aur buyers ek click mein | Exportwalla</title>"
+  ],
+  [
+   "content=\"Upload one invoice. Get your HS code, the best countries, the duty your buyer pays under CETA, CEPA or ECTA, real importers and a landed-cost quote. Free.\"",
+   "content=\"Ek invoice upload kijiye. HS code, sabse acche desh, CETA, CEPA ya ECTA mein duty, asli importers aur landed-cost quote paayein. Bilkul free.\""
+  ],
+  [
+   "<link rel=\"canonical\" href=\"__SITE__/\">",
+   "<link rel=\"canonical\" href=\"__SITE__/hi\">"
+  ],
+  [
+   "<meta property=\"og:url\" content=\"__SITE__/\">",
+   "<meta property=\"og:url\" content=\"__SITE__/hi\">"
+  ],
+  [
+   "content=\"Export from India: see where your product sells, at what duty\"",
+   "content=\"India se export: dekhiye aapka maal kahan bikega, kitni duty par\""
+  ],
+  [
+   "<a class=\"lang\" href=\"/hi\" hreflang=\"hi\" lang=\"hi\">हिंदी</a>",
+   "<a class=\"lang\" href=\"/\" hreflang=\"en\" lang=\"en\">English</a>"
+  ],
+  [
+   "<a class=\"hide-m\" href=\"/export-to\">Countries</a>",
+   "<a class=\"hide-m\" href=\"/export-to\">Desh</a>"
+  ],
+  [
+   "<a class=\"hide-m\" href=\"/fta\">Trade deals</a>",
+   "<a class=\"hide-m\" href=\"/fta\">Trade deals</a>"
+  ],
+  [
+   "<a class=\"hide-m\" href=\"/pricing\">Pricing</a>",
+   "<a class=\"hide-m\" href=\"/pricing\">Fees</a>"
+  ],
+  [
+   "<a class=\"pill go\" href=\"/app\"><span class=\"dk\">Check my product</span><span class=\"mb\">Check free</span></a>",
+   "<a class=\"pill go\" href=\"/app?lang=hi\"><span class=\"dk\">Product check karein</span><span class=\"mb\">Check karein</span></a>"
+  ],
+  [
+   "For Indian factories, brands and first-time exporters",
+   "Indian factories, brands aur pehli baar export karne walon ke liye"
+  ],
+  [
+   "Export from India to <span class=\"rot\" id=\"rot\">the UK</span>.<br>We unlock it for you.",
+   "India se export kijiye <span class=\"rot\" id=\"rot\">UK</span> mein.<br>Raasta hum kholenge."
+  ],
+  [
+   "Upload one invoice, your GST certificate or a photo of your product. See your HS code, the countries that buy it,\n        the duty your buyer pays on Indian goods, real importers and a landed-cost quote, free and in about a minute.\n        Then our export desk takes you from IEC to e-BRC. You pay per shipment.",
+   "Ek invoice, GST certificate ya product ki photo upload kijiye. Lagbhag ek minute mein dekhiye: aapka HS code, kaun se desh\n        aapka maal khareedte hain, wahan Indian maal par kitni duty lagti hai, asli importers aur landed-cost quote, bilkul free.\n        Phir hamara export desk IEC se e-BRC tak saath chalega. Fees sirf har shipment par."
+  ],
+  [
+   "<a class=\"pill go\" href=\"/app\">Check my product, free →</a>",
+   "<a class=\"pill go\" href=\"/app?lang=hi\">Apna product free check karein →</a>"
+  ],
+  [
+   "<a class=\"pill ghost\" id=\"callHero\" href=\"#\" data-ask data-ask-title=\"Talk to the export desk\">Talk to the desk</a>",
+   "<a class=\"pill ghost\" id=\"callHero\" href=\"#\" data-ask data-ask-title=\"Export desk se baat karein\">Desk se baat karein</a>"
+  ],
+  [
+   "UK duty on Indian leather shoes:",
+   "UK mein Indian leather shoes par duty:"
+  ],
+  [
+   "since 15 July 2026 under CETA",
+   "15 July 2026 se, CETA ke tahat"
+  ],
+  [
+   ">see the numbers</a>",
+   ">poora hisaab dekhiye</a>"
+  ],
+  [
+   "<span>You stay the exporter of record</span><span>Every duty links to its government source</span><span>Hindi and English support</span>",
+   "<span>Exporter aap hi rahenge</span><span>Har duty ke saath sarkari source ka link</span><span>Hindi aur English mein madad</span>"
+  ],
+  [
+   "read automatically · nothing to type",
+   "apne aap padha jaata hai · kuch type nahi karna"
+  ],
+  [
+   "One click · about a minute",
+   "Ek click · lagbhag ek minute"
+  ],
+  [
+   "Sources linked on every number",
+   "Har number ke saath source"
+  ],
+  [
+   "<span>countries covered</span>",
+   "<span>desh</span>"
+  ],
+  [
+   "<span>export products mapped</span>",
+   "<span>export products</span>"
+  ],
+  [
+   "<span>tariff lines checked</span>",
+   "<span>tariff lines</span>"
+  ],
+  [
+   "<span>named UK importers</span>",
+   "<span>UK importers ke naam</span>"
+  ],
+  [
+   "<span>passages of official FTA text</span>",
+   "<span>sarkari FTA text ke hisse</span>"
+  ],
+  [
+   "<div class=\"kicker\">How it works</div>",
+   "<div class=\"kicker\">Kaise kaam karta hai</div>"
+  ],
+  [
+   "Three moves. One desk.",
+   "Teen kadam. Ek desk."
+  ],
+  [
+   "<i>1</i>Upload<span>You</span>",
+   "<i>1</i>Upload<span>Aap</span>"
+  ],
+  [
+   "Old invoice, phone photo",
+   "Purana invoice, phone photo"
+  ],
+  [
+   "Found: GSTIN, IEC, <b>3 products</b>",
+   "Mila: GSTIN, IEC, <b>3 products</b>"
+  ],
+  [
+   "<i>2</i>Your plan<span>Free, about a minute</span>",
+   "<i>2</i>Aapka plan<span>Free, lagbhag ek minute</span>"
+  ],
+  [
+   "Leather shoes: best markets",
+   "Leather shoes: sabse acche markets"
+  ],
+  [
+   "Bar = market score. Then <b>buyers, a landed-cost quote and the documents</b>.",
+   "Bar = market score. Phir <b>buyers, landed-cost quote aur documents</b>."
+  ],
+  [
+   "<i>3</i>Ship and get paid<span>Our desk</span>",
+   "<i>3</i>Ship aur payment<span>Hamara desk</span>"
+  ],
+  [
+   "<li>IEC, RCMC, lab tests</li><li>Freight and customs</li><li>Certificate of origin</li><li>LC checked</li><li class=\"pay\">Payment in, e-BRC done</li>",
+   "<li>IEC, RCMC, lab test</li><li>Freight aur customs</li><li>Certificate of origin</li><li>LC check</li><li class=\"pay\">Payment aaya, e-BRC ho gaya</li>"
+  ],
+  [
+   "One named person, one phone number</div>",
+   "Ek tay vyakti, ek phone number</div>"
+  ],
+  [
+   "Instead of five people to chase",
+   "Paanch logon ke peeche bhaagne ki jagah"
+  ],
+  [
+   "<b>One export desk</b><small>One named person who knows your shipment, from IEC to e-BRC.</small>",
+   "<b>Ek export desk</b><small>Ek tay vyakti jo aapka shipment jaanta hai, IEC se e-BRC tak.</small>"
+  ],
+  [
+   "Most exporters juggle a CA, a CHA, a forwarder, a consultant and a buyer database. You get one place and one phone number.",
+   "Zyadatar exporters CA, CHA, forwarder, consultant aur buyer database alag-alag sambhalte hain. Yahan sab ek jagah, ek phone number par."
+  ],
+  [
+   "<h3>Drop what you already have</h3>",
+   "<h3>Jo document hai, wahi daaliye</h3>"
+  ],
+  [
+   "<p>GST certificate, IEC, an old invoice or shipping bill, a price list, or a phone photo of the product.</p>",
+   "<p>GST certificate, IEC, purana invoice ya shipping bill, price list, ya product ki phone photo.</p>"
+  ],
+  [
+   "<li>Read automatically, no forms to fill</li><li>HS codes on your invoices are used as they are</li>",
+   "<li>Apne aap padha jaata hai, koi form nahi</li><li>Invoice par likha HS code seedha use hota hai</li>"
+  ],
+  [
+   "<h3>Click once, get the plan</h3>",
+   "<h3>Ek click, poora plan</h3>"
+  ],
+  [
+   "<p>Your HS code, the best countries, buyers, a landed-cost quote and the documents, each with its source.</p>",
+   "<p>HS code, sabse acche desh, buyers, landed-cost quote aur documents, har cheez ke source ke saath.</p>"
+  ],
+  [
+   "<li>66 countries scored on demand and duty</li><li>Duty with and without the trade-deal claim</li>",
+   "<li>66 desh, demand aur duty ke hisaab se</li><li>Trade deal ke saath aur bina, dono duty</li>"
+  ],
+  [
+   "<h3>We take it to payment</h3>",
+   "<h3>Payment tak hum saath</h3>"
+  ],
+  [
+   "<p>IEC, RCMC, lab tests, freight, customs, certificate of origin, LC checks, e-BRC and refunds. A named person does it with you.</p>",
+   "<p>IEC, RCMC, lab test, freight, customs, certificate of origin, LC check, e-BRC aur refund. Ek tay vyakti aapke saath karega.</p>"
+  ],
+  [
+   "<li>Pay per shipment, not per month</li><li>You and your CA sign; we prepare</li>",
+   "<li>Fees har shipment par, mahine ki nahi</li><li>Sign aap aur aapke CA karenge; taiyari hum</li>"
+  ],
+  [
+   "<div class=\"kicker\">Built for your cluster</div>",
+   "<div class=\"kicker\">Aapke shehar ke liye</div>"
+  ],
+  [
+   "What does your town make? See where it sells.",
+   "Aapka shehar kya banata hai? Dekhiye kahan bikta hai."
+  ],
+  [
+   "India's best-known export clusters. Tap yours for the HS code, the best markets, the duty Indian goods pay and the documents, from official tariffs.",
+   "India ke jaane-maane export clusters. Apna shehar tap kijiye: HS code, sabse acche markets, Indian maal par duty aur documents, sarkari tariff se."
+  ],
+  [
+   "<div class=\"kicker\">Your first export order</div>",
+   "<div class=\"kicker\">Aapka pehla export order</div>"
+  ],
+  [
+   "13 steps. You click five. We carry the rest.",
+   "13 kadam. Paanch aap click karein, baaki hum sambhalenge."
+  ],
+  [
+   "Tap a step to see what you get. Green steps are instant on the platform; blue ones our desk does with you. The saffron marker means a licensed signature, and that is always yours or your CA's.",
+   "Kisi bhi kadam par tap karke dekhiye kya milta hai. Kesariya kadam platform par turant; neele kadam hamara desk aapke saath karta hai. Hara nishaan matlab licensed signature, jo hamesha aapka ya aapke CA ka."
+  ],
+  [
+   "Self-serve, instant</span>",
+   "Khud kijiye, turant</span>"
+  ],
+  [
+   "Our desk does it</span>",
+   "Hamara desk karega</span>"
+  ],
+  [
+   "You or your CA sign</span>",
+   "Sign: aap ya CA</span>"
+  ],
+  [
+   "<div class=\"kicker\">Your worries, answered</div>",
+   "<div class=\"kicker\">Aapki chintaayein, hamare jawab</div>"
+  ],
+  [
+   "Exporting feels risky. Here is how we keep it safe.",
+   "Export risky lagta hai. Hum ise surakshit aise rakhte hain."
+  ],
+  [
+   "<div class=\"q\">Will I get paid?</div><h3>Never ship on open credit to a new buyer</h3><p>We set up advance, letter of credit or ECGC-covered terms, and check the LC documents before you ship.</p>",
+   "<div class=\"q\">Paisa milega?</div><h3>Naye buyer ko udhaar par maal nahi</h3><p>Advance, letter of credit ya ECGC cover wali terms set karte hain, aur ship karne se pehle LC documents check karte hain.</p>"
+  ],
+  [
+   "<div class=\"q\">Are the buyers real?</div><h3>Only buyers with a record</h3><p>UK importers come from HMRC's own import records for your HS code. Elsewhere our desk verifies shipment history; we never show guessed names.</p>",
+   "<div class=\"q\">Buyer asli hain?</div><h3>Sirf record wale buyers</h3><p>UK importers HMRC ke apne import records se aate hain. Baaki deshon mein desk shipment history check karta hai; andaze wale naam kabhi nahi.</p>"
+  ],
+  [
+   "<div class=\"q\">So much paperwork?</div><h3>We prepare, you sign</h3><p>Invoice, packing list, certificate of origin, shipping bill checks and refunds are drafted for you. Licensed signatures stay with you and your CA.</p>",
+   "<div class=\"q\">Itna paperwork?</div><h3>Taiyari hum, sign aap</h3><p>Invoice, packing list, certificate of origin, shipping bill check aur refund, sab taiyar karke dete hain. Licensed sign aap aur aapke CA ke paas.</p>"
+  ],
+  [
+   "<div class=\"q\">What will it cost?</div><h3>Free to check, pay per shipment</h3><p>HS code, markets, duty, buyers and quotes are free. The desk charges per shipment, with no subscription and no share of your order.</p>",
+   "<div class=\"q\">Kharcha kitna?</div><h3>Check free, fees har shipment par</h3><p>HS code, markets, duty, buyers aur quote free. Desk ki fees har shipment par, koi subscription nahi, order mein hissa nahi.</p>"
+  ],
+  [
+   "<div class=\"q\">Is my English enough?</div><h3>Hindi or English, your choice</h3><p>Talk to the desk in Hindi or English. Emails to buyers are drafted for you to approve.</p>",
+   "<div class=\"q\">English kam hai?</div><h3>Hindi ya English, aapki marzi</h3><p>Desk se Hindi ya English mein baat kijiye. Buyers ke emails hum likhte hain, aap approve kijiye.</p>"
+  ],
+  [
+   "<div class=\"q\">Do I lose control?</div><h3>You stay the exporter of record</h3><p>Your IEC, your buyer, your GST refund. We never take title to your goods or sit between you and your customer.</p>",
+   "<div class=\"q\">Control chala jayega?</div><h3>Exporter aap hi rahenge</h3><p>Aapka IEC, aapka buyer, aapka GST refund. Hum na aapka maal lete hain, na aapke aur customer ke beech aate hain.</p>"
+  ],
+  [
+   "<div class=\"kicker\">One-stop</div><h2 class=\"serif\">Five vendors, or one desk.</h2>",
+   "<div class=\"kicker\">Ek hi jagah</div><h2 class=\"serif\">Paanch vendor, ya ek desk.</h2>"
+  ],
+  [
+   "<h3>The usual way</h3>",
+   "<h3>Purana tareeka</h3>"
+  ],
+  [
+   "<span>CA or consultant, days</span>",
+   "<span>CA ya consultant, kai din</span>"
+  ],
+  [
+   "<span>Guesswork, trade fairs</span>",
+   "<span>Andaza, trade fair</span>"
+  ],
+  [
+   "<span>Paid lists, cold calls</span>",
+   "<span>Paid list, cold call</span>"
+  ],
+  [
+   "<span>Spreadsheet, freight emails</span>",
+   "<span>Spreadsheet, freight emails</span>"
+  ],
+  [
+   "<span>CHA, templates, rework</span>",
+   "<span>CHA, template, baar-baar sudhaar</span>"
+  ],
+  [
+   "<span>Often left unclaimed</span>",
+   "<span>Aksar claim hi nahi hota</span>"
+  ],
+  [
+   "<span>Instant, from official tariffs</span>",
+   "<span>Turant, sarkari tariff se</span>"
+  ],
+  [
+   "<span>66 countries scored and explained</span>",
+   "<span>66 desh, score aur wajah ke saath</span>"
+  ],
+  [
+   "<span>Importers with an import record</span>",
+   "<span>Import record wale importers</span>"
+  ],
+  [
+   "<span>Line by line, with sources</span>",
+   "<span>Line by line, source ke saath</span>"
+  ],
+  [
+   "<span>Pre-filled for each trade deal</span>",
+   "<span>Har trade deal ke liye bhara hua</span>"
+  ],
+  [
+   "<span>Our desk closes them out</span>",
+   "<span>Hamara desk poora karta hai</span>"
+  ],
+  [
+   "<span>HS code and duty</span>",
+   "<span>HS code aur duty</span>"
+  ],
+  [
+   "<span>Which country</span>",
+   "<span>Kaun sa desh</span>"
+  ],
+  [
+   "<span>Origin and documents</span>",
+   "<span>Origin aur documents</span>"
+  ],
+  [
+   "<span>Refunds and e-BRC</span>",
+   "<span>Refund aur e-BRC</span>"
+  ],
+  [
+   "<div class=\"kicker\">Pricing</div><h2 class=\"serif\">Free to check. Pay only when you ship.</h2>",
+   "<div class=\"kicker\">Fees</div><h2 class=\"serif\">Check karna free. Fees sirf shipment par.</h2>"
+  ],
+  [
+   "<h3>Self-serve</h3>",
+   "<h3>Khud kijiye</h3>"
+  ],
+  [
+   "<li>HS code from your documents</li><li>Best countries with duty for Indian goods</li><li>Named UK importers and official buyer channels</li><li>Landed-cost quote and export price</li><li>Proforma, packing list and certificate-of-origin data</li>",
+   "<li>Documents se HS code</li><li>Sabse acche desh, Indian maal ki duty ke saath</li><li>UK importers ke naam aur sarkari buyer channels</li><li>Landed-cost quote aur export price</li><li>Proforma, packing list aur certificate of origin ka data</li>"
+  ],
+  [
+   "<a class=\"pill dark\" href=\"/app\">Check my product →</a>",
+   "<a class=\"pill dark\" href=\"/app?lang=hi\">Apna product check karein →</a>"
+  ],
+  [
+   "<small>per shipment + GST</small>",
+   "<small>har shipment + GST</small>"
+  ],
+  [
+   "<li>IEC, RCMC, AD code and LUT set-up</li><li>Certificate of origin filed on DGFT Trade Connect</li><li>Freight quotes, CHA and shipping-bill checks</li><li>LC document check and payment matching</li><li>e-BRC, RoDTEP, drawback and GST refund close-out</li>",
+   "<li>IEC, RCMC, AD code aur LUT set-up</li><li>DGFT Trade Connect par certificate of origin</li><li>Freight quote, CHA aur shipping bill check</li><li>LC document check aur payment matching</li><li>e-BRC, RoDTEP, drawback aur GST refund</li>"
+  ],
+  [
+   "<a class=\"pill go\" id=\"callPrice\" href=\"#\" data-ask data-ask-step=\"desk\" data-ask-title=\"Get a quote for the export desk\">Talk to the desk</a>",
+   "<a class=\"pill go\" id=\"callPrice\" href=\"#\" data-ask data-ask-step=\"desk\" data-ask-title=\"Export desk ka quote\">Desk se baat karein</a>"
+  ],
+  [
+   "<div class=\"kicker\">Questions</div><h2 class=\"serif\">What exporters ask us</h2>",
+   "<div class=\"kicker\">Sawaal</div><h2 class=\"serif\">Exporters hamse kya poochte hain</h2>"
+  ],
+  [
+   "<div class=\"kicker\">Explore</div><h2 class=\"serif\">Duty and rules, country by country</h2>",
+   "<div class=\"kicker\">Aur dekhiye</div><h2 class=\"serif\">Har desh ki duty aur niyam</h2>"
+  ],
+  [
+   "<b>Popular countries</b>",
+   "<b>Mashhoor desh</b>"
+  ],
+  [
+   "<b>Popular HS codes</b>",
+   "<b>Mashhoor HS codes</b>"
+  ],
+  [
+   "<b>Guides</b>",
+   "<b>Guide</b>"
+  ],
+  [
+   "All 66 countries →",
+   "Sabhi 66 desh →"
+  ],
+  [
+   "All products →",
+   "Sabhi products →"
+  ],
+  [
+   "Pick a country. We'll unlock it.",
+   "Desh chuniye. Raasta hum kholenge."
+  ],
+  [
+   "Start with one document, or leave your number and the desk calls you, in Hindi or English.",
+   "Ek document se shuru kijiye, ya number chhodiye: desk aapko Hindi ya English mein call karega."
+  ],
+  [
+   "<a class=\"pill go\" href=\"/app\">Start free →</a>",
+   "<a class=\"pill go\" href=\"/app?lang=hi\">Free shuru karein →</a>"
+  ],
+  [
+   "id=\"callCta\" href=\"#\">Call the desk</a>",
+   "id=\"callCta\" href=\"#\">Desk ko call karein</a>"
+  ],
+  [
+   "placeholder=\"Your name\"",
+   "placeholder=\"Aapka naam\""
+  ],
+  [
+   "placeholder=\"What do you make? e.g. leather shoes\"",
+   "placeholder=\"Aap kya banate hain? jaise leather shoes\""
+  ],
+  [
+   "type=\"submit\">Get a call back</button>",
+   "type=\"submit\">Call back paayein</button>"
+  ],
+  [
+   "We call within one working day.",
+   "Ek working day mein call karenge."
+  ],
+  [
+   "✓ Thank you. The desk will call you within one working day.",
+   "✓ Dhanyavaad. Desk ek working day mein call karega."
+  ],
+  [
+   "`Thank you. Please also call ${d.desk_phone}.`",
+   "`Dhanyavaad. Aap ${d.desk_phone} par call bhi kar sakte hain.`"
+  ],
+  [
+   "Self-serve export tools and a human export desk for Indian manufacturers.",
+   "Indian manufacturers ke liye free export tools aur ek insaani export desk."
+  ],
+  [
+   "const ROT = [\"the UK\", \"the UAE\", \"Germany\", \"the US\", \"Japan\", \"Australia\", \"Saudi Arabia\", \"the Netherlands\"];",
+   "const ROT = [\"UK\", \"UAE\", \"Germany\", \"America\", \"Japan\", \"Australia\", \"Saudi Arabia\", \"Netherlands\"];"
+  ],
+  [
+   "`<a class=\"pill go\" href=\"/app\">Do it now, free →</a> <button type=\"button\" class=\"pill ghost\" ${ask}>Ask the desk</button>`",
+   "`<a class=\"pill go\" href=\"/app?lang=hi\">Abhi free kijiye →</a> <button type=\"button\" class=\"pill ghost\" ${ask}>Desk se poochhiye</button>`"
+  ],
+  [
+   "`<button type=\"button\" class=\"pill go\" ${ask}>Get help with this step</button>`",
+   "`<button type=\"button\" class=\"pill go\" ${ask}>Is kadam mein madad lijiye</button>`"
+  ],
+  [
+   "\"Self-serve · instant\" : \"Our desk\"",
+   "\"Khud · turant\" : \"Hamara desk\""
+  ],
+  [
+   "'<span class=\"tag sign\">You / CA sign</span>'",
+   "'<span class=\"tag sign\">Sign: aap / CA</span>'"
+  ],
+  [
+   "<h4>What you get</h4>",
+   "<h4>Aapko kya milega</h4>"
+  ]
+ ],
+ "STEPS": "const STEPS = [\n  [1, \"Diagnose\", \"Product ki jaanch\", \"Documents ya description se HS code, har market mein duty, aur export readiness check.\", \"self\", 0, [\"HS 6-digit, UK aur US ke codes\", \"Kitna pakka, aur kya badle to code badlega\", \"Readiness: GSTIN, IEC, daam, MOQ\"]],\n  [2, \"Desh\", \"Desh chuniye\", \"66 markets: demand, growth, India ka hissa aur Indian maal ki duty ke hisaab se score.\", \"self\", 0, [\"Top 5, har ek ki wajah ke saath\", \"Trade deal ke saath aur bina duty\", \"Poori list, source ke saath\"]],\n  [3, \"Set-up\", \"Export set-up\", \"IEC, port par AD code, LUT, export council ki membership (RCMC).\", \"desk\", 1, [\"Filings hum taiyar karte hain\", \"Sign aapka DSC karega\", \"Hafton nahi, dinon mein\"]],\n  [4, \"Compliance\", \"Product compliance\", \"Desh ke niyam, lab test, technical file: REACH, FDA, SFDA aadi.\", \"desk\", 0, [\"Aapke product aur market ke niyam\", \"Lab test plan\", \"Label aur marking\"]],\n  [5, \"Buyers\", \"Buyer dhundhiye\", \"Jo importers pehle se aapka HS code mangwate hain, record ke saath, aur pehla email taiyar.\", \"self\", 0, [\"UK: HMRC se importers ke naam\", \"Baaki desh: desk se verified importers\", \"Sarkari channels: EPC aur embassy\"]],\n  [6, \"Quote\", \"Quote aur contract\", \"Ex-works se FOB, CIF aur landed cost tak, line by line: duty, VAT aur freight.\", \"self\", 0, [\"Har unit ka FOB daam\", \"Trade deal se duty ki bachat\", \"LC terms desk check karega\"]],\n  [7, \"Finance\", \"Finance aur FX\", \"Packing credit, interest subvention, payment partner aur FX.\", \"desk\", 0, [\"Pre-shipment credit\", \"Kam FX kharcha\", \"Payment risk cover\"]],\n  [8, \"Documents\", \"Shipment se pehle documents\", \"Proforma, packing list aur aapke market ki trade deal ka proof of origin, bhara hua.\", \"self\", 1, [\"Proforma invoice aur packing list\", \"CETA, CEPA ya CoO ka data bhara hua\", \"Sarkari text ke hawale ke saath\"]],\n  [9, \"Freight\", \"Freight\", \"Forwarder quote, booking, stuffing aur insurance.\", \"desk\", 0, [\"2–3 forwarder quote\", \"Booking aur stuffing plan\", \"Cargo insurance\"]],\n  [10, \"Customs\", \"Indian customs\", \"CHA ke shipping bill file karne se pehle check, taaki maal na ruke.\", \"desk\", 1, [\"Shipping bill pre-check\", \"RoDTEP aur drawback\", \"LEO tracking\"]],\n  [11, \"Pahunch\", \"Wahan clearance\", \"Buyer ke broker ke liye origin aur compliance pack.\", \"desk\", 0, [\"Broker pack\", \"Origin ke sawaalon ke jawab\", \"Duty claim mein madad\"]],\n  [12, \"Payment\", \"Documents aur payment\", \"LC document check, payment matching aur e-BRC.\", \"desk\", 0, [\"Bina galti ka LC set\", \"Payment match\", \"e-BRC poora\"]],\n  [13, \"Refund\", \"Refund aur close-out\", \"IGST refund, RoDTEP, drawback aur state subsidy.\", \"desk\", 1, [\"Bank tak refund tracking\", \"Benefits claim\", \"Agle order ke liye taiyar\"]],\n];",
+ "FAQ": [
+  [
+   "Kya export ke liye IEC zaroori hai?",
+   "Haan. Commercial export ke liye DGFT ka 10-character Importer-Exporter Code chahiye, jo aapke PAN se juda hota hai. Sarkari fees ₹500 hai aur online milta hai. Hamara desk file kar sakta hai."
+  ],
+  [
+   "Export shuru karne mein kitna paisa lagta hai?",
+   "Set-up sasta hai: IEC fees, export council ki RCMC fees aur digital signature. Asli kharcha pehle order ka working capital hai, jo advance payment, letter of credit ya pre-shipment credit se cover hota hai. Yahan product check karna free hai."
+  ],
+  [
+   "India se kaun sa product, kaun se desh mein bechein?",
+   "Yeh aapke HS code par depend karta hai. Hum 66 deshon ko aapke product ke liye market size, growth, India se kitna khareedte hain aur Indian maal par duty ke hisaab se score karte hain, aur top 5 wajah ke saath dikhate hain."
+  ],
+  [
+   "Export ke liye kya kya documents chahiye?",
+   "Proforma aur commercial invoice, packing list, shipping bill (CHA ICEGATE par file karta hai), bill of lading ya airway bill, trade deal ka certificate of origin, aur product certificates. Payment ke baad bank e-BRC deta hai."
+  ],
+  [
+   "UAE CEPA ya India–UK CETA ka certificate of origin kaise banaye?",
+   "UAE ke liye DGFT Trade Connect par apply kijiye; authorised agency CEPA certificate deti hai. UK ke liye exporter CETA origin declaration bharta hai, ya Indian issuing authority se certificate of origin leta hai. Data hum bhar dete hain."
+  ],
+  [
+   "India–UK FTA ke baad UK mein mere product par kitni duty hai?",
+   "India–UK CETA 15 July 2026 se lagu hai aur Indian maal par kai lines par duty 0% ho gayi. Jaise leather footwear 8% se 0%. Apna HS code hamare UK page par dekhiye ya invoice upload kijiye."
+  ],
+  [
+   "Asli buyer kaise dhundhein aur fake buyer se kaise bachein?",
+   "Unhi importers se shuru kijiye jo pehle se aapka HS code mangwate hain: UK yeh HMRC ke zariye publish karta hai, baaki deshon mein desk shipment record check karta hai. Company registration check kijiye, naye buyer ko udhaar par maal mat bhejiye, aur bank details badalne ki baat phone par confirm kijiye."
+  ],
+  [
+   "Payment kaise milega, aur buyer na de to?",
+   "Advance payment, aapke bank se confirmed letter of credit, ya ECGC export credit insurance use kijiye. Ship karne se pehle desk LC documents check karta hai taaki bank mana na kare."
+  ],
+  [
+   "Customs duty kaun deta hai, exporter ya importer?",
+   "Importer apne desh mein duty aur import VAT deta hai. Aap FOB (Indian port par daam) ya CIF (freight aur insurance ke saath) quote karte hain. Zyadatar desh CIF par duty lagate hain; US, Canada, Australia aur New Zealand FOB par."
+  ],
+  [
+   "Kya export ke liye GST registration chahiye?",
+   "Haan, zyadatar maal ke liye. Letter of Undertaking (LUT) file kijiye taaki IGST diye bina export ho, ya IGST dekar refund claim kijiye."
+  ],
+  [
+   "Kya RCMC chahiye, aur kis council se?",
+   "Haan, export incentives aur buyer-seller meets ke liye. Yeh aapke product ki export promotion council se milta hai, jaise leather ke liye CLE, kapde ke liye AEPC, masale ke liye Spices Board, ya EEPC."
+  ],
+  [
+   "Kya main exporter rahunga, aur aapki fees kya hai?",
+   "Haan. Apne IEC, buyer aur refund ke saath exporter aap hi rahenge. Tools free hain; export desk ki fees har shipment par, ₹12,000 plus GST se shuru, koi subscription nahi."
+  ]
+ ]
+}

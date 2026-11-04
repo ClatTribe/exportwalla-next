@@ -1,0 +1,21 @@
+<script>
+const pages = __PAGES__, cslug = __CSLUG__;
+const qs = new URLSearchParams(location.search); if (qs.get("hs6")) $("#prod").value = qs.get("hs6"); if (qs.get("country")) $("#cty").value = qs.get("country");
+async function run() {
+  const out = $("#dutyOut"); out.innerHTML = "<p>Checking the tariff…</p>";
+  try {
+    let hs = $("#prod").value.replace(/[\s.]/g, ""), named = "";
+    if (!/^\d{6}/.test(hs)) { const c = await getJSON("/api/public/classify?q=" + encodeURIComponent($("#prod").value)); if (!c.hs6) throw new Error("No HS code found; try the HS code finder."); hs = c.hs6; named = c.description; }
+    hs = hs.slice(0, 6); const iso = $("#cty").value;
+    const r = await getJSON(`/api/public/duty?hs6=${hs}&country=${iso}`);
+    if (r.duty_for_india_pct === null && r.normal_duty_pct === null) { out.innerHTML = `<p>No tariff data for HS ${hs} in this country yet. <a href="/contact">Ask the desk</a>.</p>`; return; }
+    const saved = r.normal_duty_pct !== null && r.duty_for_india_pct !== null && r.duty_for_india_pct < r.normal_duty_pct;
+    const page = pages[hs] && cslug[iso] ? `<a href="/export/${pages[hs]}/${cslug[iso]}">Landed cost, documents and buyers →</a>` : (pages[hs] ? `<a href="/hs-code/${pages[hs]}">HS ${hs} in every market →</a>` : "");
+    out.innerHTML = `<div class="answer"><b>HS ${hs} into ${esc($("#cty").selectedOptions[0].text)}: ${pct(r.duty_for_india_pct)} on Indian goods</b>
+      ${saved ? ` (normal rate ${pct(r.normal_duty_pct)})` : ""}${r.normal_duty_pct !== null && r.duty_for_india_pct > r.normal_duty_pct ? ` (${pct(r.normal_duty_pct)} normal rate + ${pct(r.duty_for_india_pct - r.normal_duty_pct)} extra duty on Indian goods)` : ""}<br>${named ? esc(named) + "<br>" : ""}<small>${esc(r.trade_deal)} · charged on the ${esc(r.basis)} value</small></div>
+      ${r.note ? `<p>${esc(r.note)}</p>` : ""}<p class="src">Source: <a href="${esc(r.source_url)}" rel="noopener">${esc(r.source)}</a> · ${esc(r.precision)}</p><p>${page}</p>`;
+  } catch (err) { out.innerHTML = `<p>${esc(err.message)}</p>`; }
+}
+$("#dutyForm").addEventListener("submit", ev => { ev.preventDefault(); run(); });
+if (qs.get("hs6")) run();
+</script>

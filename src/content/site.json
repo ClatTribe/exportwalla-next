@@ -1,0 +1,759 @@
+{
+ "GUIDE_STEPS": [
+  [
+   "Get your IEC",
+   "The Importer-Exporter Code is a 10-character number from DGFT, linked to your PAN. Apply on the DGFT website with a digital signature; the government fee is ₹500. Without an IEC you cannot file a shipping bill."
+  ],
+  [
+   "Register with your export promotion council (RCMC)",
+   "Each product family has a council: CLE for leather, AEPC for apparel, Spices Board, APEDA, EEPC, EPCH and others. The RCMC unlocks export incentives and buyer-seller meets."
+  ],
+  [
+   "Find your HS code",
+   "Every product has a 6-digit HS code used worldwide and an 8-digit ITC-HS code on Indian shipping bills. The code decides the duty your buyer pays, so get it right first."
+  ],
+  [
+   "Choose the country",
+   "Compare demand, growth, how much the country already buys from India and the duty on Indian goods. Trade agreements like India–UK CETA, India–UAE CEPA and India–Australia ECTA cut duty to zero on many lines."
+  ],
+  [
+   "Find genuine buyers",
+   "Start with importers who already buy your HS code. The UK publishes importer names (HMRC); elsewhere use Indian mission commerce wings, council fairs and verified shipment data. Never ship on open credit to a new buyer."
+  ],
+  [
+   "Price it: FOB, CIF and landed cost",
+   "Quote FOB (your price at the Indian port) and know the buyer's landed cost: freight, insurance, duty and import VAT. A lower duty from a trade deal is a selling point."
+  ],
+  [
+   "Prepare documents",
+   "Proforma and commercial invoice, packing list, certificate of origin for the trade deal, and product certificates. Preferential certificates are applied for on DGFT Trade Connect."
+  ],
+  [
+   "Ship and clear Indian customs",
+   "File a GST LUT to export without paying IGST, register your AD code at the port, and let your CHA file the shipping bill on ICEGATE."
+  ],
+  [
+   "Get paid and close out",
+   "Use advance payment, a letter of credit or ECGC cover. When the money arrives, the bank issues an e-BRC, which you need for RoDTEP, drawback and GST refunds."
+  ]
+ ],
+ "HI_STEPS": [
+  [
+   "IEC banwaiye",
+   "IEC 10-character ka code hai jo DGFT deta hai, aapke PAN se juda hota hai. DGFT website par digital signature se apply karein; sarkari fees ₹500 hai. IEC ke bina shipping bill file nahi hota."
+  ],
+  [
+   "Apni export council se RCMC lijiye",
+   "Har product ki council hoti hai: leather ke liye CLE, kapde ke liye AEPC, masale ke liye Spices Board, aur APEDA, EEPC, EPCH. RCMC se incentives aur buyer-seller meets milte hain."
+  ],
+  [
+   "Apna HS code pata kijiye",
+   "Har product ka 6-digit HS code hota hai, aur shipping bill par 8-digit ITC-HS code lagta hai. Duty isi code se tay hoti hai, isliye pehle code sahi karein."
+  ],
+  [
+   "Desh chuniye",
+   "Demand, growth, wahan India se kitna mal jaata hai, aur Indian mal par duty dekhiye. India–UK CETA, India–UAE CEPA aur India–Australia ECTA jaise samjhauton se kai products par duty zero ho jaati hai."
+  ],
+  [
+   "Asli buyer dhundhiye",
+   "Unhi importers se shuru karein jo pehle se aapka HS code mangwate hain. UK importers ke naam HMRC publish karta hai; baaki deshon mein Indian embassy ka commerce wing, council fairs aur verified shipment data. Naye buyer ko udhaar par maal mat bhejiye."
+  ],
+  [
+   "Daam tay kijiye: FOB, CIF, landed cost",
+   "FOB yaani Indian port par aapka daam quote karein, aur buyer ka landed cost samjhiye: freight, insurance, duty aur VAT. Trade deal ki kam duty aapka selling point hai."
+  ],
+  [
+   "Documents taiyar kijiye",
+   "Proforma aur commercial invoice, packing list, trade deal ka certificate of origin, aur product certificates. Preferential certificate DGFT Trade Connect par apply hota hai."
+  ],
+  [
+   "Ship kijiye, Indian customs clear kijiye",
+   "GST LUT file karein taaki IGST bina export ho, port par AD code register karein, aur CHA ICEGATE par shipping bill file karega."
+  ],
+  [
+   "Payment lijiye aur refund claim kijiye",
+   "Advance, letter of credit ya ECGC cover use karein. Paisa aane par bank e-BRC deta hai, jo RoDTEP, drawback aur GST refund ke liye zaroori hai."
+  ]
+ ],
+ "HOME_FAQ": [
+  [
+   "Do I need an IEC to export from India?",
+   "Yes. Commercial exports need the 10-character Importer-Exporter Code from DGFT, linked to your PAN. The government fee is ₹500 and it is issued online. Our desk can file it for you."
+  ],
+  [
+   "How much money do I need to start exporting?",
+   "Set-up is cheap: the IEC fee, your export council's RCMC fee and a digital signature. The real cost is working capital for the first order, which advance payment, a letter of credit or pre-shipment credit can cover. Checking your product here is free."
+  ],
+  [
+   "Which product and which country are best for export from India?",
+   "It depends on your HS code. We score 66 countries for your product on market size, growth, how much they already buy from India and the duty they charge on Indian goods, and show the top five with the reason for each."
+  ],
+  [
+   "What documents are needed to export?",
+   "A proforma and commercial invoice, packing list, shipping bill (filed by your CHA on ICEGATE), bill of lading or airway bill, the certificate of origin your trade deal needs, and any product certificate. After payment the bank issues the e-BRC."
+  ],
+  [
+   "How do I get a certificate of origin for UAE CEPA or the India–UK CETA?",
+   "For the UAE, apply on DGFT Trade Connect and an authorised agency issues the CEPA certificate. For the UK, the exporter completes the CETA origin declaration, or gets a certificate of origin from an Indian issuing authority. We pre-fill the data for you."
+  ],
+  [
+   "What is the UK import duty on my product after the India–UK FTA?",
+   "The India–UK CETA came into force on 15 July 2026 and cut duty to 0% on many lines for Indian goods. Leather footwear, for example, went from 8% to 0%. Check your exact HS code on our UK page or upload an invoice."
+  ],
+  [
+   "How do I find genuine buyers and avoid fake ones?",
+   "Start with importers who already import your HS code: the UK publishes them through HMRC, and our desk verifies shipment records elsewhere. Check the company registration, never ship on open credit to a new buyer, and confirm any change of bank details by phone."
+  ],
+  [
+   "How will I get paid, and what if the buyer does not pay?",
+   "Use advance payment, a letter of credit confirmed by your bank, or ECGC export credit insurance. Our desk checks LC documents before you ship so the bank does not refuse them."
+  ],
+  [
+   "Who pays the customs duty: the exporter or the importer?",
+   "The importer pays duty and import VAT in their country. You quote FOB (your price at the Indian port) or CIF (including freight and insurance). Most countries charge duty on CIF; the US, Canada, Australia and New Zealand charge it on an FOB-based value."
+  ],
+  [
+   "Do I need GST registration to export?",
+   "Yes, for most goods. File a Letter of Undertaking (LUT) to export without paying IGST, or pay IGST and claim the refund."
+  ],
+  [
+   "Do I need an RCMC, and from which council?",
+   "Yes, to claim export incentives and join buyer-seller meets. It comes from the export promotion council for your product, for example CLE for leather, AEPC for apparel, the Spices Board or EEPC."
+  ],
+  [
+   "Do I stay the exporter, and what do you charge?",
+   "Yes. You stay the exporter of record with your own IEC, buyer and refunds. The self-serve tools are free; the export desk charges per shipment, from ₹12,000 plus GST, with no subscription."
+  ]
+ ],
+ "CLUSTER_SECTORS": [
+  [
+   "leather",
+   "Leather and footwear",
+   "#B45309"
+  ],
+  [
+   "textiles",
+   "Textiles and apparel",
+   "#7C3AED"
+  ],
+  [
+   "food",
+   "Food, spices and seafood",
+   "#15803D"
+  ],
+  [
+   "crafts",
+   "Metal, wood and crafts",
+   "#C2410C"
+  ],
+  [
+   "gems",
+   "Gems and jewellery",
+   "#DB2777"
+  ],
+  [
+   "engineering",
+   "Engineering and pharma",
+   "#1D4ED8"
+  ]
+ ],
+ "CLUSTERS": [
+  [
+   "leather",
+   "👞",
+   "Agra and Kanpur",
+   "Uttar Pradesh",
+   "Leather shoes and boots",
+   "640391"
+  ],
+  [
+   "leather",
+   "🐎",
+   "Kanpur",
+   "Uttar Pradesh",
+   "Saddlery and harness",
+   "420100"
+  ],
+  [
+   "leather",
+   "🥿",
+   "Ambur and Vaniyambadi",
+   "Tamil Nadu",
+   "Shoe uppers and parts",
+   "640610"
+  ],
+  [
+   "leather",
+   "👜",
+   "Kolkata",
+   "West Bengal",
+   "Leather bags and wallets",
+   "420221"
+  ],
+  [
+   "leather",
+   "🧤",
+   "Chennai and Kolkata",
+   "Tamil Nadu, West Bengal",
+   "Leather gloves and garments",
+   "420310"
+  ],
+  [
+   "textiles",
+   "👕",
+   "Tiruppur",
+   "Tamil Nadu",
+   "Cotton T-shirts and knitwear",
+   "610910"
+  ],
+  [
+   "textiles",
+   "🧶",
+   "Ludhiana",
+   "Punjab",
+   "Sweaters and woollen knitwear",
+   "611020"
+  ],
+  [
+   "textiles",
+   "👗",
+   "Noida, Gurugram and Jaipur",
+   "UP, Haryana, Rajasthan",
+   "Women's dresses and kurtas",
+   "620442"
+  ],
+  [
+   "textiles",
+   "🛏️",
+   "Karur",
+   "Tamil Nadu",
+   "Cotton bed linen",
+   "630231"
+  ],
+  [
+   "textiles",
+   "🛁",
+   "Solapur and Panipat",
+   "Maharashtra, Haryana",
+   "Terry towels",
+   "630260"
+  ],
+  [
+   "textiles",
+   "🧵",
+   "Bhadohi and Mirzapur",
+   "Uttar Pradesh",
+   "Hand-knotted carpets",
+   "570110"
+  ],
+  [
+   "food",
+   "🌿",
+   "Unjha",
+   "Gujarat",
+   "Cumin and seed spices",
+   "090931"
+  ],
+  [
+   "food",
+   "🌶️",
+   "Guntur",
+   "Andhra Pradesh",
+   "Dried chillies",
+   "090421"
+  ],
+  [
+   "food",
+   "🫛",
+   "Idukki",
+   "Kerala",
+   "Cardamom",
+   "090831"
+  ],
+  [
+   "food",
+   "🍚",
+   "Karnal and Amritsar",
+   "Haryana, Punjab",
+   "Basmati rice",
+   "100630"
+  ],
+  [
+   "food",
+   "🦐",
+   "Bhimavaram and Nellore",
+   "Andhra Pradesh",
+   "Frozen shrimp",
+   "030617"
+  ],
+  [
+   "food",
+   "🍵",
+   "Assam and Darjeeling",
+   "Assam, West Bengal",
+   "Tea",
+   "090240"
+  ],
+  [
+   "food",
+   "☕",
+   "Chikkamagaluru and Kodagu",
+   "Karnataka",
+   "Coffee",
+   "090111"
+  ],
+  [
+   "crafts",
+   "🪔",
+   "Moradabad",
+   "Uttar Pradesh",
+   "Brass and copper ware",
+   "741980"
+  ],
+  [
+   "crafts",
+   "🪑",
+   "Jodhpur",
+   "Rajasthan",
+   "Wooden furniture",
+   "940360"
+  ],
+  [
+   "crafts",
+   "🍳",
+   "Jagadhri",
+   "Haryana",
+   "Steel kitchenware",
+   "732393"
+  ],
+  [
+   "crafts",
+   "🧱",
+   "Morbi",
+   "Gujarat",
+   "Ceramic tiles",
+   "690721"
+  ],
+  [
+   "gems",
+   "💎",
+   "Surat",
+   "Gujarat",
+   "Cut and polished diamonds",
+   "710239"
+  ],
+  [
+   "gems",
+   "💍",
+   "Jaipur and Mumbai",
+   "Rajasthan, Maharashtra",
+   "Gold and silver jewellery",
+   "711319"
+  ],
+  [
+   "engineering",
+   "⚙️",
+   "Coimbatore and Rajkot",
+   "Tamil Nadu, Gujarat",
+   "Pumps",
+   "841370"
+  ],
+  [
+   "engineering",
+   "🚗",
+   "Pune and Chennai",
+   "Maharashtra, Tamil Nadu",
+   "Auto parts",
+   "870899"
+  ],
+  [
+   "engineering",
+   "🔩",
+   "Vadodara and Ahmedabad",
+   "Gujarat",
+   "Valves",
+   "848180"
+  ],
+  [
+   "engineering",
+   "💊",
+   "Baddi and Hyderabad",
+   "Himachal, Telangana",
+   "Medicines",
+   "300490"
+  ]
+ ],
+ "SOURCES": [
+  [
+   "UK Trade Tariff (HMRC / Department for Business and Trade)",
+   "https://www.trade-tariff.service.gov.uk/",
+   "UK commodity codes, normal duty and the India–UK CETA rate",
+   "Open Government Licence v3.0",
+   "uk_tariff",
+   "Weekly"
+  ],
+  [
+   "HMRC uktradeinfo: UK traders",
+   "https://www.uktradeinfo.com/",
+   "Names of UK companies that imported each 8-digit commodity code",
+   "Open Government Licence v3.0",
+   "uk_traders",
+   "Monthly"
+  ],
+  [
+   "USITC Harmonized Tariff Schedule",
+   "https://hts.usitc.gov/",
+   "US tariff lines and general duty rates",
+   "US government work, public domain",
+   "us_hts",
+   "Monthly"
+  ],
+  [
+   "UNCTAD TRAINS, via World Bank WITS",
+   "https://wits.worldbank.org/",
+   "Normal (MFN) and preferential duty for India in every other market, averaged to HS6",
+   "Free to use with attribution (WITS terms)",
+   "wits_tariff",
+   "Yearly (lags 1–3 years)"
+  ],
+  [
+   "UN Comtrade",
+   "https://comtradeplus.un.org/",
+   "Imports by country (demand, growth, India's share) and India's exports (our product and country scope)",
+   "Shown only as derived indicators (rank, share, growth). Commercial licence under review.",
+   "comtrade",
+   "Yearly"
+  ],
+  [
+   "Official trade-agreement texts",
+   "/sources#texts",
+   "Rules of origin and origin procedures (gov.uk, commerce.gov.in, DGFT, asean.org, Japan Customs, admin.ch and others)",
+   "Quoted in short passages with a link to the publisher; © the respective governments",
+   "rules_docs",
+   "When an agreement changes"
+  ],
+  [
+   "Country rules (our research)",
+   "/sources#rules",
+   "Trade agreements in force, proof of origin, import VAT, customs and mission links; every fact carries its official source URL",
+   "© Exportwalla",
+   null,
+   "Quarterly review"
+  ],
+  [
+   "UK Trade Tariff search",
+   "https://www.trade-tariff.service.gov.uk/",
+   "Independent cross-check of HS codes",
+   "Open Government Licence v3.0",
+   null,
+   "Live"
+  ]
+ ],
+ "GUIDE_GROUPS": [
+  [
+   "Get set up",
+   [
+    "how-to-get-iec-code",
+    "rcmc-export-promotion-council",
+    "gst-on-exports-lut-refund"
+   ]
+  ],
+  [
+   "Your product and market",
+   [
+    "hs-code-for-export",
+    "how-to-find-export-buyers"
+   ]
+  ],
+  [
+   "Price and paperwork",
+   [
+    "export-pricing-fob-cif",
+    "incoterms-for-indian-exporters",
+    "certificate-of-origin"
+   ]
+  ],
+  [
+   "Ship and get paid",
+   [
+    "export-shipping-and-customs-clearance",
+    "letter-of-credit-and-payment-terms",
+    "ecgc-export-credit-insurance",
+    "rodtep-and-duty-drawback"
+   ]
+  ]
+ ],
+ "GUIDE_ASK": {
+  "how-to-get-iec-code": [
+   "set-up",
+   "Get your IEC, RCMC and LUT done with us",
+   "We prepare the filings; your digital signature signs."
+  ],
+  "rcmc-export-promotion-council": [
+   "set-up",
+   "Not sure which council is yours?",
+   "Tell us your product and we register you with the right one."
+  ],
+  "hs-code-for-export": [
+   "hs-code",
+   "Get your HS code confirmed",
+   "Send us your product. We confirm the 8-digit code before you quote."
+  ],
+  "certificate-of-origin": [
+   "origin",
+   "File your certificate of origin with us",
+   "We check the rule of origin and prepare the certificate with you."
+  ],
+  "gst-on-exports-lut-refund": [
+   "refunds",
+   "Stuck IGST refund or LUT question?",
+   "We find what is blocking it and fix it with your CA."
+  ],
+  "rodtep-and-duty-drawback": [
+   "refunds",
+   "Claim RoDTEP and drawback correctly",
+   "We check your shipping bills so nothing is missed."
+  ],
+  "export-pricing-fob-cif": [
+   "quote",
+   "Want us to check your export price?",
+   "Send your costs. We build your FOB, CIF and landed price with you."
+  ],
+  "incoterms-for-indian-exporters": [
+   "quote",
+   "Which Incoterm should you quote?",
+   "Tell us the buyer and the route; we suggest the safest term."
+  ],
+  "letter-of-credit-and-payment-terms": [
+   "payment",
+   "Have an LC or payment terms to check?",
+   "We check the LC before you accept it, so the bank pays."
+  ],
+  "ecgc-export-credit-insurance": [
+   "payment",
+   "Should you take ECGC cover?",
+   "We look at your buyer and country and tell you what fits."
+  ],
+  "how-to-find-export-buyers": [
+   "buyers",
+   "Want us to find buyers for you?",
+   "We shortlist importers with a record for your product."
+  ],
+  "export-shipping-and-customs-clearance": [
+   "freight",
+   "Need a forwarder or CHA?",
+   "We get 2 to 3 freight quotes and pre-check your shipping bill."
+  ]
+ },
+ "TOOLS": [
+  [
+   "hs-code-finder",
+   "HS code finder",
+   "Type what you make; get the 6-digit HS code with the official description."
+  ],
+  [
+   "import-duty",
+   "Import duty checker",
+   "The duty your buyer pays on Indian goods in 66 countries, with and without a trade deal."
+  ],
+  [
+   "export-price-calculator",
+   "Export price calculator",
+   "From your factory cost to FOB, CIF and the buyer's landed cost."
+  ],
+  [
+   "export-readiness",
+   "Export readiness check",
+   "13 questions, 3 minutes: what is ready and what to fix before your first order."
+  ]
+ ],
+ "READINESS": [
+  [
+   "Paperwork",
+   "Do you have an IEC (Importer-Exporter Code)?",
+   [
+    "Yes",
+    "Applied",
+    "No"
+   ],
+   "/guide/how-to-get-iec-code",
+   "Get your IEC from DGFT"
+  ],
+  [
+   "Paperwork",
+   "Are you GST-registered, with a LUT filed for this financial year?",
+   [
+    "Yes, both",
+    "GST only",
+    "No"
+   ],
+   "/guide/gst-on-exports-lut-refund",
+   "File a GST LUT so you can export without paying IGST"
+  ],
+  [
+   "Paperwork",
+   "Are you a member of your export promotion council (RCMC)?",
+   [
+    "Yes",
+    "No",
+    "Not sure which council"
+   ],
+   "/guide/rcmc-export-promotion-council",
+   "Register with your export promotion council"
+  ],
+  [
+   "Product",
+   "Do you know your product's HS code?",
+   [
+    "Yes, it is on my invoices",
+    "Roughly",
+    "No"
+   ],
+   "/tools/hs-code-finder",
+   "Find your HS code"
+  ],
+  [
+   "Product",
+   "Has your product been tested or certified for the market you want?",
+   [
+    "Yes",
+    "Not sure what is needed",
+    "No"
+   ],
+   "/app",
+   "Check the rules and tests for your market"
+  ],
+  [
+   "Product",
+   "Can you send consistent samples and a price list in English?",
+   [
+    "Yes",
+    "Partly",
+    "No"
+   ],
+   "/guide/how-to-find-export-buyers",
+   "Prepare samples and an English price list"
+  ],
+  [
+   "Market",
+   "Have you chosen a target country?",
+   [
+    "Yes, using data",
+    "A guess",
+    "No"
+   ],
+   "/tools/import-duty",
+   "Pick a country where Indian goods pay low duty"
+  ],
+  [
+   "Market",
+   "Do you have buyer contacts abroad?",
+   [
+    "Enquiries or orders",
+    "A few names",
+    "None"
+   ],
+   "/guide/how-to-find-export-buyers",
+   "Find importers who already buy your HS code"
+  ],
+  [
+   "Money",
+   "Do you know the FOB price you would quote per piece?",
+   [
+    "Yes",
+    "Only my ex-factory price",
+    "No"
+   ],
+   "/tools/export-price-calculator",
+   "Work out your FOB and landed price"
+  ],
+  [
+   "Money",
+   "Can you fund 60 to 90 days between production and payment?",
+   [
+    "Yes",
+    "With bank packing credit",
+    "Not yet"
+   ],
+   "/guide/ecgc-export-credit-insurance",
+   "Line up packing credit and ECGC cover"
+  ],
+  [
+   "Money",
+   "Which payment terms would you accept from a new buyer?",
+   [
+    "Advance or LC only",
+    "Not sure",
+    "Credit is fine"
+   ],
+   "/guide/letter-of-credit-and-payment-terms",
+   "Use advance or an LC with new buyers"
+  ],
+  [
+   "Capacity",
+   "Could you deliver an export order (say one container) on time?",
+   [
+    "Yes",
+    "Tight",
+    "No"
+   ],
+   "/contact",
+   "Plan capacity for export orders"
+  ],
+  [
+   "Capacity",
+   "Who will handle export documents and buyer emails?",
+   [
+    "Someone in-house",
+    "A CA or agent",
+    "No one yet"
+   ],
+   "/pricing",
+   "Get help with documents and buyer emails"
+  ]
+ ],
+ "PROCEDURE": [
+  "how-to-get-iec-code",
+  "rcmc-export-promotion-council",
+  "hs-code-for-export",
+  "certificate-of-origin",
+  "gst-on-exports-lut-refund",
+  "rodtep-and-duty-drawback",
+  "export-pricing-fob-cif",
+  "incoterms-for-indian-exporters",
+  "letter-of-credit-and-payment-terms",
+  "ecgc-export-credit-insurance",
+  "how-to-find-export-buyers",
+  "export-shipping-and-customs-clearance"
+ ],
+ "PRODUCT": [
+  "how-to-export-leather-footwear-from-india",
+  "how-to-export-leather-bags-from-india",
+  "how-to-export-spices-from-india",
+  "how-to-export-rice-from-india",
+  "how-to-export-garments-from-india",
+  "how-to-export-home-textiles-from-india",
+  "how-to-export-brass-and-handicrafts-from-india",
+  "how-to-export-shrimp-from-india"
+ ],
+ "SITE_PATHS": [
+  "/",
+  "/app",
+  "/pricing",
+  "/contact",
+  "/about",
+  "/sources",
+  "/fta",
+  "/india-exports",
+  "/export-to",
+  "/hs-code",
+  "/guide",
+  "/guide/how-to-export-from-india",
+  "/hi/export-kaise-kare",
+  "/tools",
+  "/tools/hs-code-finder",
+  "/tools/import-duty",
+  "/tools/export-price-calculator",
+  "/tools/export-readiness"
+ ]
+}
